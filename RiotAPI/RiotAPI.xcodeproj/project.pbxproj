@@ -218,6 +218,7 @@
 				TargetAttributes = {
 					6CE2DEB81AF1603E0065453D = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = X4A5C754B2;
 					};
 					6CE2DEC31AF1603E0065453D = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -442,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C949028D4E7CF39DDE377FEB /* Pods-RiotAPI.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -458,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3D9745B17467607665AB6BFF /* Pods-RiotAPI.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
