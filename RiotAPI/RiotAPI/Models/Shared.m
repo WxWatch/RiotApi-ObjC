@@ -9,8 +9,7 @@
 #import "Shared.h"
 
 @implementation Image
-+ (NSDictionary *)defaultPropertyValues
-{
++ (NSDictionary *)defaultPropertyValues {
     return @{ @"full": @"", @"group": @"", @"h": @0, @"sprite": @"", @"w": @0, @"x": @0, @"y": @0 };
 }
 @end
