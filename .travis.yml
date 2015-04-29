@@ -1,3 +1,5 @@
 language: objective-c
 xcode_workspace: RiotAPI/RiotAPI.xcworkspace # path to your xcodeproj folder
 xcode_scheme: RiotAPITests
+script:
+	xctool -workspace RiotAPI/RiotAPI.xcworkspace -scheme RiotAPITests -sdk iphonesimulator build test
