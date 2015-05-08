@@ -7,27 +7,13 @@
 //
 
 #import <Realm/Realm.h>
-
-/**
- *  This object contains champion list data.
- */
-@interface ChampionList : RLMObject
-@end
-RLM_ARRAY_TYPE(ChampionList)
-
-/**
- *  This object contains champion data.
- */
-@interface Champion : RLMObject
-@end
-RLM_ARRAY_TYPE(Champion)
+#import "Shared.h"
 
 /**
  *  This object contains champion spell data.
  */
 @interface ChampionSpell : RLMObject
 @end
-RLM_ARRAY_TYPE(ChampionSpell)
 
 /**
  *  This object contains champion information.
@@ -48,7 +34,6 @@ RLM_ARRAY_TYPE(Passive)
  */
 @interface Recommended : RLMObject
 @end
-RLM_ARRAY_TYPE(Recommended)
 
 /**
  *  This object contains champion skin data.
@@ -91,3 +76,42 @@ RLM_ARRAY_TYPE(Block)
 @interface BlockItem : RLMObject
 @end
 RLM_ARRAY_TYPE(BlockItem)
+
+/**
+ *  This object contains champion list data.
+ */
+@interface ChampionList : RLMObject
+@property NSDictionary *data;
+@property NSString *format;
+@property NSDictionary *keys;
+@property NSString *type;
+@property NSString *version;
+@end
+RLM_ARRAY_TYPE(ChampionList)
+
+RLM_ARRAY_TYPE(Recommended)
+RLM_ARRAY_TYPE(ChampionSpell)
+
+/**
+ *  This object contains champion data.
+ */
+@interface Champion : RLMObject
+@property NSArray *allytips;
+@property NSString *blurb;
+@property NSArray *enemytips;
+@property NSInteger id;
+@property Image *image;
+@property Info *info;
+@property NSString *key;
+@property NSString *lore;
+@property NSString *name;
+@property NSString *partype;
+@property Passive *passive;
+@property RLMArray<Recommended> *recommended;
+@property RLMArray<Skin> *skins;
+@property RLMArray<ChampionSpell> *spells;
+@property Stats *stats;
+@property NSArray *tags;
+@property NSString *title;
+@end
+RLM_ARRAY_TYPE(Champion)

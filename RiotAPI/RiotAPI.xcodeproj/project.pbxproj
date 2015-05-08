@@ -9,8 +9,17 @@
 /* Begin PBXBuildFile section */
 		3D661EBD38248EC66238B3B3 /* libPods-RiotAPITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F2238D442B0B1369A08DA7 /* libPods-RiotAPITests.a */; };
 		629D6276BFC93F00D030A1CB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7384E9128105E1B1930972F /* libPods.a */; };
+		6C0DCFB81AF3FD840087AC32 /* NSArray+JGUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C0DCFB61AF3FD830087AC32 /* NSArray+JGUtil.h */; };
+		6C0DCFB91AF3FD840087AC32 /* NSArray+JGUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0DCFB71AF3FD840087AC32 /* NSArray+JGUtil.m */; };
+		6C0DCFBA1AF4000D0087AC32 /* StaticDataChampion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E36351AF27FF3000395B4 /* StaticDataChampion.m */; };
 		6C7E36361AF27FF3000395B4 /* StaticDataChampion.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C7E36341AF27FF3000395B4 /* StaticDataChampion.h */; };
 		6C7E36371AF27FF3000395B4 /* StaticDataChampion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E36351AF27FF3000395B4 /* StaticDataChampion.m */; };
+		6C7E363A1AF281D4000395B4 /* StaticDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C7E36381AF281D4000395B4 /* StaticDataItem.h */; };
+		6C7E363B1AF281D4000395B4 /* StaticDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E36391AF281D4000395B4 /* StaticDataItem.m */; };
+		6C7E363F1AF2847B000395B4 /* NSDictionary+JGUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C7E363D1AF2847B000395B4 /* NSDictionary+JGUtil.h */; };
+		6C7E36401AF2847B000395B4 /* NSDictionary+JGUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E363E1AF2847B000395B4 /* NSDictionary+JGUtil.m */; };
+		6C7E36431AF284AB000395B4 /* NSData+JGUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C7E36411AF284AB000395B4 /* NSData+JGUtil.h */; };
+		6C7E36441AF284AB000395B4 /* NSData+JGUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E36421AF284AB000395B4 /* NSData+JGUtil.m */; };
 		6CE2DEBF1AF1603E0065453D /* RiotAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE2DEBE1AF1603E0065453D /* RiotAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CE2DEC51AF1603E0065453D /* RiotAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE2DEB91AF1603E0065453D /* RiotAPI.framework */; };
 		6CE2DECC1AF1603E0065453D /* RiotAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE2DECB1AF1603E0065453D /* RiotAPITests.m */; };
@@ -35,8 +44,16 @@
 		07F2238D442B0B1369A08DA7 /* libPods-RiotAPITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RiotAPITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9745B17467607665AB6BFF /* Pods-RiotAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiotAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-RiotAPI/Pods-RiotAPI.release.xcconfig"; sourceTree = "<group>"; };
 		4E03DD26E773BEDF1404872B /* Pods-RiotAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiotAPITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RiotAPITests/Pods-RiotAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C0DCFB61AF3FD830087AC32 /* NSArray+JGUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JGUtil.h"; sourceTree = "<group>"; };
+		6C0DCFB71AF3FD840087AC32 /* NSArray+JGUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JGUtil.m"; sourceTree = "<group>"; };
 		6C7E36341AF27FF3000395B4 /* StaticDataChampion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticDataChampion.h; sourceTree = "<group>"; };
 		6C7E36351AF27FF3000395B4 /* StaticDataChampion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticDataChampion.m; sourceTree = "<group>"; };
+		6C7E36381AF281D4000395B4 /* StaticDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticDataItem.h; sourceTree = "<group>"; };
+		6C7E36391AF281D4000395B4 /* StaticDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticDataItem.m; sourceTree = "<group>"; };
+		6C7E363D1AF2847B000395B4 /* NSDictionary+JGUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JGUtil.h"; sourceTree = "<group>"; };
+		6C7E363E1AF2847B000395B4 /* NSDictionary+JGUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JGUtil.m"; sourceTree = "<group>"; };
+		6C7E36411AF284AB000395B4 /* NSData+JGUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JGUtil.h"; sourceTree = "<group>"; };
+		6C7E36421AF284AB000395B4 /* NSData+JGUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JGUtil.m"; sourceTree = "<group>"; };
 		6CE2DEB91AF1603E0065453D /* RiotAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RiotAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CE2DEBD1AF1603E0065453D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CE2DEBE1AF1603E0065453D /* RiotAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RiotAPI.h; sourceTree = "<group>"; };
@@ -80,8 +97,23 @@
 			children = (
 				6C7E36341AF27FF3000395B4 /* StaticDataChampion.h */,
 				6C7E36351AF27FF3000395B4 /* StaticDataChampion.m */,
+				6C7E36381AF281D4000395B4 /* StaticDataItem.h */,
+				6C7E36391AF281D4000395B4 /* StaticDataItem.m */,
 			);
 			path = StaticData;
+			sourceTree = "<group>";
+		};
+		6C7E363C1AF2846B000395B4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6C7E363D1AF2847B000395B4 /* NSDictionary+JGUtil.h */,
+				6C7E363E1AF2847B000395B4 /* NSDictionary+JGUtil.m */,
+				6C7E36411AF284AB000395B4 /* NSData+JGUtil.h */,
+				6C7E36421AF284AB000395B4 /* NSData+JGUtil.m */,
+				6C0DCFB61AF3FD830087AC32 /* NSArray+JGUtil.h */,
+				6C0DCFB71AF3FD840087AC32 /* NSArray+JGUtil.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		6CE2DEAF1AF1603E0065453D = {
@@ -107,6 +139,7 @@
 		6CE2DEBB1AF1603E0065453D /* RiotAPI */ = {
 			isa = PBXGroup;
 			children = (
+				6C7E363C1AF2846B000395B4 /* Categories */,
 				6CE2DED51AF1615B0065453D /* Models */,
 				6CE2DEBE1AF1603E0065453D /* RiotAPI.h */,
 				6CE2DEDA1AF17FFD0065453D /* RiotAPIManager.h */,
@@ -179,10 +212,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C0DCFB81AF3FD840087AC32 /* NSArray+JGUtil.h in Headers */,
 				6CE2DEBF1AF1603E0065453D /* RiotAPI.h in Headers */,
+				6C7E363A1AF281D4000395B4 /* StaticDataItem.h in Headers */,
 				6CE2DED81AF162EE0065453D /* Shared.h in Headers */,
 				6CE2DEDC1AF17FFD0065453D /* RiotAPIManager.h in Headers */,
+				6C7E363F1AF2847B000395B4 /* NSDictionary+JGUtil.h in Headers */,
 				6C7E36361AF27FF3000395B4 /* StaticDataChampion.h in Headers */,
+				6C7E36431AF284AB000395B4 /* NSData+JGUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,9 +387,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C7E363B1AF281D4000395B4 /* StaticDataItem.m in Sources */,
 				6CE2DEDD1AF17FFD0065453D /* RiotAPIManager.m in Sources */,
 				6CE2DED91AF162EE0065453D /* Shared.m in Sources */,
+				6C7E36441AF284AB000395B4 /* NSData+JGUtil.m in Sources */,
+				6C0DCFB91AF3FD840087AC32 /* NSArray+JGUtil.m in Sources */,
 				6C7E36371AF27FF3000395B4 /* StaticDataChampion.m in Sources */,
+				6C7E36401AF2847B000395B4 /* NSDictionary+JGUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +401,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C0DCFBA1AF4000D0087AC32 /* StaticDataChampion.m in Sources */,
 				6CE2DECC1AF1603E0065453D /* RiotAPITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
