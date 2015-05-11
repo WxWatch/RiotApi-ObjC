@@ -15,7 +15,6 @@ FOUNDATION_EXPORT double RiotAPIVersionNumber;
 FOUNDATION_EXPORT const unsigned char RiotAPIVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <RiotAPI/PublicHeader.h>
-#import <Realm/Realm.h>
 #import <AFNetworking/AFNetworking.h>
 
 

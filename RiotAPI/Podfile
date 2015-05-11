@@ -4,9 +4,9 @@ platform :ios, "8.0"
 pod 'AFNetworking', '~> 2.0'
 
 target :RiotAPI, :exclusive => true do
-    pod 'Realm'
+
 end
 
 target :RiotAPITests, :exclusive => true do
-    pod 'Realm/Headers'
+
 end

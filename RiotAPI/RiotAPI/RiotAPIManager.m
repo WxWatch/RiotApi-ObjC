@@ -7,6 +7,7 @@
 //
 
 #import "RiotAPIManager.h"
+#import "BaseObject.h"
 
 @interface RiotAPIManager ()
 
@@ -23,7 +24,7 @@
     dispatch_once(&onceToken, ^{
         sharedMyInstance = [[self alloc] init];
     });
-    
+        
     return sharedMyInstance;
 }
 
