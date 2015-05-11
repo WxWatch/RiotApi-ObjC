@@ -10,6 +10,12 @@
 		6C2D5A031B014AB600F2F02A /* RiotAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2D5A021B014AB600F2F02A /* RiotAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C2D5A091B014AB600F2F02A /* RiotAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2D59FD1B014AB600F2F02A /* RiotAPI.framework */; };
 		6C2D5A101B014AB600F2F02A /* RiotAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2D5A0F1B014AB600F2F02A /* RiotAPITests.m */; };
+		6C2D5A1C1B0159C700F2F02A /* BaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2D5A1A1B0159C700F2F02A /* BaseObject.h */; };
+		6C2D5A1D1B0159C700F2F02A /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2D5A1B1B0159C700F2F02A /* BaseObject.m */; };
+		6C2D5A211B0159E900F2F02A /* Team.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2D5A1F1B0159E900F2F02A /* Team.h */; };
+		6C2D5A221B0159E900F2F02A /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2D5A201B0159E900F2F02A /* Team.m */; };
+		6C2D5A261B015B5700F2F02A /* NSDate+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2D5A241B015B5700F2F02A /* NSDate+Utilities.h */; };
+		6C2D5A271B015B5700F2F02A /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2D5A251B015B5700F2F02A /* NSDate+Utilities.m */; };
 		A965FCD373FD63F8A7612CAC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BED92E4193D2983285A8E6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +37,12 @@
 		6C2D5A081B014AB600F2F02A /* RiotAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiotAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2D5A0E1B014AB600F2F02A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C2D5A0F1B014AB600F2F02A /* RiotAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiotAPITests.m; sourceTree = "<group>"; };
+		6C2D5A1A1B0159C700F2F02A /* BaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseObject.h; sourceTree = "<group>"; };
+		6C2D5A1B1B0159C700F2F02A /* BaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseObject.m; sourceTree = "<group>"; };
+		6C2D5A1F1B0159E900F2F02A /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		6C2D5A201B0159E900F2F02A /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		6C2D5A241B015B5700F2F02A /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		6C2D5A251B015B5700F2F02A /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
 		BE3901F004469939F3D98870 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F1880BF342A6FF8C7ADDC983 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +90,8 @@
 		6C2D59FF1B014AB600F2F02A /* RiotAPI */ = {
 			isa = PBXGroup;
 			children = (
+				6C2D5A231B015B3B00F2F02A /* Categories */,
+				6C2D5A191B0159B800F2F02A /* Models */,
 				6C2D5A021B014AB600F2F02A /* RiotAPI.h */,
 				6C2D5A001B014AB600F2F02A /* Supporting Files */,
 			);
@@ -109,6 +123,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6C2D5A191B0159B800F2F02A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6C2D5A1E1B0159E200F2F02A /* Team */,
+				6C2D5A1A1B0159C700F2F02A /* BaseObject.h */,
+				6C2D5A1B1B0159C700F2F02A /* BaseObject.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6C2D5A1E1B0159E200F2F02A /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				6C2D5A1F1B0159E900F2F02A /* Team.h */,
+				6C2D5A201B0159E900F2F02A /* Team.m */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		6C2D5A231B015B3B00F2F02A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6C2D5A241B015B5700F2F02A /* NSDate+Utilities.h */,
+				6C2D5A251B015B5700F2F02A /* NSDate+Utilities.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		FA13C2CB78A6938940D7D40F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +175,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C2D5A211B0159E900F2F02A /* Team.h in Headers */,
+				6C2D5A1C1B0159C700F2F02A /* BaseObject.h in Headers */,
+				6C2D5A261B015B5700F2F02A /* NSDate+Utilities.h in Headers */,
 				6C2D5A031B014AB600F2F02A /* RiotAPI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +313,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C2D5A221B0159E900F2F02A /* Team.m in Sources */,
+				6C2D5A271B015B5700F2F02A /* NSDate+Utilities.m in Sources */,
+				6C2D5A1D1B0159C700F2F02A /* BaseObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
