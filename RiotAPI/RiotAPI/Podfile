@@ -1,0 +1,7 @@
+platform :ios, "8.0"
+
+pod "AFNetworking"
+
+target :RiotAPITests, :exclusive => true do
+
+end
