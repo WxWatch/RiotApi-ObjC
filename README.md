@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/WxWatch/RiotApi-ObjC.svg?branch=master)](https://travis-ci.org/WxWatch/RiotApi-ObjC)
+
 # RiotApi-ObjC
 An Objective-C Library for utilizing the Riot Games API (https://developer.riotgames.com)
 
