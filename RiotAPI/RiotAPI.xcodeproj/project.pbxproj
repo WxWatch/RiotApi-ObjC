@@ -31,6 +31,38 @@
 		6C2D5A401B01675900F2F02A /* LeagueEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2D5A3E1B01675900F2F02A /* LeagueEntry.m */; };
 		6C2D5A431B01680100F2F02A /* MiniSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2D5A411B01680000F2F02A /* MiniSeries.h */; };
 		6C2D5A441B01680100F2F02A /* MiniSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2D5A421B01680100F2F02A /* MiniSeries.m */; };
+		6C8A154D1B02778E00961C36 /* MatchDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A154B1B02778E00961C36 /* MatchDetail.h */; };
+		6C8A154E1B02778E00961C36 /* MatchDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A154C1B02778E00961C36 /* MatchDetail.m */; };
+		6C8A15511B02790B00961C36 /* Participant.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A154F1B02790B00961C36 /* Participant.h */; };
+		6C8A15521B02790B00961C36 /* Participant.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15501B02790B00961C36 /* Participant.m */; };
+		6C8A15551B0279FA00961C36 /* ParticipantIdentity.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15531B0279FA00961C36 /* ParticipantIdentity.h */; };
+		6C8A15561B0279FA00961C36 /* ParticipantIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15541B0279FA00961C36 /* ParticipantIdentity.m */; };
+		6C8A15591B027A5600961C36 /* ParticipantTeam.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15571B027A5600961C36 /* ParticipantTeam.h */; };
+		6C8A155A1B027A5600961C36 /* ParticipantTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15581B027A5600961C36 /* ParticipantTeam.m */; };
+		6C8A155D1B027B1F00961C36 /* Timeline.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A155B1B027B1E00961C36 /* Timeline.h */; };
+		6C8A155E1B027B1F00961C36 /* Timeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A155C1B027B1F00961C36 /* Timeline.m */; };
+		6C8A15611B027B6100961C36 /* ParticipantMastery.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A155F1B027B6000961C36 /* ParticipantMastery.h */; };
+		6C8A15621B027B6100961C36 /* ParticipantMastery.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15601B027B6100961C36 /* ParticipantMastery.m */; };
+		6C8A15651B027B7D00961C36 /* ParticipantStats.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15631B027B7D00961C36 /* ParticipantStats.h */; };
+		6C8A15661B027B7D00961C36 /* ParticipantStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15641B027B7D00961C36 /* ParticipantStats.m */; };
+		6C8A15691B027D0300961C36 /* ParticipantTimeline.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15671B027D0200961C36 /* ParticipantTimeline.h */; };
+		6C8A156A1B027D0300961C36 /* ParticipantTimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15681B027D0300961C36 /* ParticipantTimeline.m */; };
+		6C8A156D1B027E0300961C36 /* ParticipantRune.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A156B1B027E0300961C36 /* ParticipantRune.h */; };
+		6C8A156E1B027E0300961C36 /* ParticipantRune.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A156C1B027E0300961C36 /* ParticipantRune.m */; };
+		6C8A15711B027E2200961C36 /* Player.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A156F1B027E2100961C36 /* Player.h */; };
+		6C8A15721B027E2200961C36 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15701B027E2100961C36 /* Player.m */; };
+		6C8A15751B027E8D00961C36 /* BannedChampion.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15731B027E8D00961C36 /* BannedChampion.h */; };
+		6C8A15761B027E8D00961C36 /* BannedChampion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15741B027E8D00961C36 /* BannedChampion.m */; };
+		6C8A15791B027EB100961C36 /* Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15771B027EB100961C36 /* Frame.h */; };
+		6C8A157A1B027EB100961C36 /* Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15781B027EB100961C36 /* Frame.m */; };
+		6C8A157D1B02805E00961C36 /* ParticipantTimelineData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A157B1B02805E00961C36 /* ParticipantTimelineData.h */; };
+		6C8A157E1B02805E00961C36 /* ParticipantTimelineData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A157C1B02805E00961C36 /* ParticipantTimelineData.m */; };
+		6C8A15811B0280B300961C36 /* Event.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A157F1B0280B200961C36 /* Event.h */; };
+		6C8A15821B0280B300961C36 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15801B0280B200961C36 /* Event.m */; };
+		6C8A15851B02823400961C36 /* ParticipantFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15831B02823300961C36 /* ParticipantFrame.h */; };
+		6C8A15861B02823400961C36 /* ParticipantFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15841B02823300961C36 /* ParticipantFrame.m */; };
+		6C8A15891B0282B300961C36 /* Position.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15871B0282B300961C36 /* Position.h */; };
+		6C8A158A1B0282B300961C36 /* Position.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15881B0282B300961C36 /* Position.m */; };
 		A965FCD373FD63F8A7612CAC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BED92E4193D2983285A8E6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +117,38 @@
 		6C2D5A3E1B01675900F2F02A /* LeagueEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeagueEntry.m; sourceTree = "<group>"; };
 		6C2D5A411B01680000F2F02A /* MiniSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniSeries.h; sourceTree = "<group>"; };
 		6C2D5A421B01680100F2F02A /* MiniSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniSeries.m; sourceTree = "<group>"; };
+		6C8A154B1B02778E00961C36 /* MatchDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchDetail.h; sourceTree = "<group>"; };
+		6C8A154C1B02778E00961C36 /* MatchDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchDetail.m; sourceTree = "<group>"; };
+		6C8A154F1B02790B00961C36 /* Participant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Participant.h; sourceTree = "<group>"; };
+		6C8A15501B02790B00961C36 /* Participant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Participant.m; sourceTree = "<group>"; };
+		6C8A15531B0279FA00961C36 /* ParticipantIdentity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticipantIdentity.h; sourceTree = "<group>"; };
+		6C8A15541B0279FA00961C36 /* ParticipantIdentity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticipantIdentity.m; sourceTree = "<group>"; };
+		6C8A15571B027A5600961C36 /* ParticipantTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticipantTeam.h; sourceTree = "<group>"; };
+		6C8A15581B027A5600961C36 /* ParticipantTeam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticipantTeam.m; sourceTree = "<group>"; };
+		6C8A155B1B027B1E00961C36 /* Timeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timeline.h; sourceTree = "<group>"; };
+		6C8A155C1B027B1F00961C36 /* Timeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timeline.m; sourceTree = "<group>"; };
+		6C8A155F1B027B6000961C36 /* ParticipantMastery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticipantMastery.h; sourceTree = "<group>"; };
+		6C8A15601B027B6100961C36 /* ParticipantMastery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticipantMastery.m; sourceTree = "<group>"; };
+		6C8A15631B027B7D00961C36 /* ParticipantStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticipantStats.h; sourceTree = "<group>"; };
+		6C8A15641B027B7D00961C36 /* ParticipantStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticipantStats.m; sourceTree = "<group>"; };
+		6C8A15671B027D0200961C36 /* ParticipantTimeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticipantTimeline.h; sourceTree = "<group>"; };
+		6C8A15681B027D0300961C36 /* ParticipantTimeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticipantTimeline.m; sourceTree = "<group>"; };
+		6C8A156B1B027E0300961C36 /* ParticipantRune.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticipantRune.h; sourceTree = "<group>"; };
+		6C8A156C1B027E0300961C36 /* ParticipantRune.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticipantRune.m; sourceTree = "<group>"; };
+		6C8A156F1B027E2100961C36 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		6C8A15701B027E2100961C36 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		6C8A15731B027E8D00961C36 /* BannedChampion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannedChampion.h; sourceTree = "<group>"; };
+		6C8A15741B027E8D00961C36 /* BannedChampion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannedChampion.m; sourceTree = "<group>"; };
+		6C8A15771B027EB100961C36 /* Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Frame.h; sourceTree = "<group>"; };
+		6C8A15781B027EB100961C36 /* Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Frame.m; sourceTree = "<group>"; };
+		6C8A157B1B02805E00961C36 /* ParticipantTimelineData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticipantTimelineData.h; sourceTree = "<group>"; };
+		6C8A157C1B02805E00961C36 /* ParticipantTimelineData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticipantTimelineData.m; sourceTree = "<group>"; };
+		6C8A157F1B0280B200961C36 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		6C8A15801B0280B200961C36 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		6C8A15831B02823300961C36 /* ParticipantFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticipantFrame.h; sourceTree = "<group>"; };
+		6C8A15841B02823300961C36 /* ParticipantFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticipantFrame.m; sourceTree = "<group>"; };
+		6C8A15871B0282B300961C36 /* Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Position.h; sourceTree = "<group>"; };
+		6C8A15881B0282B300961C36 /* Position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Position.m; sourceTree = "<group>"; };
 		BE3901F004469939F3D98870 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F1880BF342A6FF8C7ADDC983 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,6 +232,7 @@
 		6C2D5A191B0159B800F2F02A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6C8A154A1B02777500961C36 /* Match */,
 				6C2D5A381B01671900F2F02A /* League */,
 				6C2D5A1E1B0159E200F2F02A /* Team */,
 				6C2D5A1A1B0159C700F2F02A /* BaseObject.h */,
@@ -215,6 +280,45 @@
 			path = League;
 			sourceTree = "<group>";
 		};
+		6C8A154A1B02777500961C36 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				6C8A154B1B02778E00961C36 /* MatchDetail.h */,
+				6C8A154C1B02778E00961C36 /* MatchDetail.m */,
+				6C8A154F1B02790B00961C36 /* Participant.h */,
+				6C8A15501B02790B00961C36 /* Participant.m */,
+				6C8A15531B0279FA00961C36 /* ParticipantIdentity.h */,
+				6C8A15541B0279FA00961C36 /* ParticipantIdentity.m */,
+				6C8A15571B027A5600961C36 /* ParticipantTeam.h */,
+				6C8A15581B027A5600961C36 /* ParticipantTeam.m */,
+				6C8A155B1B027B1E00961C36 /* Timeline.h */,
+				6C8A155C1B027B1F00961C36 /* Timeline.m */,
+				6C8A155F1B027B6000961C36 /* ParticipantMastery.h */,
+				6C8A15601B027B6100961C36 /* ParticipantMastery.m */,
+				6C8A15631B027B7D00961C36 /* ParticipantStats.h */,
+				6C8A15641B027B7D00961C36 /* ParticipantStats.m */,
+				6C8A15671B027D0200961C36 /* ParticipantTimeline.h */,
+				6C8A15681B027D0300961C36 /* ParticipantTimeline.m */,
+				6C8A156B1B027E0300961C36 /* ParticipantRune.h */,
+				6C8A156C1B027E0300961C36 /* ParticipantRune.m */,
+				6C8A156F1B027E2100961C36 /* Player.h */,
+				6C8A15701B027E2100961C36 /* Player.m */,
+				6C8A15731B027E8D00961C36 /* BannedChampion.h */,
+				6C8A15741B027E8D00961C36 /* BannedChampion.m */,
+				6C8A15771B027EB100961C36 /* Frame.h */,
+				6C8A15781B027EB100961C36 /* Frame.m */,
+				6C8A157B1B02805E00961C36 /* ParticipantTimelineData.h */,
+				6C8A157C1B02805E00961C36 /* ParticipantTimelineData.m */,
+				6C8A157F1B0280B200961C36 /* Event.h */,
+				6C8A15801B0280B200961C36 /* Event.m */,
+				6C8A15831B02823300961C36 /* ParticipantFrame.h */,
+				6C8A15841B02823300961C36 /* ParticipantFrame.m */,
+				6C8A15871B0282B300961C36 /* Position.h */,
+				6C8A15881B0282B300961C36 /* Position.m */,
+			);
+			path = Match;
+			sourceTree = "<group>";
+		};
 		FA13C2CB78A6938940D7D40F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +343,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C8A15791B027EB100961C36 /* Frame.h in Headers */,
+				6C8A15651B027B7D00961C36 /* ParticipantStats.h in Headers */,
 				6C2D5A211B0159E900F2F02A /* Team.h in Headers */,
 				6C2D5A361B0165FA00F2F02A /* TeamMemberInfo.h in Headers */,
 				6C2D5A3F1B01675900F2F02A /* LeagueEntry.h in Headers */,
@@ -246,10 +352,24 @@
 				6C2D5A321B0161C800F2F02A /* TeamStatDetail.h in Headers */,
 				6C2D5A1C1B0159C700F2F02A /* BaseObject.h in Headers */,
 				6C2D5A3B1B01672200F2F02A /* League.h in Headers */,
+				6C8A15691B027D0300961C36 /* ParticipantTimeline.h in Headers */,
+				6C8A155D1B027B1F00961C36 /* Timeline.h in Headers */,
 				6C2D5A2E1B01615500F2F02A /* Roster.h in Headers */,
+				6C8A15851B02823400961C36 /* ParticipantFrame.h in Headers */,
+				6C8A15811B0280B300961C36 /* Event.h in Headers */,
+				6C8A15591B027A5600961C36 /* ParticipantTeam.h in Headers */,
+				6C8A156D1B027E0300961C36 /* ParticipantRune.h in Headers */,
 				6C2D5A431B01680100F2F02A /* MiniSeries.h in Headers */,
+				6C8A157D1B02805E00961C36 /* ParticipantTimelineData.h in Headers */,
 				6C2D5A261B015B5700F2F02A /* NSDate+Utilities.h in Headers */,
+				6C8A15711B027E2200961C36 /* Player.h in Headers */,
+				6C8A15891B0282B300961C36 /* Position.h in Headers */,
+				6C8A15611B027B6100961C36 /* ParticipantMastery.h in Headers */,
+				6C8A15751B027E8D00961C36 /* BannedChampion.h in Headers */,
+				6C8A15551B0279FA00961C36 /* ParticipantIdentity.h in Headers */,
 				6C2D5A031B014AB600F2F02A /* RiotAPI.h in Headers */,
+				6C8A154D1B02778E00961C36 /* MatchDetail.h in Headers */,
+				6C8A15511B02790B00961C36 /* Participant.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,11 +508,27 @@
 				6C2D5A221B0159E900F2F02A /* Team.m in Sources */,
 				6C2D5A441B01680100F2F02A /* MiniSeries.m in Sources */,
 				6C2D5A2B1B01605000F2F02A /* MatchHistorySummary.m in Sources */,
+				6C8A15621B027B6100961C36 /* ParticipantMastery.m in Sources */,
+				6C8A15721B027E2200961C36 /* Player.m in Sources */,
+				6C8A15521B02790B00961C36 /* Participant.m in Sources */,
 				6C2D5A271B015B5700F2F02A /* NSDate+Utilities.m in Sources */,
+				6C8A15761B027E8D00961C36 /* BannedChampion.m in Sources */,
 				6C2D5A401B01675900F2F02A /* LeagueEntry.m in Sources */,
 				6C2D5A1D1B0159C700F2F02A /* BaseObject.m in Sources */,
+				6C8A15661B027B7D00961C36 /* ParticipantStats.m in Sources */,
+				6C8A15561B0279FA00961C36 /* ParticipantIdentity.m in Sources */,
+				6C8A15821B0280B300961C36 /* Event.m in Sources */,
+				6C8A155A1B027A5600961C36 /* ParticipantTeam.m in Sources */,
+				6C8A15861B02823400961C36 /* ParticipantFrame.m in Sources */,
+				6C8A157A1B027EB100961C36 /* Frame.m in Sources */,
 				6C2D5A2F1B01615500F2F02A /* Roster.m in Sources */,
+				6C8A156A1B027D0300961C36 /* ParticipantTimeline.m in Sources */,
+				6C8A154E1B02778E00961C36 /* MatchDetail.m in Sources */,
 				6C2D5A371B0165FA00F2F02A /* TeamMemberInfo.m in Sources */,
+				6C8A158A1B0282B300961C36 /* Position.m in Sources */,
+				6C8A157E1B02805E00961C36 /* ParticipantTimelineData.m in Sources */,
+				6C8A155E1B027B1F00961C36 /* Timeline.m in Sources */,
+				6C8A156E1B027E0300961C36 /* ParticipantRune.m in Sources */,
 				6C2D5A3C1B01672200F2F02A /* League.m in Sources */,
 				6C2D5A331B0161C800F2F02A /* TeamStatDetail.m in Sources */,
 			);
