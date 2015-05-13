@@ -31,6 +31,20 @@
 		6C2D5A401B01675900F2F02A /* LeagueEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2D5A3E1B01675900F2F02A /* LeagueEntry.m */; };
 		6C2D5A431B01680100F2F02A /* MiniSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2D5A411B01680000F2F02A /* MiniSeries.h */; };
 		6C2D5A441B01680100F2F02A /* MiniSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2D5A421B01680100F2F02A /* MiniSeries.m */; };
+		6C4D6EE31B03112A0051833F /* Summoner.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4D6EE11B03112A0051833F /* Summoner.h */; };
+		6C4D6EE41B03112A0051833F /* Summoner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D6EE21B03112A0051833F /* Summoner.m */; };
+		6C4D6EE71B0311DE0051833F /* MasteryPages.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4D6EE51B0311DE0051833F /* MasteryPages.h */; };
+		6C4D6EE81B0311DE0051833F /* MasteryPages.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D6EE61B0311DE0051833F /* MasteryPages.m */; };
+		6C4D6EEB1B0312000051833F /* MasteryPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4D6EE91B0312000051833F /* MasteryPage.h */; };
+		6C4D6EEC1B0312000051833F /* MasteryPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D6EEA1B0312000051833F /* MasteryPage.m */; };
+		6C4D6EEF1B0312680051833F /* SummonerMastery.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4D6EED1B0312680051833F /* SummonerMastery.h */; };
+		6C4D6EF01B0312680051833F /* SummonerMastery.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D6EEE1B0312680051833F /* SummonerMastery.m */; };
+		6C4D6EF31B03129D0051833F /* RunePages.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4D6EF11B03129D0051833F /* RunePages.h */; };
+		6C4D6EF41B03129D0051833F /* RunePages.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D6EF21B03129D0051833F /* RunePages.m */; };
+		6C4D6EF71B0312B80051833F /* RunePage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4D6EF51B0312B80051833F /* RunePage.h */; };
+		6C4D6EF81B0312B80051833F /* RunePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D6EF61B0312B80051833F /* RunePage.m */; };
+		6C4D6EFB1B0313070051833F /* RuneSlot.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4D6EF91B0313070051833F /* RuneSlot.h */; };
+		6C4D6EFC1B0313070051833F /* RuneSlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D6EFA1B0313070051833F /* RuneSlot.m */; };
 		6C8A154D1B02778E00961C36 /* MatchDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A154B1B02778E00961C36 /* MatchDetail.h */; };
 		6C8A154E1B02778E00961C36 /* MatchDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A154C1B02778E00961C36 /* MatchDetail.m */; };
 		6C8A15511B02790B00961C36 /* Participant.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A154F1B02790B00961C36 /* Participant.h */; };
@@ -63,6 +77,48 @@
 		6C8A15861B02823400961C36 /* ParticipantFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15841B02823300961C36 /* ParticipantFrame.m */; };
 		6C8A15891B0282B300961C36 /* Position.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15871B0282B300961C36 /* Position.h */; };
 		6C8A158A1B0282B300961C36 /* Position.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15881B0282B300961C36 /* Position.m */; };
+		6C8A158E1B02AA3000961C36 /* PlayerHistory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A158C1B02AA3000961C36 /* PlayerHistory.h */; };
+		6C8A158F1B02AA3000961C36 /* PlayerHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A158D1B02AA3000961C36 /* PlayerHistory.m */; };
+		6C8A15921B02AA5900961C36 /* MatchSummary.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15901B02AA5800961C36 /* MatchSummary.h */; };
+		6C8A15931B02AA5900961C36 /* MatchSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15911B02AA5800961C36 /* MatchSummary.m */; };
+		6C8A15971B02AAE300961C36 /* RankedStats.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15951B02AAE300961C36 /* RankedStats.h */; };
+		6C8A15981B02AAE300961C36 /* RankedStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15961B02AAE300961C36 /* RankedStats.m */; };
+		6C8A159B1B02AB0600961C36 /* ChampionStats.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15991B02AB0600961C36 /* ChampionStats.h */; };
+		6C8A159C1B02AB0600961C36 /* ChampionStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A159A1B02AB0600961C36 /* ChampionStats.m */; };
+		6C8A159F1B02B7D300961C36 /* AggregatedStats.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A159D1B02B7D300961C36 /* AggregatedStats.h */; };
+		6C8A15A01B02B7D300961C36 /* AggregatedStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A159E1B02B7D300961C36 /* AggregatedStats.m */; };
+		6C8A15A31B02B8CE00961C36 /* PlayerStatsSummaryList.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15A11B02B8CE00961C36 /* PlayerStatsSummaryList.h */; };
+		6C8A15A41B02B8CE00961C36 /* PlayerStatsSummaryList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15A21B02B8CE00961C36 /* PlayerStatsSummaryList.m */; };
+		6C8A15A71B02B8F500961C36 /* PlayerStatsSummary.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15A51B02B8F500961C36 /* PlayerStatsSummary.h */; };
+		6C8A15A81B02B8F500961C36 /* PlayerStatsSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15A61B02B8F500961C36 /* PlayerStatsSummary.m */; };
+		6C8A15AC1B02B97C00961C36 /* Shard.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15AA1B02B97C00961C36 /* Shard.h */; };
+		6C8A15AD1B02B97C00961C36 /* Shard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15AB1B02B97C00961C36 /* Shard.m */; };
+		6C8A15B01B02B9B400961C36 /* ShardStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15AE1B02B9B400961C36 /* ShardStatus.h */; };
+		6C8A15B11B02B9B400961C36 /* ShardStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15AF1B02B9B400961C36 /* ShardStatus.m */; };
+		6C8A15B41B02B9FB00961C36 /* Service.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15B21B02B9FB00961C36 /* Service.h */; };
+		6C8A15B51B02B9FB00961C36 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15B31B02B9FB00961C36 /* Service.m */; };
+		6C8A15B81B02BA2800961C36 /* Incident.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15B61B02BA2800961C36 /* Incident.h */; };
+		6C8A15B91B02BA2800961C36 /* Incident.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15B71B02BA2800961C36 /* Incident.m */; };
+		6C8A15BC1B02BA5500961C36 /* Message.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15BA1B02BA5400961C36 /* Message.h */; };
+		6C8A15BD1B02BA5500961C36 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15BB1B02BA5500961C36 /* Message.m */; };
+		6C8A15C01B02BA9F00961C36 /* Translation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15BE1B02BA9F00961C36 /* Translation.h */; };
+		6C8A15C11B02BA9F00961C36 /* Translation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15BF1B02BA9F00961C36 /* Translation.m */; };
+		6C8A15C51B02BB3D00961C36 /* CurrentGameInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15C31B02BB3D00961C36 /* CurrentGameInfo.h */; };
+		6C8A15C61B02BB3D00961C36 /* CurrentGameInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15C41B02BB3D00961C36 /* CurrentGameInfo.m */; };
+		6C8A15C91B02BBF900961C36 /* CurrentGameBannedChampion.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15C71B02BBF900961C36 /* CurrentGameBannedChampion.h */; };
+		6C8A15CA1B02BBF900961C36 /* CurrentGameBannedChampion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15C81B02BBF900961C36 /* CurrentGameBannedChampion.m */; };
+		6C8A15CD1B02BC1C00961C36 /* CurrentGameParticipant.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15CB1B02BC1B00961C36 /* CurrentGameParticipant.h */; };
+		6C8A15CE1B02BC1C00961C36 /* CurrentGameParticipant.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15CC1B02BC1C00961C36 /* CurrentGameParticipant.m */; };
+		6C8A15D11B02BCE600961C36 /* Observer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15CF1B02BCE500961C36 /* Observer.h */; };
+		6C8A15D21B02BCE600961C36 /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15D01B02BCE500961C36 /* Observer.m */; };
+		6C8A15D51B02BD0800961C36 /* CurrentGameMastery.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15D31B02BD0700961C36 /* CurrentGameMastery.h */; };
+		6C8A15D61B02BD0800961C36 /* CurrentGameMastery.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15D41B02BD0700961C36 /* CurrentGameMastery.m */; };
+		6C8A15D91B02BD2700961C36 /* CurrentGameRune.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15D71B02BD2700961C36 /* CurrentGameRune.h */; };
+		6C8A15DA1B02BD2700961C36 /* CurrentGameRune.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15D81B02BD2700961C36 /* CurrentGameRune.m */; };
+		6C8A15DE1B03104F00961C36 /* MetaChampionList.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15DC1B03104F00961C36 /* MetaChampionList.h */; };
+		6C8A15DF1B03104F00961C36 /* MetaChampionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15DD1B03104F00961C36 /* MetaChampionList.m */; };
+		6C8A15E21B03107E00961C36 /* MetaChampion.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15E01B03107D00961C36 /* MetaChampion.h */; };
+		6C8A15E31B03107E00961C36 /* MetaChampion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15E11B03107D00961C36 /* MetaChampion.m */; };
 		A965FCD373FD63F8A7612CAC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BED92E4193D2983285A8E6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -117,6 +173,20 @@
 		6C2D5A3E1B01675900F2F02A /* LeagueEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeagueEntry.m; sourceTree = "<group>"; };
 		6C2D5A411B01680000F2F02A /* MiniSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniSeries.h; sourceTree = "<group>"; };
 		6C2D5A421B01680100F2F02A /* MiniSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniSeries.m; sourceTree = "<group>"; };
+		6C4D6EE11B03112A0051833F /* Summoner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Summoner.h; sourceTree = "<group>"; };
+		6C4D6EE21B03112A0051833F /* Summoner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Summoner.m; sourceTree = "<group>"; };
+		6C4D6EE51B0311DE0051833F /* MasteryPages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasteryPages.h; sourceTree = "<group>"; };
+		6C4D6EE61B0311DE0051833F /* MasteryPages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasteryPages.m; sourceTree = "<group>"; };
+		6C4D6EE91B0312000051833F /* MasteryPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasteryPage.h; sourceTree = "<group>"; };
+		6C4D6EEA1B0312000051833F /* MasteryPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasteryPage.m; sourceTree = "<group>"; };
+		6C4D6EED1B0312680051833F /* SummonerMastery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummonerMastery.h; sourceTree = "<group>"; };
+		6C4D6EEE1B0312680051833F /* SummonerMastery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummonerMastery.m; sourceTree = "<group>"; };
+		6C4D6EF11B03129D0051833F /* RunePages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunePages.h; sourceTree = "<group>"; };
+		6C4D6EF21B03129D0051833F /* RunePages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunePages.m; sourceTree = "<group>"; };
+		6C4D6EF51B0312B80051833F /* RunePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunePage.h; sourceTree = "<group>"; };
+		6C4D6EF61B0312B80051833F /* RunePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunePage.m; sourceTree = "<group>"; };
+		6C4D6EF91B0313070051833F /* RuneSlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuneSlot.h; sourceTree = "<group>"; };
+		6C4D6EFA1B0313070051833F /* RuneSlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuneSlot.m; sourceTree = "<group>"; };
 		6C8A154B1B02778E00961C36 /* MatchDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchDetail.h; sourceTree = "<group>"; };
 		6C8A154C1B02778E00961C36 /* MatchDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchDetail.m; sourceTree = "<group>"; };
 		6C8A154F1B02790B00961C36 /* Participant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Participant.h; sourceTree = "<group>"; };
@@ -149,6 +219,48 @@
 		6C8A15841B02823300961C36 /* ParticipantFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticipantFrame.m; sourceTree = "<group>"; };
 		6C8A15871B0282B300961C36 /* Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Position.h; sourceTree = "<group>"; };
 		6C8A15881B0282B300961C36 /* Position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Position.m; sourceTree = "<group>"; };
+		6C8A158C1B02AA3000961C36 /* PlayerHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerHistory.h; sourceTree = "<group>"; };
+		6C8A158D1B02AA3000961C36 /* PlayerHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerHistory.m; sourceTree = "<group>"; };
+		6C8A15901B02AA5800961C36 /* MatchSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchSummary.h; sourceTree = "<group>"; };
+		6C8A15911B02AA5800961C36 /* MatchSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchSummary.m; sourceTree = "<group>"; };
+		6C8A15951B02AAE300961C36 /* RankedStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankedStats.h; sourceTree = "<group>"; };
+		6C8A15961B02AAE300961C36 /* RankedStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankedStats.m; sourceTree = "<group>"; };
+		6C8A15991B02AB0600961C36 /* ChampionStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChampionStats.h; sourceTree = "<group>"; };
+		6C8A159A1B02AB0600961C36 /* ChampionStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChampionStats.m; sourceTree = "<group>"; };
+		6C8A159D1B02B7D300961C36 /* AggregatedStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AggregatedStats.h; sourceTree = "<group>"; };
+		6C8A159E1B02B7D300961C36 /* AggregatedStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AggregatedStats.m; sourceTree = "<group>"; };
+		6C8A15A11B02B8CE00961C36 /* PlayerStatsSummaryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerStatsSummaryList.h; sourceTree = "<group>"; };
+		6C8A15A21B02B8CE00961C36 /* PlayerStatsSummaryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerStatsSummaryList.m; sourceTree = "<group>"; };
+		6C8A15A51B02B8F500961C36 /* PlayerStatsSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerStatsSummary.h; sourceTree = "<group>"; };
+		6C8A15A61B02B8F500961C36 /* PlayerStatsSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerStatsSummary.m; sourceTree = "<group>"; };
+		6C8A15AA1B02B97C00961C36 /* Shard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shard.h; sourceTree = "<group>"; };
+		6C8A15AB1B02B97C00961C36 /* Shard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shard.m; sourceTree = "<group>"; };
+		6C8A15AE1B02B9B400961C36 /* ShardStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShardStatus.h; sourceTree = "<group>"; };
+		6C8A15AF1B02B9B400961C36 /* ShardStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShardStatus.m; sourceTree = "<group>"; };
+		6C8A15B21B02B9FB00961C36 /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		6C8A15B31B02B9FB00961C36 /* Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
+		6C8A15B61B02BA2800961C36 /* Incident.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Incident.h; sourceTree = "<group>"; };
+		6C8A15B71B02BA2800961C36 /* Incident.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Incident.m; sourceTree = "<group>"; };
+		6C8A15BA1B02BA5400961C36 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		6C8A15BB1B02BA5500961C36 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		6C8A15BE1B02BA9F00961C36 /* Translation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Translation.h; sourceTree = "<group>"; };
+		6C8A15BF1B02BA9F00961C36 /* Translation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Translation.m; sourceTree = "<group>"; };
+		6C8A15C31B02BB3D00961C36 /* CurrentGameInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentGameInfo.h; sourceTree = "<group>"; };
+		6C8A15C41B02BB3D00961C36 /* CurrentGameInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentGameInfo.m; sourceTree = "<group>"; };
+		6C8A15C71B02BBF900961C36 /* CurrentGameBannedChampion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentGameBannedChampion.h; sourceTree = "<group>"; };
+		6C8A15C81B02BBF900961C36 /* CurrentGameBannedChampion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentGameBannedChampion.m; sourceTree = "<group>"; };
+		6C8A15CB1B02BC1B00961C36 /* CurrentGameParticipant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentGameParticipant.h; sourceTree = "<group>"; };
+		6C8A15CC1B02BC1C00961C36 /* CurrentGameParticipant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentGameParticipant.m; sourceTree = "<group>"; };
+		6C8A15CF1B02BCE500961C36 /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		6C8A15D01B02BCE500961C36 /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
+		6C8A15D31B02BD0700961C36 /* CurrentGameMastery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentGameMastery.h; sourceTree = "<group>"; };
+		6C8A15D41B02BD0700961C36 /* CurrentGameMastery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentGameMastery.m; sourceTree = "<group>"; };
+		6C8A15D71B02BD2700961C36 /* CurrentGameRune.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentGameRune.h; sourceTree = "<group>"; };
+		6C8A15D81B02BD2700961C36 /* CurrentGameRune.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentGameRune.m; sourceTree = "<group>"; };
+		6C8A15DC1B03104F00961C36 /* MetaChampionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaChampionList.h; sourceTree = "<group>"; };
+		6C8A15DD1B03104F00961C36 /* MetaChampionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetaChampionList.m; sourceTree = "<group>"; };
+		6C8A15E01B03107D00961C36 /* MetaChampion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaChampion.h; sourceTree = "<group>"; };
+		6C8A15E11B03107D00961C36 /* MetaChampion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetaChampion.m; sourceTree = "<group>"; };
 		BE3901F004469939F3D98870 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F1880BF342A6FF8C7ADDC983 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -232,6 +344,12 @@
 		6C2D5A191B0159B800F2F02A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6C4D6EE01B03111F0051833F /* Summoner */,
+				6C8A15DB1B03103200961C36 /* Champion */,
+				6C8A15C21B02BB3400961C36 /* CurrentGame */,
+				6C8A15A91B02B97600961C36 /* Status */,
+				6C8A15941B02AAD100961C36 /* Stats */,
+				6C8A158B1B02AA2300961C36 /* MatchHistory */,
 				6C8A154A1B02777500961C36 /* Match */,
 				6C2D5A381B01671900F2F02A /* League */,
 				6C2D5A1E1B0159E200F2F02A /* Team */,
@@ -280,6 +398,27 @@
 			path = League;
 			sourceTree = "<group>";
 		};
+		6C4D6EE01B03111F0051833F /* Summoner */ = {
+			isa = PBXGroup;
+			children = (
+				6C4D6EE11B03112A0051833F /* Summoner.h */,
+				6C4D6EE21B03112A0051833F /* Summoner.m */,
+				6C4D6EE51B0311DE0051833F /* MasteryPages.h */,
+				6C4D6EE61B0311DE0051833F /* MasteryPages.m */,
+				6C4D6EE91B0312000051833F /* MasteryPage.h */,
+				6C4D6EEA1B0312000051833F /* MasteryPage.m */,
+				6C4D6EED1B0312680051833F /* SummonerMastery.h */,
+				6C4D6EEE1B0312680051833F /* SummonerMastery.m */,
+				6C4D6EF11B03129D0051833F /* RunePages.h */,
+				6C4D6EF21B03129D0051833F /* RunePages.m */,
+				6C4D6EF51B0312B80051833F /* RunePage.h */,
+				6C4D6EF61B0312B80051833F /* RunePage.m */,
+				6C4D6EF91B0313070051833F /* RuneSlot.h */,
+				6C4D6EFA1B0313070051833F /* RuneSlot.m */,
+			);
+			path = Summoner;
+			sourceTree = "<group>";
+		};
 		6C8A154A1B02777500961C36 /* Match */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,6 +458,83 @@
 			path = Match;
 			sourceTree = "<group>";
 		};
+		6C8A158B1B02AA2300961C36 /* MatchHistory */ = {
+			isa = PBXGroup;
+			children = (
+				6C8A158C1B02AA3000961C36 /* PlayerHistory.h */,
+				6C8A158D1B02AA3000961C36 /* PlayerHistory.m */,
+				6C8A15901B02AA5800961C36 /* MatchSummary.h */,
+				6C8A15911B02AA5800961C36 /* MatchSummary.m */,
+			);
+			path = MatchHistory;
+			sourceTree = "<group>";
+		};
+		6C8A15941B02AAD100961C36 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				6C8A15951B02AAE300961C36 /* RankedStats.h */,
+				6C8A15961B02AAE300961C36 /* RankedStats.m */,
+				6C8A15991B02AB0600961C36 /* ChampionStats.h */,
+				6C8A159A1B02AB0600961C36 /* ChampionStats.m */,
+				6C8A159D1B02B7D300961C36 /* AggregatedStats.h */,
+				6C8A159E1B02B7D300961C36 /* AggregatedStats.m */,
+				6C8A15A11B02B8CE00961C36 /* PlayerStatsSummaryList.h */,
+				6C8A15A21B02B8CE00961C36 /* PlayerStatsSummaryList.m */,
+				6C8A15A51B02B8F500961C36 /* PlayerStatsSummary.h */,
+				6C8A15A61B02B8F500961C36 /* PlayerStatsSummary.m */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		6C8A15A91B02B97600961C36 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				6C8A15AA1B02B97C00961C36 /* Shard.h */,
+				6C8A15AB1B02B97C00961C36 /* Shard.m */,
+				6C8A15AE1B02B9B400961C36 /* ShardStatus.h */,
+				6C8A15AF1B02B9B400961C36 /* ShardStatus.m */,
+				6C8A15B21B02B9FB00961C36 /* Service.h */,
+				6C8A15B31B02B9FB00961C36 /* Service.m */,
+				6C8A15B61B02BA2800961C36 /* Incident.h */,
+				6C8A15B71B02BA2800961C36 /* Incident.m */,
+				6C8A15BA1B02BA5400961C36 /* Message.h */,
+				6C8A15BB1B02BA5500961C36 /* Message.m */,
+				6C8A15BE1B02BA9F00961C36 /* Translation.h */,
+				6C8A15BF1B02BA9F00961C36 /* Translation.m */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		6C8A15C21B02BB3400961C36 /* CurrentGame */ = {
+			isa = PBXGroup;
+			children = (
+				6C8A15C31B02BB3D00961C36 /* CurrentGameInfo.h */,
+				6C8A15C41B02BB3D00961C36 /* CurrentGameInfo.m */,
+				6C8A15C71B02BBF900961C36 /* CurrentGameBannedChampion.h */,
+				6C8A15C81B02BBF900961C36 /* CurrentGameBannedChampion.m */,
+				6C8A15CB1B02BC1B00961C36 /* CurrentGameParticipant.h */,
+				6C8A15CC1B02BC1C00961C36 /* CurrentGameParticipant.m */,
+				6C8A15CF1B02BCE500961C36 /* Observer.h */,
+				6C8A15D01B02BCE500961C36 /* Observer.m */,
+				6C8A15D31B02BD0700961C36 /* CurrentGameMastery.h */,
+				6C8A15D41B02BD0700961C36 /* CurrentGameMastery.m */,
+				6C8A15D71B02BD2700961C36 /* CurrentGameRune.h */,
+				6C8A15D81B02BD2700961C36 /* CurrentGameRune.m */,
+			);
+			path = CurrentGame;
+			sourceTree = "<group>";
+		};
+		6C8A15DB1B03103200961C36 /* Champion */ = {
+			isa = PBXGroup;
+			children = (
+				6C8A15DC1B03104F00961C36 /* MetaChampionList.h */,
+				6C8A15DD1B03104F00961C36 /* MetaChampionList.m */,
+				6C8A15E01B03107D00961C36 /* MetaChampion.h */,
+				6C8A15E11B03107D00961C36 /* MetaChampion.m */,
+			);
+			path = Champion;
+			sourceTree = "<group>";
+		};
 		FA13C2CB78A6938940D7D40F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -343,31 +559,59 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C8A15D11B02BCE600961C36 /* Observer.h in Headers */,
+				6C8A15D51B02BD0800961C36 /* CurrentGameMastery.h in Headers */,
+				6C8A158E1B02AA3000961C36 /* PlayerHistory.h in Headers */,
+				6C8A159F1B02B7D300961C36 /* AggregatedStats.h in Headers */,
+				6C4D6EE31B03112A0051833F /* Summoner.h in Headers */,
+				6C4D6EE71B0311DE0051833F /* MasteryPages.h in Headers */,
+				6C8A15C01B02BA9F00961C36 /* Translation.h in Headers */,
 				6C8A15791B027EB100961C36 /* Frame.h in Headers */,
 				6C8A15651B027B7D00961C36 /* ParticipantStats.h in Headers */,
+				6C8A15B81B02BA2800961C36 /* Incident.h in Headers */,
 				6C2D5A211B0159E900F2F02A /* Team.h in Headers */,
+				6C8A15B01B02B9B400961C36 /* ShardStatus.h in Headers */,
+				6C8A15BC1B02BA5500961C36 /* Message.h in Headers */,
+				6C8A159B1B02AB0600961C36 /* ChampionStats.h in Headers */,
 				6C2D5A361B0165FA00F2F02A /* TeamMemberInfo.h in Headers */,
+				6C8A15C91B02BBF900961C36 /* CurrentGameBannedChampion.h in Headers */,
 				6C2D5A3F1B01675900F2F02A /* LeagueEntry.h in Headers */,
 				6C2D5A2A1B01605000F2F02A /* MatchHistorySummary.h in Headers */,
+				6C8A15B41B02B9FB00961C36 /* Service.h in Headers */,
 				6C2D5A321B0161C800F2F02A /* TeamStatDetail.h in Headers */,
 				6C2D5A1C1B0159C700F2F02A /* BaseObject.h in Headers */,
+				6C4D6EFB1B0313070051833F /* RuneSlot.h in Headers */,
+				6C8A15A31B02B8CE00961C36 /* PlayerStatsSummaryList.h in Headers */,
+				6C8A15D91B02BD2700961C36 /* CurrentGameRune.h in Headers */,
 				6C2D5A3B1B01672200F2F02A /* League.h in Headers */,
 				6C8A15691B027D0300961C36 /* ParticipantTimeline.h in Headers */,
+				6C4D6EEB1B0312000051833F /* MasteryPage.h in Headers */,
 				6C8A155D1B027B1F00961C36 /* Timeline.h in Headers */,
+				6C8A15CD1B02BC1C00961C36 /* CurrentGameParticipant.h in Headers */,
+				6C8A15AC1B02B97C00961C36 /* Shard.h in Headers */,
+				6C8A15E21B03107E00961C36 /* MetaChampion.h in Headers */,
 				6C2D5A2E1B01615500F2F02A /* Roster.h in Headers */,
 				6C8A15851B02823400961C36 /* ParticipantFrame.h in Headers */,
 				6C8A15811B0280B300961C36 /* Event.h in Headers */,
+				6C8A15C51B02BB3D00961C36 /* CurrentGameInfo.h in Headers */,
+				6C8A15A71B02B8F500961C36 /* PlayerStatsSummary.h in Headers */,
 				6C8A15591B027A5600961C36 /* ParticipantTeam.h in Headers */,
 				6C8A156D1B027E0300961C36 /* ParticipantRune.h in Headers */,
+				6C8A15921B02AA5900961C36 /* MatchSummary.h in Headers */,
 				6C2D5A431B01680100F2F02A /* MiniSeries.h in Headers */,
+				6C8A15971B02AAE300961C36 /* RankedStats.h in Headers */,
 				6C8A157D1B02805E00961C36 /* ParticipantTimelineData.h in Headers */,
+				6C4D6EF71B0312B80051833F /* RunePage.h in Headers */,
 				6C2D5A261B015B5700F2F02A /* NSDate+Utilities.h in Headers */,
+				6C4D6EEF1B0312680051833F /* SummonerMastery.h in Headers */,
 				6C8A15711B027E2200961C36 /* Player.h in Headers */,
 				6C8A15891B0282B300961C36 /* Position.h in Headers */,
+				6C8A15DE1B03104F00961C36 /* MetaChampionList.h in Headers */,
 				6C8A15611B027B6100961C36 /* ParticipantMastery.h in Headers */,
 				6C8A15751B027E8D00961C36 /* BannedChampion.h in Headers */,
 				6C8A15551B0279FA00961C36 /* ParticipantIdentity.h in Headers */,
 				6C2D5A031B014AB600F2F02A /* RiotAPI.h in Headers */,
+				6C4D6EF31B03129D0051833F /* RunePages.h in Headers */,
 				6C8A154D1B02778E00961C36 /* MatchDetail.h in Headers */,
 				6C8A15511B02790B00961C36 /* Participant.h in Headers */,
 			);
@@ -505,30 +749,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4D6EF81B0312B80051833F /* RunePage.m in Sources */,
 				6C2D5A221B0159E900F2F02A /* Team.m in Sources */,
+				6C4D6EF01B0312680051833F /* SummonerMastery.m in Sources */,
+				6C8A15D61B02BD0800961C36 /* CurrentGameMastery.m in Sources */,
 				6C2D5A441B01680100F2F02A /* MiniSeries.m in Sources */,
+				6C8A15981B02AAE300961C36 /* RankedStats.m in Sources */,
 				6C2D5A2B1B01605000F2F02A /* MatchHistorySummary.m in Sources */,
 				6C8A15621B027B6100961C36 /* ParticipantMastery.m in Sources */,
+				6C8A15A81B02B8F500961C36 /* PlayerStatsSummary.m in Sources */,
+				6C4D6EF41B03129D0051833F /* RunePages.m in Sources */,
 				6C8A15721B027E2200961C36 /* Player.m in Sources */,
 				6C8A15521B02790B00961C36 /* Participant.m in Sources */,
+				6C4D6EE81B0311DE0051833F /* MasteryPages.m in Sources */,
 				6C2D5A271B015B5700F2F02A /* NSDate+Utilities.m in Sources */,
+				6C8A15BD1B02BA5500961C36 /* Message.m in Sources */,
+				6C8A15B11B02B9B400961C36 /* ShardStatus.m in Sources */,
+				6C8A15E31B03107E00961C36 /* MetaChampion.m in Sources */,
 				6C8A15761B027E8D00961C36 /* BannedChampion.m in Sources */,
+				6C8A15C11B02BA9F00961C36 /* Translation.m in Sources */,
 				6C2D5A401B01675900F2F02A /* LeagueEntry.m in Sources */,
+				6C8A15B91B02BA2800961C36 /* Incident.m in Sources */,
 				6C2D5A1D1B0159C700F2F02A /* BaseObject.m in Sources */,
 				6C8A15661B027B7D00961C36 /* ParticipantStats.m in Sources */,
 				6C8A15561B0279FA00961C36 /* ParticipantIdentity.m in Sources */,
 				6C8A15821B0280B300961C36 /* Event.m in Sources */,
 				6C8A155A1B027A5600961C36 /* ParticipantTeam.m in Sources */,
+				6C8A15B51B02B9FB00961C36 /* Service.m in Sources */,
+				6C8A15DA1B02BD2700961C36 /* CurrentGameRune.m in Sources */,
+				6C8A15DF1B03104F00961C36 /* MetaChampionList.m in Sources */,
+				6C8A15CE1B02BC1C00961C36 /* CurrentGameParticipant.m in Sources */,
 				6C8A15861B02823400961C36 /* ParticipantFrame.m in Sources */,
+				6C8A159C1B02AB0600961C36 /* ChampionStats.m in Sources */,
 				6C8A157A1B027EB100961C36 /* Frame.m in Sources */,
+				6C4D6EFC1B0313070051833F /* RuneSlot.m in Sources */,
 				6C2D5A2F1B01615500F2F02A /* Roster.m in Sources */,
 				6C8A156A1B027D0300961C36 /* ParticipantTimeline.m in Sources */,
 				6C8A154E1B02778E00961C36 /* MatchDetail.m in Sources */,
+				6C8A15CA1B02BBF900961C36 /* CurrentGameBannedChampion.m in Sources */,
+				6C4D6EEC1B0312000051833F /* MasteryPage.m in Sources */,
 				6C2D5A371B0165FA00F2F02A /* TeamMemberInfo.m in Sources */,
+				6C8A15931B02AA5900961C36 /* MatchSummary.m in Sources */,
+				6C8A15C61B02BB3D00961C36 /* CurrentGameInfo.m in Sources */,
+				6C8A15AD1B02B97C00961C36 /* Shard.m in Sources */,
 				6C8A158A1B0282B300961C36 /* Position.m in Sources */,
 				6C8A157E1B02805E00961C36 /* ParticipantTimelineData.m in Sources */,
+				6C8A15A41B02B8CE00961C36 /* PlayerStatsSummaryList.m in Sources */,
+				6C8A158F1B02AA3000961C36 /* PlayerHistory.m in Sources */,
 				6C8A155E1B027B1F00961C36 /* Timeline.m in Sources */,
+				6C8A15A01B02B7D300961C36 /* AggregatedStats.m in Sources */,
+				6C4D6EE41B03112A0051833F /* Summoner.m in Sources */,
 				6C8A156E1B027E0300961C36 /* ParticipantRune.m in Sources */,
+				6C8A15D21B02BCE600961C36 /* Observer.m in Sources */,
 				6C2D5A3C1B01672200F2F02A /* League.m in Sources */,
 				6C2D5A331B0161C800F2F02A /* TeamStatDetail.m in Sources */,
 			);
