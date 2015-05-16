@@ -7,9 +7,8 @@
 //
 
 #import "BaseObject.h"
-
-@class Event;
-@class ParticipantFrame;
+#import "Event.h"
+#import "ParticipantFrame.h"
 
 @interface Frame : BaseObject
 

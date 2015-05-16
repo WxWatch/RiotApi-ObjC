@@ -7,7 +7,12 @@
 //
 
 #import "ParticipantTeam.h"
+#import "NSArray+Utilities.h"
 
 @implementation ParticipantTeam
+
+- (void)setBans:(NSArray *)bans {
+    _bans = [bans arrayOfObjectsWithClass:[BannedChampion class]];
+}
 
 @end

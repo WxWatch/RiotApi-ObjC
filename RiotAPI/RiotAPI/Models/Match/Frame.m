@@ -7,7 +7,17 @@
 //
 
 #import "Frame.h"
+#import "NSArray+Utilities.h"
+#import "NSDictionary+Utilities.h"
 
 @implementation Frame
+
+- (void)setEvents:(NSArray *)events {
+    _events = [events arrayOfObjectsWithClass:[Event class]];
+}
+
+- (void)setParticipantFrames:(NSDictionary *)participantFrames {
+    _participantFrames = [participantFrames dictionaryOfObjectsWithClass:[ParticipantFrame class]];
+}
 
 @end

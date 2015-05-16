@@ -7,7 +7,12 @@
 //
 
 #import "Message.h"
+#import "NSArray+Utilities.h"
 
 @implementation Message
+
+- (void)setTranslations:(NSArray *)translations {
+    _translations = [translations arrayOfObjectsWithClass:[Translation class]];
+}
 
 @end

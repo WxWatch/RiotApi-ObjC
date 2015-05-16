@@ -7,9 +7,12 @@
 //
 
 #import "MetaChampionList.h"
+#import "NSArray+Utilities.h"
 
 @implementation MetaChampionList
 
-
+- (void)setChampions:(NSArray *)champions {
+    _champions = [champions arrayOfObjectsWithClass:[MetaChampion class]];
+}
 
 @end

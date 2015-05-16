@@ -7,6 +7,7 @@
 //
 
 #import "BaseObject.h"
+#import "MasteryPage.h"
 
 @interface MasteryPages : BaseObject
 

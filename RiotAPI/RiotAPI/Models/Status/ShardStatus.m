@@ -7,7 +7,12 @@
 //
 
 #import "ShardStatus.h"
+#import "NSArray+Utilities.h"
 
 @implementation ShardStatus
+
+- (void)setServices:(NSArray *)services {
+    _services = [services arrayOfObjectsWithClass:[Service class]];
+}
 
 @end

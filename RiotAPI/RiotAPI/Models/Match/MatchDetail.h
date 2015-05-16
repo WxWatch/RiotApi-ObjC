@@ -7,11 +7,10 @@
 //
 
 #import "BaseObject.h"
-
-@class ParticipantIdentity;
-@class Participant;
-@class ParticipantTeam;
-@class Timeline;
+#import "Participant.h"
+#import "ParticipantIdentity.h"
+#import "ParticipantTeam.h"
+#import "Timeline.h"
 
 @interface MatchDetail : BaseObject
 

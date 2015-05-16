@@ -7,8 +7,7 @@
 //
 
 #import "BaseObject.h"
-
-@class BannedChampion;
+#import "BannedChampion.h"
 
 @interface ParticipantTeam : BaseObject
 

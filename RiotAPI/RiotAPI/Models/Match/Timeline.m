@@ -7,7 +7,12 @@
 //
 
 #import "Timeline.h"
+#import "NSArray+Utilities.h"
 
 @implementation Timeline
+
+- (void)setFrames:(NSArray *)frames {
+    _frames = [frames arrayOfObjectsWithClass:[Frame class]];
+}
 
 @end

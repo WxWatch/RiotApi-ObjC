@@ -7,6 +7,7 @@
 //
 
 #import "BaseObject.h"
+#import "SummonerMastery.h"
 
 @interface MasteryPage : BaseObject
 

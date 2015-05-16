@@ -7,7 +7,12 @@
 //
 
 #import "League.h"
+#import "NSArray+Utilities.h"
 
 @implementation League
+
+- (void)setEntries:(NSArray *)entries {
+    _entries = [entries arrayOfObjectsWithClass:[LeagueEntry class]];
+}
 
 @end

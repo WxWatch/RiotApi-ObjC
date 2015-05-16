@@ -7,8 +7,7 @@
 //
 
 #import "BaseObject.h"
-
-@class Service;
+#import "Service.h"
 
 @interface ShardStatus : BaseObject
 

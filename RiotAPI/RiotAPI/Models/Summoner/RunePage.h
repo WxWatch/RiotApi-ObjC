@@ -7,6 +7,7 @@
 //
 
 #import "BaseObject.h"
+#import "RuneSlot.h"
 
 @interface RunePage : BaseObject
 

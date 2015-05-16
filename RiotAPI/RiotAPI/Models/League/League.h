@@ -7,8 +7,7 @@
 //
 
 #import "BaseObject.h"
-
-@class LeagueEntry;
+#import "LeagueEntry.h"
 
 @interface League : BaseObject
 

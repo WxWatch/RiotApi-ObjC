@@ -7,8 +7,7 @@
 //
 
 #import "BaseObject.h"
-
-@class Message;
+#import "Message.h"
 
 @interface Incident : BaseObject
 

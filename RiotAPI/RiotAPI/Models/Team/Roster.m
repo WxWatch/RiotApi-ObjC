@@ -7,7 +7,12 @@
 //
 
 #import "Roster.h"
+#import "NSArray+Utilities.h"
 
 @implementation Roster
+
+- (void)setMemberList:(NSArray *)memberList {
+    _memberList = [memberList arrayOfObjectsWithClass:[TeamMemberInfo class]];
+}
 
 @end

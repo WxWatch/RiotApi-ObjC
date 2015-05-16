@@ -7,8 +7,7 @@
 //
 
 #import "BaseObject.h"
-
-@class Frame;
+#import "Frame.h"
 
 @interface Timeline : BaseObject
 

@@ -7,8 +7,7 @@
 //
 
 #import "BaseObject.h"
-
-@class MatchSummary;
+#import "MatchSummary.h"
 
 @interface PlayerHistory : BaseObject
 

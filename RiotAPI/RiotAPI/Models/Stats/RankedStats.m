@@ -7,7 +7,12 @@
 //
 
 #import "RankedStats.h"
+#import "NSArray+Utilities.h"
 
 @implementation RankedStats
+
+- (void)setChampions:(NSArray *)champions {
+    _champions = [champions arrayOfObjectsWithClass:[ChampionStats class]];
+}
 
 @end

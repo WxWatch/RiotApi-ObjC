@@ -7,8 +7,7 @@
 //
 
 #import "BaseObject.h"
-
-@class TeamMemberInfo;
+#import "TeamMemberInfo.h"
 
 @interface Roster : BaseObject
 

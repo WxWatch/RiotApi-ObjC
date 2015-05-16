@@ -7,7 +7,12 @@
 //
 
 #import "RunePages.h"
+#import "NSArray+Utilities.h"
 
 @implementation RunePages
+
+- (void)setPages:(NSArray *)pages {
+    _pages = [pages arrayOfObjectsWithClass:[RunePage class]];
+}
 
 @end

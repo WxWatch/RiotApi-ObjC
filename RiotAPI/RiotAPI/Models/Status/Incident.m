@@ -7,7 +7,12 @@
 //
 
 #import "Incident.h"
+#import "NSArray+Utilities.h"
 
 @implementation Incident
+
+- (void)setMessages:(NSArray *)messages {
+    _messages = [messages arrayOfObjectsWithClass:[Message class]];
+}
 
 @end

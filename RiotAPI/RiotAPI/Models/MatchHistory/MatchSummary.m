@@ -7,7 +7,16 @@
 //
 
 #import "MatchSummary.h"
+#import "NSArray+Utilities.h"
 
 @implementation MatchSummary
+
+- (void)setParticipantIdentities:(NSArray *)participantIdentities {
+    _participantIdentities = [participantIdentities arrayOfObjectsWithClass:[ParticipantIdentity class]];
+}
+
+- (void)setParticipants:(NSArray *)participants {
+    _participants = [participants arrayOfObjectsWithClass:[Participant class]];
+}
 
 @end

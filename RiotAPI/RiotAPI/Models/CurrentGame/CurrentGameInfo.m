@@ -7,7 +7,16 @@
 //
 
 #import "CurrentGameInfo.h"
+#import "NSArray+Utilities.h"
 
 @implementation CurrentGameInfo
+
+- (void)setBannedChampions:(NSArray *)bannedChampions {
+    _bannedChampions = [bannedChampions arrayOfObjectsWithClass:[CurrentGameBannedChampion class]];
+}
+
+- (void)setParticipants:(NSArray *)participants {
+    _participants = [participants arrayOfObjectsWithClass:[CurrentGameParticipant class]];
+}
 
 @end

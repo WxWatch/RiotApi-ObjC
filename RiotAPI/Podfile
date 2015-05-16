@@ -4,4 +4,5 @@ pod "AFNetworking"
 
 target :RiotAPITests, :exclusive => true do
   # pod 'Kiwi'
+  pod "AFNetworking"
 end

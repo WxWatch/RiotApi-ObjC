@@ -7,9 +7,8 @@
 //
 
 #import "BaseObject.h"
-
-@class CurrentGameMastery;
-@class CurrentGameRune;
+#import "CurrentGameMastery.h"
+#import "CurrentGameRune.h"
 
 @interface CurrentGameParticipant : BaseObject
 

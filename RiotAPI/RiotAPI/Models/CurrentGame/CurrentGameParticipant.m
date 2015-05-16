@@ -7,7 +7,16 @@
 //
 
 #import "CurrentGameParticipant.h"
+#import "NSArray+Utilities.h"
 
 @implementation CurrentGameParticipant
+
+- (void)setMasteries:(NSArray *)masteries {
+    _masteries = [masteries arrayOfObjectsWithClass:[CurrentGameMastery class]];
+}
+
+- (void)setRunes:(NSArray *)runes {
+    _runes = [runes arrayOfObjectsWithClass:[CurrentGameRune class]];
+}
 
 @end

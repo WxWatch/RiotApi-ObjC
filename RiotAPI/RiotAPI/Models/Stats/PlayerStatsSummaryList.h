@@ -7,8 +7,7 @@
 //
 
 #import "BaseObject.h"
-
-@class PlayerStatsSummary;
+#import "PlayerStatsSummary.h"
 
 @interface PlayerStatsSummaryList : BaseObject
 

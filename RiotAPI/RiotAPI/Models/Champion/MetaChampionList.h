@@ -7,6 +7,7 @@
 //
 
 #import "BaseObject.h"
+#import "MetaChampion.h"
 
 @interface MetaChampionList : BaseObject
 

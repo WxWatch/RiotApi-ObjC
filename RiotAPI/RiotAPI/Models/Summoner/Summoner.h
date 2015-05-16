@@ -14,7 +14,7 @@
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, assign) NSInteger profileIconId;
 @property (nonatomic, assign) long revisionDate;
-@property (nonatomic, assign) long summmonerLevel;
+@property (nonatomic, assign) long summonerLevel;
 
 - (NSDate*)revisionDateAsDate;
 

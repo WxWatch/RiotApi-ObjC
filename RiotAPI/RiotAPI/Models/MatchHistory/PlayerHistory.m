@@ -7,7 +7,12 @@
 //
 
 #import "PlayerHistory.h"
+#import "NSArray+Utilities.h"
 
 @implementation PlayerHistory
+
+- (void)setMatches:(NSArray *)matches {
+    _matches = [matches arrayOfObjectsWithClass:[MatchSummary class]];
+}
 
 @end

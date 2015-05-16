@@ -7,7 +7,12 @@
 //
 
 #import "Service.h"
+#import "NSArray+Utilities.h"
 
 @implementation Service
+
+- (void)setIncidents:(NSArray *)incidents {
+    _incidents = [incidents arrayOfObjectsWithClass:[Incident class]];
+}
 
 @end

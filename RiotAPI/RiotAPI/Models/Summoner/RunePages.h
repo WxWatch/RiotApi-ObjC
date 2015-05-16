@@ -7,6 +7,7 @@
 //
 
 #import "BaseObject.h"
+#import "RunePage.h"
 
 @interface RunePages : BaseObject
 

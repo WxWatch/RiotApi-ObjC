@@ -7,8 +7,7 @@
 //
 
 #import "BaseObject.h"
-
-@class ChampionStats;
+#import "ChampionStats.h"
 
 @interface RankedStats : BaseObject
 

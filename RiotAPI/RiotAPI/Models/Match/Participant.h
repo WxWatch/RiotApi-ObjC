@@ -7,11 +7,10 @@
 //
 
 #import "BaseObject.h"
-
-@class ParticipantMastery;
-@class ParticipantRune;
-@class ParticipantStats;
-@class ParticipantTimeline;
+#import "ParticipantMastery.h"
+#import "ParticipantRune.h"
+#import "ParticipantStats.h"
+#import "ParticipantTimeline.h"
 
 @interface Participant : BaseObject
 

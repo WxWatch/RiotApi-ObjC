@@ -7,8 +7,9 @@
 //
 
 #import "BaseObject.h"
-
-@class Roster;
+#import "Roster.h"
+#import "MatchHistorySummary.h"
+#import "TeamStatDetail.h"
 
 @interface Team : BaseObject
 

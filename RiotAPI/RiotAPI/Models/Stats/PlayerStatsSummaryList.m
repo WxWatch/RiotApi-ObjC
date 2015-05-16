@@ -7,7 +7,12 @@
 //
 
 #import "PlayerStatsSummaryList.h"
+#import "NSArray+Utilities.h"
 
 @implementation PlayerStatsSummaryList
+
+- (void)setPlayerStatSummaries:(NSArray *)playerStatSummaries {
+    _playerStatSummaries = [playerStatSummaries arrayOfObjectsWithClass:[PlayerStatsSummary class]];
+}
 
 @end

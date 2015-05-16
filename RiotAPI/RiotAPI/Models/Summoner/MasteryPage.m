@@ -7,8 +7,12 @@
 //
 
 #import "MasteryPage.h"
+#import "NSArray+Utilities.h"
 
 @implementation MasteryPage
 
+- (void)setMasteries:(NSArray *)masteries {
+    _masteries = [masteries arrayOfObjectsWithClass:[SummonerMastery class]];
+}
 
 @end

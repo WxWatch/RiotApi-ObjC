@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "SummonerMastery.h"
+#import "BaseService.h"
+#import "Summoner.h"
 
 @interface RiotAPITests : XCTestCase
 
@@ -25,6 +28,15 @@
     [super tearDown];
 }
 
+- (void)testSummonerMastery {
+    NSDictionary *dict = @{ @"id": @123,
+                            @"rank": @4 };
+    
+    SummonerMastery *mastery = [[SummonerMastery alloc] init];
+    [mastery setValuesForKeysWithDictionary:dict];
+    XCTAssert(mastery);
+}
+
 - (void)testExample {
     // This is an example of a functional test case.
     XCTAssert(YES, @"Pass");
@@ -35,6 +47,14 @@
     [self measureBlock:^{
         // Put the code you want to measure the time of here.
     }];
+}
+
+- (void)testNetwork {
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
+    [[BaseService new] fireServiceWithCompletion:^(void) {
+        [expectation fulfill];
+    }];
+    [self waitForExpectationsWithTimeout:10.0 handler:nil];
 }
 
 @end

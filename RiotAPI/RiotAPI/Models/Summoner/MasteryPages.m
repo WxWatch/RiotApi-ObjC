@@ -7,7 +7,12 @@
 //
 
 #import "MasteryPages.h"
+#import "NSArray+Utilities.h"
 
 @implementation MasteryPages
+
+- (void)setPages:(NSArray *)pages {
+    _pages = [pages arrayOfObjectsWithClass:[MasteryPage class]];
+}
 
 @end

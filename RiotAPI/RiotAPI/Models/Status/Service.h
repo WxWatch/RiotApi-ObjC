@@ -7,8 +7,7 @@
 //
 
 #import "BaseObject.h"
-
-@class Incident;
+#import "Incident.h"
 
 @interface Service : BaseObject
 

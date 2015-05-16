@@ -7,8 +7,7 @@
 //
 
 #import "BaseObject.h"
-
-@class Translation;
+#import "Translation.h"
 
 @interface Message : BaseObject
 

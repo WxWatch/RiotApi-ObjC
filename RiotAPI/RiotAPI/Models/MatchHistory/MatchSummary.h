@@ -7,9 +7,8 @@
 //
 
 #import "BaseObject.h"
-
-@class ParticipantIdentity;
-@class Participant;
+#import "ParticipantIdentity.h"
+#import "Participant.h"
 
 @interface MatchSummary : BaseObject
 

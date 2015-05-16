@@ -7,10 +7,9 @@
 //
 
 #import "BaseObject.h"
-
-@class CurrentGameBannedChampion;
-@class CurrentGameParticipant;
-@class Observer;
+#import "CurrentGameBannedChampion.h"
+#import "CurrentGameParticipant.h"
+#import "Observer.h"
 
 @interface CurrentGameInfo : BaseObject
 

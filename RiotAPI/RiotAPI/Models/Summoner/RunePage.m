@@ -7,7 +7,12 @@
 //
 
 #import "RunePage.h"
+#import "NSArray+Utilities.h"
 
 @implementation RunePage
+
+- (void)setSlots:(NSArray *)slots {
+    _slots = [slots arrayOfObjectsWithClass:[RuneSlot class]];
+}
 
 @end
