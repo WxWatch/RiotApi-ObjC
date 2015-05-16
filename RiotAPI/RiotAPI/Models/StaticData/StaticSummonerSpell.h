@@ -32,6 +32,7 @@
 @property (nonatomic, strong) NSString *resource;
 @property (nonatomic, strong) NSString *sanitizedDescription;
 @property (nonatomic, strong) NSString *sanitizedTooltip;
+@property (nonatomic, assign) NSInteger summonerLevel;
 @property (nonatomic, strong) NSString *tooltip;
 @property (nonatomic, strong) NSArray *vars;
 

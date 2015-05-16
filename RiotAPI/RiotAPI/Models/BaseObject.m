@@ -14,6 +14,7 @@
     if ([keyedValues objectForKey:@"description"]) {
         NSMutableDictionary *dict = [keyedValues mutableCopy];
         [dict setObject:keyedValues[@"description"] forKey:@"aDescription"];
+        [dict removeObjectForKey:@"description"];
         [super setValuesForKeysWithDictionary:dict];
     } else {
         [super setValuesForKeysWithDictionary:keyedValues];

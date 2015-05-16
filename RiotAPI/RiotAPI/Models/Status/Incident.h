@@ -14,6 +14,6 @@
 @property (nonatomic, assign) BOOL active;
 @property (nonatomic, strong) NSString *created_at;
 @property (nonatomic, assign) long id;
-@property (nonatomic, strong) NSArray *messages;
+@property (nonatomic, strong) NSArray *updates;
 
 @end

@@ -11,8 +11,8 @@
 
 @implementation Incident
 
-- (void)setMessages:(NSArray *)messages {
-    _messages = [messages arrayOfObjectsWithClass:[Message class]];
+- (void)setUpdates:(NSArray *)updates {
+    _updates = [updates arrayOfObjectsWithClass:[Message class]];
 }
 
 @end

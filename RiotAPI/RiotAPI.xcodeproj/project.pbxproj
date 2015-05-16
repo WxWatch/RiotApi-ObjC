@@ -99,6 +99,40 @@
 		6C4919431B07B62600C70C3A /* StaticSummonerSpellList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919411B07B62600C70C3A /* StaticSummonerSpellList.m */; };
 		6C4919461B07B7D800C70C3A /* StaticSummonerSpell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4919441B07B7D800C70C3A /* StaticSummonerSpell.h */; };
 		6C4919471B07B7D800C70C3A /* StaticSummonerSpell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919451B07B7D800C70C3A /* StaticSummonerSpell.m */; };
+		6C49195F1B07BF7400C70C3A /* Champion.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C49194A1B07BF7100C70C3A /* Champion.json */; };
+		6C4919601B07BF7400C70C3A /* Featured.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C49194B1B07BF7100C70C3A /* Featured.json */; };
+		6C4919611B07BF7400C70C3A /* Game.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C49194C1B07BF7100C70C3A /* Game.json */; };
+		6C4919621B07BF7400C70C3A /* League-Summoner.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C49194D1B07BF7100C70C3A /* League-Summoner.json */; };
+		6C4919631B07BF7400C70C3A /* Match.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C49194E1B07BF7100C70C3A /* Match.json */; };
+		6C4919641B07BF7400C70C3A /* MatchHistory.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C49194F1B07BF7100C70C3A /* MatchHistory.json */; };
+		6C4919651B07BF7400C70C3A /* Static-Champion.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C4919501B07BF7100C70C3A /* Static-Champion.json */; };
+		6C4919661B07BF7400C70C3A /* Static-Item.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C4919511B07BF7200C70C3A /* Static-Item.json */; };
+		6C4919671B07BF7400C70C3A /* Static-Map.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C4919521B07BF7200C70C3A /* Static-Map.json */; };
+		6C4919681B07BF7400C70C3A /* Static-Mastery.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C4919531B07BF7200C70C3A /* Static-Mastery.json */; };
+		6C4919691B07BF7400C70C3A /* Static-Realm.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C4919541B07BF7200C70C3A /* Static-Realm.json */; };
+		6C49196A1B07BF7400C70C3A /* Static-Rune.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C4919551B07BF7200C70C3A /* Static-Rune.json */; };
+		6C49196B1B07BF7400C70C3A /* Static-SummonerSpell.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C4919561B07BF7200C70C3A /* Static-SummonerSpell.json */; };
+		6C49196C1B07BF7400C70C3A /* Stats-Ranked.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C4919571B07BF7200C70C3A /* Stats-Ranked.json */; };
+		6C49196D1B07BF7400C70C3A /* Stats-Summary.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C4919581B07BF7300C70C3A /* Stats-Summary.json */; };
+		6C49196E1B07BF7400C70C3A /* Status-Shard-Region.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C4919591B07BF7300C70C3A /* Status-Shard-Region.json */; };
+		6C49196F1B07BF7400C70C3A /* Status-Shards.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C49195A1B07BF7300C70C3A /* Status-Shards.json */; };
+		6C4919701B07BF7400C70C3A /* Summoner-Masteries.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C49195B1B07BF7300C70C3A /* Summoner-Masteries.json */; };
+		6C4919711B07BF7400C70C3A /* Summoner-Name.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C49195C1B07BF7300C70C3A /* Summoner-Name.json */; };
+		6C4919721B07BF7400C70C3A /* Summoner-Runes.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C49195D1B07BF7300C70C3A /* Summoner-Runes.json */; };
+		6C4919731B07BF7400C70C3A /* Team.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C49195E1B07BF7300C70C3A /* Team.json */; };
+		6C4919751B07BF9200C70C3A /* ChampionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919741B07BF9200C70C3A /* ChampionTests.m */; };
+		6C4919771B07C0FE00C70C3A /* CurrentGame.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C4919761B07C0FD00C70C3A /* CurrentGame.json */; };
+		6C4919791B07C11A00C70C3A /* CurrentGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919781B07C11A00C70C3A /* CurrentGameTests.m */; };
+		6C49197B1B07C1A300C70C3A /* FeaturedGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49197A1B07C1A300C70C3A /* FeaturedGameTests.m */; };
+		6C49197D1B07C20000C70C3A /* GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49197C1B07C1FF00C70C3A /* GameTests.m */; };
+		6C49197F1B07C26800C70C3A /* LeagueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49197E1B07C26700C70C3A /* LeagueTests.m */; };
+		6C4919811B07C41300C70C3A /* StaticDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919801B07C41300C70C3A /* StaticDataTests.m */; };
+		6C4919831B07C68500C70C3A /* StatusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919821B07C68500C70C3A /* StatusTests.m */; };
+		6C4919851B07C77F00C70C3A /* MatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919841B07C77F00C70C3A /* MatchTests.m */; };
+		6C4919871B07C7F800C70C3A /* MatchHistoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919861B07C7F700C70C3A /* MatchHistoryTests.m */; };
+		6C4919891B07C84200C70C3A /* StatsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919881B07C84200C70C3A /* StatsTests.m */; };
+		6C49198B1B07C8BD00C70C3A /* SummonerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49198A1B07C8BD00C70C3A /* SummonerTests.m */; };
+		6C49198D1B07C98900C70C3A /* TeamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49198C1B07C98900C70C3A /* TeamTests.m */; };
 		6C4D6EE31B03112A0051833F /* Summoner.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4D6EE11B03112A0051833F /* Summoner.h */; };
 		6C4D6EE41B03112A0051833F /* Summoner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D6EE21B03112A0051833F /* Summoner.m */; };
 		6C4D6EE71B0311DE0051833F /* MasteryPages.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4D6EE51B0311DE0051833F /* MasteryPages.h */; };
@@ -201,7 +235,6 @@
 		6CD49FAB1B06F5CD007CFDA6 /* RecentGamePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD49FA91B06F5CD007CFDA6 /* RecentGamePlayer.m */; };
 		6CD49FAE1B06F5F7007CFDA6 /* RawStats.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CD49FAC1B06F5F7007CFDA6 /* RawStats.h */; };
 		6CD49FAF1B06F5F7007CFDA6 /* RawStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD49FAD1B06F5F7007CFDA6 /* RawStats.m */; };
-		6CD49FB11B06FE62007CFDA6 /* SummonerModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD49FB01B06FE62007CFDA6 /* SummonerModelTests.m */; };
 		6CE5A4681B068D8C004A4928 /* BaseService.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE5A4661B068D8C004A4928 /* BaseService.h */; };
 		6CE5A4691B068D8C004A4928 /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5A4671B068D8C004A4928 /* BaseService.m */; };
 		6CE5A46C1B06966E004A4928 /* NSArray+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE5A46A1B06966D004A4928 /* NSArray+Utilities.h */; };
@@ -329,6 +362,40 @@
 		6C4919411B07B62600C70C3A /* StaticSummonerSpellList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticSummonerSpellList.m; sourceTree = "<group>"; };
 		6C4919441B07B7D800C70C3A /* StaticSummonerSpell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticSummonerSpell.h; sourceTree = "<group>"; };
 		6C4919451B07B7D800C70C3A /* StaticSummonerSpell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticSummonerSpell.m; sourceTree = "<group>"; };
+		6C49194A1B07BF7100C70C3A /* Champion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Champion.json; sourceTree = "<group>"; };
+		6C49194B1B07BF7100C70C3A /* Featured.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Featured.json; sourceTree = "<group>"; };
+		6C49194C1B07BF7100C70C3A /* Game.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Game.json; sourceTree = "<group>"; };
+		6C49194D1B07BF7100C70C3A /* League-Summoner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "League-Summoner.json"; sourceTree = "<group>"; };
+		6C49194E1B07BF7100C70C3A /* Match.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Match.json; sourceTree = "<group>"; };
+		6C49194F1B07BF7100C70C3A /* MatchHistory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MatchHistory.json; sourceTree = "<group>"; };
+		6C4919501B07BF7100C70C3A /* Static-Champion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Static-Champion.json"; sourceTree = "<group>"; };
+		6C4919511B07BF7200C70C3A /* Static-Item.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Static-Item.json"; sourceTree = "<group>"; };
+		6C4919521B07BF7200C70C3A /* Static-Map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Static-Map.json"; sourceTree = "<group>"; };
+		6C4919531B07BF7200C70C3A /* Static-Mastery.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Static-Mastery.json"; sourceTree = "<group>"; };
+		6C4919541B07BF7200C70C3A /* Static-Realm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Static-Realm.json"; sourceTree = "<group>"; };
+		6C4919551B07BF7200C70C3A /* Static-Rune.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Static-Rune.json"; sourceTree = "<group>"; };
+		6C4919561B07BF7200C70C3A /* Static-SummonerSpell.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Static-SummonerSpell.json"; sourceTree = "<group>"; };
+		6C4919571B07BF7200C70C3A /* Stats-Ranked.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Stats-Ranked.json"; sourceTree = "<group>"; };
+		6C4919581B07BF7300C70C3A /* Stats-Summary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Stats-Summary.json"; sourceTree = "<group>"; };
+		6C4919591B07BF7300C70C3A /* Status-Shard-Region.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Status-Shard-Region.json"; sourceTree = "<group>"; };
+		6C49195A1B07BF7300C70C3A /* Status-Shards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Status-Shards.json"; sourceTree = "<group>"; };
+		6C49195B1B07BF7300C70C3A /* Summoner-Masteries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Summoner-Masteries.json"; sourceTree = "<group>"; };
+		6C49195C1B07BF7300C70C3A /* Summoner-Name.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Summoner-Name.json"; sourceTree = "<group>"; };
+		6C49195D1B07BF7300C70C3A /* Summoner-Runes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Summoner-Runes.json"; sourceTree = "<group>"; };
+		6C49195E1B07BF7300C70C3A /* Team.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Team.json; sourceTree = "<group>"; };
+		6C4919741B07BF9200C70C3A /* ChampionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChampionTests.m; sourceTree = "<group>"; };
+		6C4919761B07C0FD00C70C3A /* CurrentGame.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CurrentGame.json; sourceTree = "<group>"; };
+		6C4919781B07C11A00C70C3A /* CurrentGameTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentGameTests.m; sourceTree = "<group>"; };
+		6C49197A1B07C1A300C70C3A /* FeaturedGameTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeaturedGameTests.m; sourceTree = "<group>"; };
+		6C49197C1B07C1FF00C70C3A /* GameTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTests.m; sourceTree = "<group>"; };
+		6C49197E1B07C26700C70C3A /* LeagueTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeagueTests.m; sourceTree = "<group>"; };
+		6C4919801B07C41300C70C3A /* StaticDataTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticDataTests.m; sourceTree = "<group>"; };
+		6C4919821B07C68500C70C3A /* StatusTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusTests.m; sourceTree = "<group>"; };
+		6C4919841B07C77F00C70C3A /* MatchTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchTests.m; sourceTree = "<group>"; };
+		6C4919861B07C7F700C70C3A /* MatchHistoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchHistoryTests.m; sourceTree = "<group>"; };
+		6C4919881B07C84200C70C3A /* StatsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsTests.m; sourceTree = "<group>"; };
+		6C49198A1B07C8BD00C70C3A /* SummonerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummonerTests.m; sourceTree = "<group>"; };
+		6C49198C1B07C98900C70C3A /* TeamTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamTests.m; sourceTree = "<group>"; };
 		6C4D6EE11B03112A0051833F /* Summoner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Summoner.h; sourceTree = "<group>"; };
 		6C4D6EE21B03112A0051833F /* Summoner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Summoner.m; sourceTree = "<group>"; };
 		6C4D6EE51B0311DE0051833F /* MasteryPages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasteryPages.h; sourceTree = "<group>"; };
@@ -431,7 +498,6 @@
 		6CD49FA91B06F5CD007CFDA6 /* RecentGamePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentGamePlayer.m; sourceTree = "<group>"; };
 		6CD49FAC1B06F5F7007CFDA6 /* RawStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RawStats.h; sourceTree = "<group>"; };
 		6CD49FAD1B06F5F7007CFDA6 /* RawStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RawStats.m; sourceTree = "<group>"; };
-		6CD49FB01B06FE62007CFDA6 /* SummonerModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummonerModelTests.m; sourceTree = "<group>"; };
 		6CE5A4661B068D8C004A4928 /* BaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseService.h; sourceTree = "<group>"; };
 		6CE5A4671B068D8C004A4928 /* BaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseService.m; sourceTree = "<group>"; };
 		6CE5A46A1B06966D004A4928 /* NSArray+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utilities.h"; sourceTree = "<group>"; };
@@ -583,7 +649,7 @@
 			isa = PBXGroup;
 			children = (
 				6C2D5A0F1B014AB600F2F02A /* RiotAPITests.m */,
-				6CD49FB01B06FE62007CFDA6 /* SummonerModelTests.m */,
+				6C4919481B07BA7100C70C3A /* ModelTests */,
 				6C2D5A0D1B014AB600F2F02A /* Supporting Files */,
 			);
 			path = RiotAPITests;
@@ -592,6 +658,7 @@
 		6C2D5A0D1B014AB600F2F02A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6C4919491B07BF5700C70C3A /* JSONData */,
 				6C2D5A0E1B014AB600F2F02A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -659,6 +726,54 @@
 				6C2D5A421B01680100F2F02A /* MiniSeries.m */,
 			);
 			path = League;
+			sourceTree = "<group>";
+		};
+		6C4919481B07BA7100C70C3A /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C4919741B07BF9200C70C3A /* ChampionTests.m */,
+				6C4919781B07C11A00C70C3A /* CurrentGameTests.m */,
+				6C49197A1B07C1A300C70C3A /* FeaturedGameTests.m */,
+				6C49197C1B07C1FF00C70C3A /* GameTests.m */,
+				6C49197E1B07C26700C70C3A /* LeagueTests.m */,
+				6C4919801B07C41300C70C3A /* StaticDataTests.m */,
+				6C4919821B07C68500C70C3A /* StatusTests.m */,
+				6C4919841B07C77F00C70C3A /* MatchTests.m */,
+				6C4919861B07C7F700C70C3A /* MatchHistoryTests.m */,
+				6C4919881B07C84200C70C3A /* StatsTests.m */,
+				6C49198A1B07C8BD00C70C3A /* SummonerTests.m */,
+				6C49198C1B07C98900C70C3A /* TeamTests.m */,
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
+		6C4919491B07BF5700C70C3A /* JSONData */ = {
+			isa = PBXGroup;
+			children = (
+				6C49194A1B07BF7100C70C3A /* Champion.json */,
+				6C49194B1B07BF7100C70C3A /* Featured.json */,
+				6C49194C1B07BF7100C70C3A /* Game.json */,
+				6C49194D1B07BF7100C70C3A /* League-Summoner.json */,
+				6C49194E1B07BF7100C70C3A /* Match.json */,
+				6C49194F1B07BF7100C70C3A /* MatchHistory.json */,
+				6C4919501B07BF7100C70C3A /* Static-Champion.json */,
+				6C4919511B07BF7200C70C3A /* Static-Item.json */,
+				6C4919521B07BF7200C70C3A /* Static-Map.json */,
+				6C4919531B07BF7200C70C3A /* Static-Mastery.json */,
+				6C4919541B07BF7200C70C3A /* Static-Realm.json */,
+				6C4919551B07BF7200C70C3A /* Static-Rune.json */,
+				6C4919561B07BF7200C70C3A /* Static-SummonerSpell.json */,
+				6C4919571B07BF7200C70C3A /* Stats-Ranked.json */,
+				6C4919581B07BF7300C70C3A /* Stats-Summary.json */,
+				6C4919591B07BF7300C70C3A /* Status-Shard-Region.json */,
+				6C49195A1B07BF7300C70C3A /* Status-Shards.json */,
+				6C49195B1B07BF7300C70C3A /* Summoner-Masteries.json */,
+				6C49195C1B07BF7300C70C3A /* Summoner-Name.json */,
+				6C49195D1B07BF7300C70C3A /* Summoner-Runes.json */,
+				6C49195E1B07BF7300C70C3A /* Team.json */,
+				6C4919761B07C0FD00C70C3A /* CurrentGame.json */,
+			);
+			path = JSONData;
 			sourceTree = "<group>";
 		};
 		6C4D6EE01B03111F0051833F /* Summoner */ = {
@@ -1052,6 +1167,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4919641B07BF7400C70C3A /* MatchHistory.json in Resources */,
+				6C49196D1B07BF7400C70C3A /* Stats-Summary.json in Resources */,
+				6C4919651B07BF7400C70C3A /* Static-Champion.json in Resources */,
+				6C4919701B07BF7400C70C3A /* Summoner-Masteries.json in Resources */,
+				6C49195F1B07BF7400C70C3A /* Champion.json in Resources */,
+				6C49196E1B07BF7400C70C3A /* Status-Shard-Region.json in Resources */,
+				6C49196A1B07BF7400C70C3A /* Static-Rune.json in Resources */,
+				6C4919721B07BF7400C70C3A /* Summoner-Runes.json in Resources */,
+				6C4919681B07BF7400C70C3A /* Static-Mastery.json in Resources */,
+				6C4919731B07BF7400C70C3A /* Team.json in Resources */,
+				6C4919711B07BF7400C70C3A /* Summoner-Name.json in Resources */,
+				6C4919771B07C0FE00C70C3A /* CurrentGame.json in Resources */,
+				6C4919691B07BF7400C70C3A /* Static-Realm.json in Resources */,
+				6C4919601B07BF7400C70C3A /* Featured.json in Resources */,
+				6C4919661B07BF7400C70C3A /* Static-Item.json in Resources */,
+				6C49196C1B07BF7400C70C3A /* Stats-Ranked.json in Resources */,
+				6C49196B1B07BF7400C70C3A /* Static-SummonerSpell.json in Resources */,
+				6C4919621B07BF7400C70C3A /* League-Summoner.json in Resources */,
+				6C4919611B07BF7400C70C3A /* Game.json in Resources */,
+				6C49196F1B07BF7400C70C3A /* Status-Shards.json in Resources */,
+				6C4919671B07BF7400C70C3A /* Static-Map.json in Resources */,
+				6C4919631B07BF7400C70C3A /* Match.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1229,8 +1366,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C49197F1B07C26800C70C3A /* LeagueTests.m in Sources */,
+				6C4919851B07C77F00C70C3A /* MatchTests.m in Sources */,
+				6C4919751B07BF9200C70C3A /* ChampionTests.m in Sources */,
+				6C49197D1B07C20000C70C3A /* GameTests.m in Sources */,
 				6C2D5A101B014AB600F2F02A /* RiotAPITests.m in Sources */,
-				6CD49FB11B06FE62007CFDA6 /* SummonerModelTests.m in Sources */,
+				6C49198D1B07C98900C70C3A /* TeamTests.m in Sources */,
+				6C4919891B07C84200C70C3A /* StatsTests.m in Sources */,
+				6C4919811B07C41300C70C3A /* StaticDataTests.m in Sources */,
+				6C49198B1B07C8BD00C70C3A /* SummonerTests.m in Sources */,
+				6C4919871B07C7F800C70C3A /* MatchHistoryTests.m in Sources */,
+				6C4919791B07C11A00C70C3A /* CurrentGameTests.m in Sources */,
+				6C49197B1B07C1A300C70C3A /* FeaturedGameTests.m in Sources */,
+				6C4919831B07C68500C70C3A /* StatusTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

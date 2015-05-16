@@ -1,24 +1,27 @@
 //
-//  SummonerModelTests.m
+//  LeagueTests.m
 //  RiotAPI
 //
-//  Created by James Glenn on 5/15/15.
+//  Created by James Glenn on 5/16/15.
 //  Copyright (c) 2015 James Glenn. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import "Summoner.h"
+#import "League.h"
 
-@interface SummonerModelTests : XCTestCase
-
+@interface LeagueTests : XCTestCase
+@property (nonatomic, strong) NSDictionary *dict;
 @end
 
-@implementation SummonerModelTests
+@implementation LeagueTests
 
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
-    [NSBundle bundleForClass:[self class]];
+    NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"League-Summoner" ofType:@"json"];
+    NSData *data = [NSData dataWithContentsOfFile:path];
+    self.dict = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
 }
 
 - (void)tearDown {
@@ -28,9 +31,11 @@
 
 - (void)testExample {
     // This is an example of a functional test case.
-    Summoner *summoner = [Summoner new];
-    
-    XCTAssert(summoner);
+    NSArray *list = self.dict.allValues[0];
+    NSDictionary *values = list[0];
+    League *league = [League new];
+    [league setValuesForKeysWithDictionary:values];
+    XCTAssert(league);
 }
 
 - (void)testPerformanceExample {

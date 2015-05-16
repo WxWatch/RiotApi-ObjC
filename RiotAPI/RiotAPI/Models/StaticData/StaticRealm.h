@@ -16,7 +16,7 @@
 @property (nonatomic, strong) NSString *l;
 @property (nonatomic, strong) NSString *lg;
 @property (nonatomic, strong) NSDictionary *n;
-@property (nonatomic, assign) NSInteger profileIconMax;
+@property (nonatomic, assign) NSInteger profileiconmax;
 @property (nonatomic, strong) NSString *store;
 @property (nonatomic, strong) NSString *v;
 

@@ -15,6 +15,6 @@
 @property (nonatomic, strong) NSDictionary *data;
 @property (nonatomic, strong) StaticMasteryTree *tree;
 @property (nonatomic, strong) NSString *type;
-@property (nonatomic, strong) NSString *verson;
+@property (nonatomic, strong) NSString *version;
 
 @end

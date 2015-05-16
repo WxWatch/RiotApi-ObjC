@@ -17,9 +17,10 @@
 
 @property (nonatomic, strong) NSString *colloq;
 @property (nonatomic, assign) BOOL consumeOnFull;
-@property (nonatomic, assign) BOOL consume;
+@property (nonatomic, assign) BOOL consumed;
 @property (nonatomic, assign) NSInteger depth;
 @property (nonatomic, strong) NSString *aDescription;
+@property (nonatomic, strong) NSDictionary *effect;
 @property (nonatomic, strong) NSArray *from;
 @property (nonatomic, strong) StaticGold *gold;
 @property (nonatomic, strong) NSString *group;
