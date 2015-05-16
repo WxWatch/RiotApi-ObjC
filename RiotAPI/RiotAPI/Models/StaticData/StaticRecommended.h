@@ -7,6 +7,7 @@
 //
 
 #import "BaseObject.h"
+#import "StaticBlock.h"
 
 @interface StaticRecommended : BaseObject
 

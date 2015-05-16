@@ -1,15 +1,15 @@
 //
-//  StaticMapData.h
+//  StaticSummonerSpellList.h
 //  RiotAPI
 //
-//  Created by James Glenn on 5/13/15.
+//  Created by James Glenn on 5/16/15.
 //  Copyright (c) 2015 James Glenn. All rights reserved.
 //
 
 #import "BaseObject.h"
-#import "StaticMapDetails.h"
+#import "StaticSummonerSpell.h"
 
-@interface StaticMapData : BaseObject
+@interface StaticSummonerSpellList : BaseObject
 
 @property (nonatomic, strong) NSDictionary *data;
 @property (nonatomic, strong) NSString *type;

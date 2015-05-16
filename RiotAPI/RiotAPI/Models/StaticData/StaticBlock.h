@@ -7,6 +7,7 @@
 //
 
 #import "BaseObject.h"
+#import "StaticBlockItem.h"
 
 @interface StaticBlock : BaseObject
 

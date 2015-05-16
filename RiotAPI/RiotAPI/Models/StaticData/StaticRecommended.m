@@ -7,7 +7,12 @@
 //
 
 #import "StaticRecommended.h"
+#import "NSArray+Utilities.h"
 
 @implementation StaticRecommended
+
+- (void)setBlocks:(NSArray *)blocks {
+    _blocks = [blocks arrayOfObjectsWithClass:[StaticBlock class]];
+}
 
 @end

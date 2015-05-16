@@ -10,4 +10,15 @@
 
 @implementation BaseObject
 
+- (void)setValuesForKeysWithDictionary:(NSDictionary *)keyedValues {
+    if ([keyedValues objectForKey:@"description"]) {
+        NSMutableDictionary *dict = [keyedValues mutableCopy];
+        [dict setObject:keyedValues[@"description"] forKey:@"aDescription"];
+        [super setValuesForKeysWithDictionary:dict];
+    } else {
+        [super setValuesForKeysWithDictionary:keyedValues];
+    }
+
+}
+
 @end

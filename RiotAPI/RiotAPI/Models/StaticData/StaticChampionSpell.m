@@ -7,7 +7,16 @@
 //
 
 #import "StaticChampionSpell.h"
+#import "NSArray+Utilities.h"
 
 @implementation StaticChampionSpell
+
+- (void)setAltimages:(NSArray *)altimages {
+    _altimages = [altimages arrayOfObjectsWithClass:[StaticImage class]];
+}
+
+- (void)setVars:(NSArray *)vars {
+    _vars = [vars arrayOfObjectsWithClass:[StaticSpellVars class]];
+}
 
 @end

@@ -12,7 +12,7 @@
 
 @interface StaticPassive : BaseObject
 
-@property (nonatomic, strong) NSString *passiveDescription;
+@property (nonatomic, strong) NSString *aDescription;
 @property (nonatomic, strong) StaticImage *image;
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *sanitizedDescription;

@@ -1,19 +1,18 @@
 //
-//  StaticBasicData.h
+//  StaticRune.h
 //  RiotAPI
 //
-//  Created by James Glenn on 5/13/15.
+//  Created by James Glenn on 5/16/15.
 //  Copyright (c) 2015 James Glenn. All rights reserved.
 //
 
 #import "BaseObject.h"
+#import "StaticGold.h"
+#import "StaticImage.h"
+#import "StaticMetaData.h"
+#import "StaticBasicDataStats.h"
 
-@class StaticGold;
-@class StaticImage;
-@class StaticMetaData;
-@class StaticBasicDataStats;
-
-@interface StaticBasicData : BaseObject
+@interface StaticRune : BaseObject
 
 @property (nonatomic, strong) NSString *colloq;
 @property (nonatomic, assign) BOOL consumeOnFull;

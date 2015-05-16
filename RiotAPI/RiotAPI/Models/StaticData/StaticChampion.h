@@ -7,11 +7,13 @@
 //
 
 #import "BaseObject.h"
-
-@class StaticImage;
-@class StaticInfo;
-@class StaticPassive;
-@class StaticStats;
+#import "StaticImage.h"
+#import "StaticInfo.h"
+#import "StaticPassive.h"
+#import "StaticStats.h"
+#import "StaticRecommended.h"
+#import "StaticSkin.h"
+#import "StaticChampionSpell.h"
 
 @interface StaticChampion : BaseObject
 

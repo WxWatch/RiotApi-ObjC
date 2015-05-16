@@ -7,7 +7,12 @@
 //
 
 #import "StaticMapData.h"
+#import "NSDictionary+Utilities.h"
 
 @implementation StaticMapData
+
+- (void)setData:(NSDictionary *)data {
+    _data = [data dictionaryOfObjectsWithClass:[StaticMapDetails class]];
+}
 
 @end

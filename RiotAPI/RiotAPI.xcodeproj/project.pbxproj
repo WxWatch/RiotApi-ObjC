@@ -79,6 +79,26 @@
 		6C2D5A401B01675900F2F02A /* LeagueEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2D5A3E1B01675900F2F02A /* LeagueEntry.m */; };
 		6C2D5A431B01680100F2F02A /* MiniSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2D5A411B01680000F2F02A /* MiniSeries.h */; };
 		6C2D5A441B01680100F2F02A /* MiniSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2D5A421B01680100F2F02A /* MiniSeries.m */; };
+		6C4919221B07AA4A00C70C3A /* StaticMasteryList.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4919201B07AA4A00C70C3A /* StaticMasteryList.h */; };
+		6C4919231B07AA4A00C70C3A /* StaticMasteryList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919211B07AA4A00C70C3A /* StaticMasteryList.m */; };
+		6C4919261B07AAFA00C70C3A /* StaticMastery.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4919241B07AAFA00C70C3A /* StaticMastery.h */; };
+		6C4919271B07AAFA00C70C3A /* StaticMastery.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919251B07AAFA00C70C3A /* StaticMastery.m */; };
+		6C49192A1B07AF4D00C70C3A /* StaticMasteryTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4919281B07AF4D00C70C3A /* StaticMasteryTree.h */; };
+		6C49192B1B07AF4D00C70C3A /* StaticMasteryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919291B07AF4D00C70C3A /* StaticMasteryTree.m */; };
+		6C49192E1B07B02700C70C3A /* StaticMasteryTreeList.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C49192C1B07B02700C70C3A /* StaticMasteryTreeList.h */; };
+		6C49192F1B07B02700C70C3A /* StaticMasteryTreeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49192D1B07B02700C70C3A /* StaticMasteryTreeList.m */; };
+		6C4919321B07B09A00C70C3A /* StaticMasteryTreeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4919301B07B09A00C70C3A /* StaticMasteryTreeItem.h */; };
+		6C4919331B07B09A00C70C3A /* StaticMasteryTreeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919311B07B09A00C70C3A /* StaticMasteryTreeItem.m */; };
+		6C4919361B07B13400C70C3A /* StaticRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4919341B07B13400C70C3A /* StaticRealm.h */; };
+		6C4919371B07B13400C70C3A /* StaticRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919351B07B13400C70C3A /* StaticRealm.m */; };
+		6C49193A1B07B21D00C70C3A /* StaticRuneList.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4919381B07B21D00C70C3A /* StaticRuneList.h */; };
+		6C49193B1B07B21D00C70C3A /* StaticRuneList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919391B07B21D00C70C3A /* StaticRuneList.m */; };
+		6C49193E1B07B4E800C70C3A /* StaticRune.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C49193C1B07B4E800C70C3A /* StaticRune.h */; };
+		6C49193F1B07B4E800C70C3A /* StaticRune.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49193D1B07B4E800C70C3A /* StaticRune.m */; };
+		6C4919421B07B62600C70C3A /* StaticSummonerSpellList.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4919401B07B62600C70C3A /* StaticSummonerSpellList.h */; };
+		6C4919431B07B62600C70C3A /* StaticSummonerSpellList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919411B07B62600C70C3A /* StaticSummonerSpellList.m */; };
+		6C4919461B07B7D800C70C3A /* StaticSummonerSpell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4919441B07B7D800C70C3A /* StaticSummonerSpell.h */; };
+		6C4919471B07B7D800C70C3A /* StaticSummonerSpell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919451B07B7D800C70C3A /* StaticSummonerSpell.m */; };
 		6C4D6EE31B03112A0051833F /* Summoner.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4D6EE11B03112A0051833F /* Summoner.h */; };
 		6C4D6EE41B03112A0051833F /* Summoner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D6EE21B03112A0051833F /* Summoner.m */; };
 		6C4D6EE71B0311DE0051833F /* MasteryPages.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4D6EE51B0311DE0051833F /* MasteryPages.h */; };
@@ -181,6 +201,7 @@
 		6CD49FAB1B06F5CD007CFDA6 /* RecentGamePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD49FA91B06F5CD007CFDA6 /* RecentGamePlayer.m */; };
 		6CD49FAE1B06F5F7007CFDA6 /* RawStats.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CD49FAC1B06F5F7007CFDA6 /* RawStats.h */; };
 		6CD49FAF1B06F5F7007CFDA6 /* RawStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD49FAD1B06F5F7007CFDA6 /* RawStats.m */; };
+		6CD49FB11B06FE62007CFDA6 /* SummonerModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD49FB01B06FE62007CFDA6 /* SummonerModelTests.m */; };
 		6CE5A4681B068D8C004A4928 /* BaseService.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE5A4661B068D8C004A4928 /* BaseService.h */; };
 		6CE5A4691B068D8C004A4928 /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5A4671B068D8C004A4928 /* BaseService.m */; };
 		6CE5A46C1B06966E004A4928 /* NSArray+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE5A46A1B06966D004A4928 /* NSArray+Utilities.h */; };
@@ -288,6 +309,26 @@
 		6C2D5A3E1B01675900F2F02A /* LeagueEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeagueEntry.m; sourceTree = "<group>"; };
 		6C2D5A411B01680000F2F02A /* MiniSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniSeries.h; sourceTree = "<group>"; };
 		6C2D5A421B01680100F2F02A /* MiniSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniSeries.m; sourceTree = "<group>"; };
+		6C4919201B07AA4A00C70C3A /* StaticMasteryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticMasteryList.h; sourceTree = "<group>"; };
+		6C4919211B07AA4A00C70C3A /* StaticMasteryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticMasteryList.m; sourceTree = "<group>"; };
+		6C4919241B07AAFA00C70C3A /* StaticMastery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticMastery.h; sourceTree = "<group>"; };
+		6C4919251B07AAFA00C70C3A /* StaticMastery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticMastery.m; sourceTree = "<group>"; };
+		6C4919281B07AF4D00C70C3A /* StaticMasteryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticMasteryTree.h; sourceTree = "<group>"; };
+		6C4919291B07AF4D00C70C3A /* StaticMasteryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticMasteryTree.m; sourceTree = "<group>"; };
+		6C49192C1B07B02700C70C3A /* StaticMasteryTreeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticMasteryTreeList.h; sourceTree = "<group>"; };
+		6C49192D1B07B02700C70C3A /* StaticMasteryTreeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticMasteryTreeList.m; sourceTree = "<group>"; };
+		6C4919301B07B09A00C70C3A /* StaticMasteryTreeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticMasteryTreeItem.h; sourceTree = "<group>"; };
+		6C4919311B07B09A00C70C3A /* StaticMasteryTreeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticMasteryTreeItem.m; sourceTree = "<group>"; };
+		6C4919341B07B13400C70C3A /* StaticRealm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticRealm.h; sourceTree = "<group>"; };
+		6C4919351B07B13400C70C3A /* StaticRealm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticRealm.m; sourceTree = "<group>"; };
+		6C4919381B07B21D00C70C3A /* StaticRuneList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticRuneList.h; sourceTree = "<group>"; };
+		6C4919391B07B21D00C70C3A /* StaticRuneList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticRuneList.m; sourceTree = "<group>"; };
+		6C49193C1B07B4E800C70C3A /* StaticRune.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticRune.h; sourceTree = "<group>"; };
+		6C49193D1B07B4E800C70C3A /* StaticRune.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticRune.m; sourceTree = "<group>"; };
+		6C4919401B07B62600C70C3A /* StaticSummonerSpellList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticSummonerSpellList.h; sourceTree = "<group>"; };
+		6C4919411B07B62600C70C3A /* StaticSummonerSpellList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticSummonerSpellList.m; sourceTree = "<group>"; };
+		6C4919441B07B7D800C70C3A /* StaticSummonerSpell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticSummonerSpell.h; sourceTree = "<group>"; };
+		6C4919451B07B7D800C70C3A /* StaticSummonerSpell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticSummonerSpell.m; sourceTree = "<group>"; };
 		6C4D6EE11B03112A0051833F /* Summoner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Summoner.h; sourceTree = "<group>"; };
 		6C4D6EE21B03112A0051833F /* Summoner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Summoner.m; sourceTree = "<group>"; };
 		6C4D6EE51B0311DE0051833F /* MasteryPages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasteryPages.h; sourceTree = "<group>"; };
@@ -390,6 +431,7 @@
 		6CD49FA91B06F5CD007CFDA6 /* RecentGamePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentGamePlayer.m; sourceTree = "<group>"; };
 		6CD49FAC1B06F5F7007CFDA6 /* RawStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RawStats.h; sourceTree = "<group>"; };
 		6CD49FAD1B06F5F7007CFDA6 /* RawStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RawStats.m; sourceTree = "<group>"; };
+		6CD49FB01B06FE62007CFDA6 /* SummonerModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummonerModelTests.m; sourceTree = "<group>"; };
 		6CE5A4661B068D8C004A4928 /* BaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseService.h; sourceTree = "<group>"; };
 		6CE5A4671B068D8C004A4928 /* BaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseService.m; sourceTree = "<group>"; };
 		6CE5A46A1B06966D004A4928 /* NSArray+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utilities.h"; sourceTree = "<group>"; };
@@ -473,6 +515,26 @@
 				6C08426A1B0425980099EFC2 /* StaticMapData.m */,
 				6C08426D1B0425BC0099EFC2 /* StaticMapDetails.h */,
 				6C08426E1B0425BC0099EFC2 /* StaticMapDetails.m */,
+				6C4919201B07AA4A00C70C3A /* StaticMasteryList.h */,
+				6C4919211B07AA4A00C70C3A /* StaticMasteryList.m */,
+				6C4919241B07AAFA00C70C3A /* StaticMastery.h */,
+				6C4919251B07AAFA00C70C3A /* StaticMastery.m */,
+				6C4919281B07AF4D00C70C3A /* StaticMasteryTree.h */,
+				6C4919291B07AF4D00C70C3A /* StaticMasteryTree.m */,
+				6C49192C1B07B02700C70C3A /* StaticMasteryTreeList.h */,
+				6C49192D1B07B02700C70C3A /* StaticMasteryTreeList.m */,
+				6C4919301B07B09A00C70C3A /* StaticMasteryTreeItem.h */,
+				6C4919311B07B09A00C70C3A /* StaticMasteryTreeItem.m */,
+				6C4919341B07B13400C70C3A /* StaticRealm.h */,
+				6C4919351B07B13400C70C3A /* StaticRealm.m */,
+				6C4919381B07B21D00C70C3A /* StaticRuneList.h */,
+				6C4919391B07B21D00C70C3A /* StaticRuneList.m */,
+				6C49193C1B07B4E800C70C3A /* StaticRune.h */,
+				6C49193D1B07B4E800C70C3A /* StaticRune.m */,
+				6C4919401B07B62600C70C3A /* StaticSummonerSpellList.h */,
+				6C4919411B07B62600C70C3A /* StaticSummonerSpellList.m */,
+				6C4919441B07B7D800C70C3A /* StaticSummonerSpell.h */,
+				6C4919451B07B7D800C70C3A /* StaticSummonerSpell.m */,
 			);
 			path = StaticData;
 			sourceTree = "<group>";
@@ -500,9 +562,9 @@
 		6C2D59FF1B014AB600F2F02A /* RiotAPI */ = {
 			isa = PBXGroup;
 			children = (
-				6CE5A4651B068D7F004A4928 /* Services */,
 				6C2D5A231B015B3B00F2F02A /* Categories */,
 				6C2D5A191B0159B800F2F02A /* Models */,
+				6CE5A4651B068D7F004A4928 /* Services */,
 				6C2D5A021B014AB600F2F02A /* RiotAPI.h */,
 				6C2D5A001B014AB600F2F02A /* Supporting Files */,
 			);
@@ -521,6 +583,7 @@
 			isa = PBXGroup;
 			children = (
 				6C2D5A0F1B014AB600F2F02A /* RiotAPITests.m */,
+				6CD49FB01B06FE62007CFDA6 /* SummonerModelTests.m */,
 				6C2D5A0D1B014AB600F2F02A /* Supporting Files */,
 			);
 			path = RiotAPITests;
@@ -537,17 +600,17 @@
 		6C2D5A191B0159B800F2F02A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				6CD49F9F1B06F490007CFDA6 /* Game */,
-				6CD49F961B06F337007CFDA6 /* Featured */,
-				6C0842101B041CD50099EFC2 /* StaticData */,
-				6C4D6EE01B03111F0051833F /* Summoner */,
 				6C8A15DB1B03103200961C36 /* Champion */,
 				6C8A15C21B02BB3400961C36 /* CurrentGame */,
-				6C8A15A91B02B97600961C36 /* Status */,
-				6C8A15941B02AAD100961C36 /* Stats */,
-				6C8A158B1B02AA2300961C36 /* MatchHistory */,
-				6C8A154A1B02777500961C36 /* Match */,
+				6CD49F961B06F337007CFDA6 /* Featured */,
+				6CD49F9F1B06F490007CFDA6 /* Game */,
 				6C2D5A381B01671900F2F02A /* League */,
+				6C8A154A1B02777500961C36 /* Match */,
+				6C8A158B1B02AA2300961C36 /* MatchHistory */,
+				6C0842101B041CD50099EFC2 /* StaticData */,
+				6C8A15A91B02B97600961C36 /* Status */,
+				6C4D6EE01B03111F0051833F /* Summoner */,
+				6C8A15941B02AAD100961C36 /* Stats */,
 				6C2D5A1E1B0159E200F2F02A /* Team */,
 				6C2D5A1A1B0159C700F2F02A /* BaseObject.h */,
 				6C2D5A1B1B0159C700F2F02A /* BaseObject.m */,
@@ -801,6 +864,7 @@
 				6C8A15D11B02BCE600961C36 /* Observer.h in Headers */,
 				6C08424F1B04229E0099EFC2 /* StaticGroup.h in Headers */,
 				6C8A15D51B02BD0800961C36 /* CurrentGameMastery.h in Headers */,
+				6C49193E1B07B4E800C70C3A /* StaticRune.h in Headers */,
 				6C8A158E1B02AA3000961C36 /* PlayerHistory.h in Headers */,
 				6C8A159F1B02B7D300961C36 /* AggregatedStats.h in Headers */,
 				6C4D6EE31B03112A0051833F /* Summoner.h in Headers */,
@@ -809,6 +873,7 @@
 				6C8A15791B027EB100961C36 /* Frame.h in Headers */,
 				6CE5A46C1B06966E004A4928 /* NSArray+Utilities.h in Headers */,
 				6C0842471B0421520099EFC2 /* StaticItemList.h in Headers */,
+				6C49192A1B07AF4D00C70C3A /* StaticMasteryTree.h in Headers */,
 				6CD49FAA1B06F5CD007CFDA6 /* RecentGamePlayer.h in Headers */,
 				6C0842631B0425210099EFC2 /* StaticMetaData.h in Headers */,
 				6C8A15651B027B7D00961C36 /* ParticipantStats.h in Headers */,
@@ -826,6 +891,7 @@
 				6C08421F1B041F1E0099EFC2 /* StaticImage.h in Headers */,
 				6C2D5A3F1B01675900F2F02A /* LeagueEntry.h in Headers */,
 				6C2D5A2A1B01605000F2F02A /* MatchHistorySummary.h in Headers */,
+				6C4919361B07B13400C70C3A /* StaticRealm.h in Headers */,
 				6C8A15B41B02B9FB00961C36 /* Service.h in Headers */,
 				6C08422B1B041FAE0099EFC2 /* StaticRecommended.h in Headers */,
 				6CD49F9D1B06F3A1007CFDA6 /* FeaturedGameInfo.h in Headers */,
@@ -839,8 +905,11 @@
 				6C8A15D91B02BD2700961C36 /* CurrentGameRune.h in Headers */,
 				6C2D5A3B1B01672200F2F02A /* League.h in Headers */,
 				6C08424B1B0421C60099EFC2 /* StaticBasicData.h in Headers */,
+				6C49193A1B07B21D00C70C3A /* StaticRuneList.h in Headers */,
 				6C8A15691B027D0300961C36 /* ParticipantTimeline.h in Headers */,
 				6C4D6EEB1B0312000051833F /* MasteryPage.h in Headers */,
+				6C4919261B07AAFA00C70C3A /* StaticMastery.h in Headers */,
+				6C49192E1B07B02700C70C3A /* StaticMasteryTreeList.h in Headers */,
 				6CD49FA61B06F500007CFDA6 /* RecentGame.h in Headers */,
 				6C8A155D1B027B1F00961C36 /* Timeline.h in Headers */,
 				6C8A15CD1B02BC1C00961C36 /* CurrentGameParticipant.h in Headers */,
@@ -856,6 +925,7 @@
 				6C8A15A71B02B8F500961C36 /* PlayerStatsSummary.h in Headers */,
 				6C8A15591B027A5600961C36 /* ParticipantTeam.h in Headers */,
 				6C08426F1B0425BC0099EFC2 /* StaticMapDetails.h in Headers */,
+				6C4919221B07AA4A00C70C3A /* StaticMasteryList.h in Headers */,
 				6C8A156D1B027E0300961C36 /* ParticipantRune.h in Headers */,
 				6C8A15921B02AA5900961C36 /* MatchSummary.h in Headers */,
 				6C2D5A431B01680100F2F02A /* MiniSeries.h in Headers */,
@@ -868,6 +938,7 @@
 				6C8A157D1B02805E00961C36 /* ParticipantTimelineData.h in Headers */,
 				6C4D6EF71B0312B80051833F /* RunePage.h in Headers */,
 				6C2D5A261B015B5700F2F02A /* NSDate+Utilities.h in Headers */,
+				6C4919421B07B62600C70C3A /* StaticSummonerSpellList.h in Headers */,
 				6C4D6EEF1B0312680051833F /* SummonerMastery.h in Headers */,
 				6C0842131B041CE40099EFC2 /* StaticChampionList.h in Headers */,
 				6C8A15711B027E2200961C36 /* Player.h in Headers */,
@@ -875,10 +946,12 @@
 				6C8A15DE1B03104F00961C36 /* MetaChampionList.h in Headers */,
 				6C8A15611B027B6100961C36 /* ParticipantMastery.h in Headers */,
 				6C08421B1B041E2E0099EFC2 /* StaticChampionSpell.h in Headers */,
+				6C4919321B07B09A00C70C3A /* StaticMasteryTreeItem.h in Headers */,
 				6C8A15751B027E8D00961C36 /* BannedChampion.h in Headers */,
 				6C0842531B0422BD0099EFC2 /* StaticItem.h in Headers */,
 				6C8A15551B0279FA00961C36 /* ParticipantIdentity.h in Headers */,
 				6C0842171B041D250099EFC2 /* StaticChampion.h in Headers */,
+				6C4919461B07B7D800C70C3A /* StaticSummonerSpell.h in Headers */,
 				6C08425B1B0422FF0099EFC2 /* StaticBasicDataStats.h in Headers */,
 				6C2D5A031B014AB600F2F02A /* RiotAPI.h in Headers */,
 				6C4D6EF31B03129D0051833F /* RunePages.h in Headers */,
@@ -1059,6 +1132,7 @@
 				6CD49FAF1B06F5F7007CFDA6 /* RawStats.m in Sources */,
 				6C4D6EF01B0312680051833F /* SummonerMastery.m in Sources */,
 				6C8A15D61B02BD0800961C36 /* CurrentGameMastery.m in Sources */,
+				6C4919371B07B13400C70C3A /* StaticRealm.m in Sources */,
 				6CE5A4691B068D8C004A4928 /* BaseService.m in Sources */,
 				6CD49FAB1B06F5CD007CFDA6 /* RecentGamePlayer.m in Sources */,
 				6C0842441B0421250099EFC2 /* StaticBlockItem.m in Sources */,
@@ -1082,6 +1156,7 @@
 				6C2D5A271B015B5700F2F02A /* NSDate+Utilities.m in Sources */,
 				6C8A15BD1B02BA5500961C36 /* Message.m in Sources */,
 				6C8A15B11B02B9B400961C36 /* ShardStatus.m in Sources */,
+				6C4919331B07B09A00C70C3A /* StaticMasteryTreeItem.m in Sources */,
 				6C8A15E31B03107E00961C36 /* MetaChampion.m in Sources */,
 				6C8A15761B027E8D00961C36 /* BannedChampion.m in Sources */,
 				6C0842601B0424F30099EFC2 /* StaticGold.m in Sources */,
@@ -1096,10 +1171,12 @@
 				6C8A155A1B027A5600961C36 /* ParticipantTeam.m in Sources */,
 				6CD49F9E1B06F3A1007CFDA6 /* FeaturedGameInfo.m in Sources */,
 				6C0842641B0425210099EFC2 /* StaticMetaData.m in Sources */,
+				6C4919431B07B62600C70C3A /* StaticSummonerSpellList.m in Sources */,
 				6C8A15B51B02B9FB00961C36 /* Service.m in Sources */,
 				6CD49FA71B06F500007CFDA6 /* RecentGame.m in Sources */,
 				6C0842301B041FED0099EFC2 /* StaticSkin.m in Sources */,
 				6C8A15DA1B02BD2700961C36 /* CurrentGameRune.m in Sources */,
+				6C49193F1B07B4E800C70C3A /* StaticRune.m in Sources */,
 				6C8A15DF1B03104F00961C36 /* MetaChampionList.m in Sources */,
 				6C0842241B041F570099EFC2 /* StaticInfo.m in Sources */,
 				6C08426C1B0425980099EFC2 /* StaticMapData.m in Sources */,
@@ -1109,28 +1186,34 @@
 				6C8A157A1B027EB100961C36 /* Frame.m in Sources */,
 				6C4D6EFC1B0313070051833F /* RuneSlot.m in Sources */,
 				6C2D5A2F1B01615500F2F02A /* Roster.m in Sources */,
+				6C4919271B07AAFA00C70C3A /* StaticMastery.m in Sources */,
 				6C0842541B0422BD0099EFC2 /* StaticItem.m in Sources */,
 				6C8A156A1B027D0300961C36 /* ParticipantTimeline.m in Sources */,
 				6CD49F951B06F19F007CFDA6 /* NSDictionary+Utilities.m in Sources */,
 				6C8A154E1B02778E00961C36 /* MatchDetail.m in Sources */,
 				6C8A15CA1B02BBF900961C36 /* CurrentGameBannedChampion.m in Sources */,
 				6C0842281B041F770099EFC2 /* StaticPassive.m in Sources */,
+				6C4919231B07AA4A00C70C3A /* StaticMasteryList.m in Sources */,
 				6C4D6EEC1B0312000051833F /* MasteryPage.m in Sources */,
 				6CD49F9A1B06F360007CFDA6 /* FeaturedGames.m in Sources */,
 				6C0842501B04229E0099EFC2 /* StaticGroup.m in Sources */,
 				6C2D5A371B0165FA00F2F02A /* TeamMemberInfo.m in Sources */,
 				6C8A15931B02AA5900961C36 /* MatchSummary.m in Sources */,
 				6C0842181B041D250099EFC2 /* StaticChampion.m in Sources */,
+				6C4919471B07B7D800C70C3A /* StaticSummonerSpell.m in Sources */,
 				6C8A15C61B02BB3D00961C36 /* CurrentGameInfo.m in Sources */,
+				6C49192F1B07B02700C70C3A /* StaticMasteryTreeList.m in Sources */,
 				6C08421C1B041E2E0099EFC2 /* StaticChampionSpell.m in Sources */,
 				6C8A15AD1B02B97C00961C36 /* Shard.m in Sources */,
 				6C8A158A1B0282B300961C36 /* Position.m in Sources */,
+				6C49192B1B07AF4D00C70C3A /* StaticMasteryTree.m in Sources */,
 				6C8A157E1B02805E00961C36 /* ParticipantTimelineData.m in Sources */,
 				6C0842401B0420F90099EFC2 /* StaticBlock.m in Sources */,
 				6C8A15A41B02B8CE00961C36 /* PlayerStatsSummaryList.m in Sources */,
 				6C08424C1B0421C60099EFC2 /* StaticBasicData.m in Sources */,
 				6C8A158F1B02AA3000961C36 /* PlayerHistory.m in Sources */,
 				6C0842381B0420A10099EFC2 /* StaticLevelTip.m in Sources */,
+				6C49193B1B07B21D00C70C3A /* StaticRuneList.m in Sources */,
 				6C8A155E1B027B1F00961C36 /* Timeline.m in Sources */,
 				6C8A15A01B02B7D300961C36 /* AggregatedStats.m in Sources */,
 				6C4D6EE41B03112A0051833F /* Summoner.m in Sources */,
@@ -1147,6 +1230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C2D5A101B014AB600F2F02A /* RiotAPITests.m in Sources */,
+				6CD49FB11B06FE62007CFDA6 /* SummonerModelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

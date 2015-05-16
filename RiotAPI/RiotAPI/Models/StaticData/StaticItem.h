@@ -19,7 +19,7 @@
 @property (nonatomic, assign) BOOL consumeOnFull;
 @property (nonatomic, assign) BOOL consume;
 @property (nonatomic, assign) NSInteger depth;
-@property (nonatomic, strong) NSString *basicDataDescription;
+@property (nonatomic, strong) NSString *aDescription;
 @property (nonatomic, strong) NSArray *from;
 @property (nonatomic, strong) StaticGold *gold;
 @property (nonatomic, strong) NSString *group;

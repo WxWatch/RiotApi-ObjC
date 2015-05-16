@@ -7,7 +7,21 @@
 //
 
 #import "StaticItemList.h"
+#import "NSDictionary+Utilities.h"
+#import "NSArray+Utilities.h"
 
 @implementation StaticItemList
+
+- (void)setData:(NSDictionary *)data {
+    _data = [data dictionaryOfObjectsWithClass:[StaticItem class]];
+}
+
+- (void)setGroups:(NSArray *)groups {
+    _groups = [groups arrayOfObjectsWithClass:[StaticGroup class]];
+}
+
+- (void)setTree:(NSArray *)tree {
+    _tree = [tree arrayOfObjectsWithClass:[StaticItemTree class]];
+}
 
 @end
