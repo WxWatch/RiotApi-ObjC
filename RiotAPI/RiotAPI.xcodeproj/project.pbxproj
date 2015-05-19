@@ -147,6 +147,10 @@
 		6C4D6EF81B0312B80051833F /* RunePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D6EF61B0312B80051833F /* RunePage.m */; };
 		6C4D6EFB1B0313070051833F /* RuneSlot.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4D6EF91B0313070051833F /* RuneSlot.h */; };
 		6C4D6EFC1B0313070051833F /* RuneSlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D6EFA1B0313070051833F /* RuneSlot.m */; };
+		6C5729681B0BF59600916066 /* RiotAPIController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C5729661B0BF59600916066 /* RiotAPIController.h */; };
+		6C5729691B0BF59600916066 /* RiotAPIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5729671B0BF59600916066 /* RiotAPIController.m */; };
+		6C75CB0F1B0BC26700954E40 /* Endpoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C75CB0D1B0BC26700954E40 /* Endpoint.h */; };
+		6C75CB101B0BC26700954E40 /* Endpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C75CB0E1B0BC26700954E40 /* Endpoint.m */; };
 		6C8A154D1B02778E00961C36 /* MatchDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A154B1B02778E00961C36 /* MatchDetail.h */; };
 		6C8A154E1B02778E00961C36 /* MatchDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A154C1B02778E00961C36 /* MatchDetail.m */; };
 		6C8A15511B02790B00961C36 /* Participant.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A154F1B02790B00961C36 /* Participant.h */; };
@@ -410,6 +414,10 @@
 		6C4D6EF61B0312B80051833F /* RunePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunePage.m; sourceTree = "<group>"; };
 		6C4D6EF91B0313070051833F /* RuneSlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuneSlot.h; sourceTree = "<group>"; };
 		6C4D6EFA1B0313070051833F /* RuneSlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuneSlot.m; sourceTree = "<group>"; };
+		6C5729661B0BF59600916066 /* RiotAPIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiotAPIController.h; sourceTree = "<group>"; };
+		6C5729671B0BF59600916066 /* RiotAPIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiotAPIController.m; sourceTree = "<group>"; };
+		6C75CB0D1B0BC26700954E40 /* Endpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Endpoint.h; sourceTree = "<group>"; };
+		6C75CB0E1B0BC26700954E40 /* Endpoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Endpoint.m; sourceTree = "<group>"; };
 		6C8A154B1B02778E00961C36 /* MatchDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchDetail.h; sourceTree = "<group>"; };
 		6C8A154C1B02778E00961C36 /* MatchDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchDetail.m; sourceTree = "<group>"; };
 		6C8A154F1B02790B00961C36 /* Participant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Participant.h; sourceTree = "<group>"; };
@@ -632,6 +640,8 @@
 				6C2D5A191B0159B800F2F02A /* Models */,
 				6CE5A4651B068D7F004A4928 /* Services */,
 				6C2D5A021B014AB600F2F02A /* RiotAPI.h */,
+				6C5729661B0BF59600916066 /* RiotAPIController.h */,
+				6C5729671B0BF59600916066 /* RiotAPIController.m */,
 				6C2D5A001B014AB600F2F02A /* Supporting Files */,
 			);
 			path = RiotAPI;
@@ -681,6 +691,8 @@
 				6C2D5A1E1B0159E200F2F02A /* Team */,
 				6C2D5A1A1B0159C700F2F02A /* BaseObject.h */,
 				6C2D5A1B1B0159C700F2F02A /* BaseObject.m */,
+				6C75CB0D1B0BC26700954E40 /* Endpoint.h */,
+				6C75CB0E1B0BC26700954E40 /* Endpoint.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1004,6 +1016,7 @@
 				6C2D5A361B0165FA00F2F02A /* TeamMemberInfo.h in Headers */,
 				6C8A15C91B02BBF900961C36 /* CurrentGameBannedChampion.h in Headers */,
 				6C08421F1B041F1E0099EFC2 /* StaticImage.h in Headers */,
+				6C75CB0F1B0BC26700954E40 /* Endpoint.h in Headers */,
 				6C2D5A3F1B01675900F2F02A /* LeagueEntry.h in Headers */,
 				6C2D5A2A1B01605000F2F02A /* MatchHistorySummary.h in Headers */,
 				6C4919361B07B13400C70C3A /* StaticRealm.h in Headers */,
@@ -1051,6 +1064,7 @@
 				6C0842671B04255B0099EFC2 /* StaticLanguageStrings.h in Headers */,
 				6C0842271B041F770099EFC2 /* StaticPassive.h in Headers */,
 				6C8A157D1B02805E00961C36 /* ParticipantTimelineData.h in Headers */,
+				6C5729681B0BF59600916066 /* RiotAPIController.h in Headers */,
 				6C4D6EF71B0312B80051833F /* RunePage.h in Headers */,
 				6C2D5A261B015B5700F2F02A /* NSDate+Utilities.h in Headers */,
 				6C4919421B07B62600C70C3A /* StaticSummonerSpellList.h in Headers */,
@@ -1274,6 +1288,7 @@
 				6CD49FAB1B06F5CD007CFDA6 /* RecentGamePlayer.m in Sources */,
 				6C0842441B0421250099EFC2 /* StaticBlockItem.m in Sources */,
 				6C2D5A441B01680100F2F02A /* MiniSeries.m in Sources */,
+				6C75CB101B0BC26700954E40 /* Endpoint.m in Sources */,
 				6C0842681B04255B0099EFC2 /* StaticLanguageStrings.m in Sources */,
 				6C08422C1B041FAE0099EFC2 /* StaticRecommended.m in Sources */,
 				6C8A15981B02AAE300961C36 /* RankedStats.m in Sources */,
@@ -1282,6 +1297,7 @@
 				6C2D5A2B1B01605000F2F02A /* MatchHistorySummary.m in Sources */,
 				6C8A15621B027B6100961C36 /* ParticipantMastery.m in Sources */,
 				6C8A15A81B02B8F500961C36 /* PlayerStatsSummary.m in Sources */,
+				6C5729691B0BF59600916066 /* RiotAPIController.m in Sources */,
 				6C4D6EF41B03129D0051833F /* RunePages.m in Sources */,
 				6C0842141B041CE40099EFC2 /* StaticChampionList.m in Sources */,
 				6C08425C1B0422FF0099EFC2 /* StaticBasicDataStats.m in Sources */,

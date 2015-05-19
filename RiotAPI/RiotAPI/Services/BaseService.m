@@ -11,6 +11,10 @@
 
 @implementation BaseService
 
+- (void)fireServiceWithEndpoint:(Endpoint *)endpoint success:(void (^)())success failure:(void (^)(NSError *))error {
+
+}
+
 - (void)fireServiceWithCompletion:(void (^)())completion {
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
 

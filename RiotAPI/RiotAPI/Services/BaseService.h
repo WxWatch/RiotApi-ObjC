@@ -8,9 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import <AFNetworking/AFNetworking.h>
+#import "Endpoint.h"
 
 @interface BaseService : NSObject
 
+- (void)fireServiceWithEndpoint:(Endpoint*)endpoint success:(void (^)())success failure:(void (^)(NSError *error))error;
 - (void)fireServiceWithCompletion:(void (^)())completion;
 
 @end
