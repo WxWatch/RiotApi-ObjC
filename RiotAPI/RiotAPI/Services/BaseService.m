@@ -26,7 +26,7 @@
         paramDict = [params mutableCopy];
     }
 
-    [paramDict setObject:@"68f1e11b-0bf8-4e51-a008-1679312d6280" forKey:@"api_key"];
+    [paramDict setObject:@"" forKey:@"api_key"];
     
     NSLog(@"%@", paramDict);
     
@@ -44,7 +44,7 @@
     NSString *urlString = [self buildURLStringWithRegion:region endpoint:endpoint];
     urlString = [self appendArray:params toURLString:urlString];
     
-    NSDictionary *paramDict = @{ @"api_key": @"68f1e11b-0bf8-4e51-a008-1679312d6280" };
+    NSDictionary *paramDict = @{ @"api_key": @"" };
         
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     [manager GET:urlString parameters:paramDict success:^(AFHTTPRequestOperation *operation, id responseObject) {
