@@ -15,27 +15,27 @@
 }
 
 - (void)getLeagueEntriesForSummonerIDs:(NSArray*)summonerIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
-    
+    NSString *endpoint = [self appendArray:summonerIDs toURLString:@"by-summoner/"];
+    endpoint = [NSString stringWithFormat:@"%@/entry", endpoint];
+    [self fireServiceWithRegion:region endpoint:endpoint params:nil success:success failure:failure];
 }
 
-- (void)getLeaguesForTeamIDs:(NSArray*)teamIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure
-{
-    
+- (void)getLeaguesForTeamIDs:(NSArray*)teamIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
+    [self fireServiceWithRegion:region endpoint:@"by-team" paramArray:teamIDs success:success failure:failure];
 }
 
-- (void)getLeagueEntriesForTeamIDs:(NSArray*)teamIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure
-{
-    
+- (void)getLeagueEntriesForTeamIDs:(NSArray*)teamIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
+    NSString *endpoint = [self appendArray:teamIDs toURLString:@"by-summoner/"];
+    endpoint = [NSString stringWithFormat:@"%@/entry", endpoint];
+    [self fireServiceWithRegion:region endpoint:endpoint params:nil success:success failure:failure];
 }
 
-- (void)getChallengerLeagueWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(League *))success failure:(void (^)(NSError *))failure
-{
-    
+- (void)getChallengerLeagueWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(League *))success failure:(void (^)(NSError *))failure {
+    [self fireServiceWithRegion:region endpoint:@"challenger" params:nil success:success failure:failure];
 }
 
-- (void)getMasterLeagueWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(League *))success failure:(void (^)(NSError *))failure
-{
-    
+- (void)getMasterLeagueWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(League *))success failure:(void (^)(NSError *))failure {
+    [self fireServiceWithRegion:region endpoint:@"master" params:nil success:success failure:failure];
 }
 
 - (NSString *)versionURL {

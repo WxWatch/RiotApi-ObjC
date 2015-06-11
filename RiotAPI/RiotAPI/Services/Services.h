@@ -11,3 +11,4 @@
 #import "FeaturedGamesService.h"
 #import "GameService.h"
 #import "LeagueService.h"
+#import "StaticDataService.h"

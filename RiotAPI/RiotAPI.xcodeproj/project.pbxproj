@@ -253,6 +253,8 @@
 		6CE5A4691B068D8C004A4928 /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5A4671B068D8C004A4928 /* BaseService.m */; };
 		6CE5A46C1B06966E004A4928 /* NSArray+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE5A46A1B06966D004A4928 /* NSArray+Utilities.h */; };
 		6CE5A46D1B06966E004A4928 /* NSArray+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5A46B1B06966D004A4928 /* NSArray+Utilities.m */; };
+		6CF49FC41B2A4B4E00316476 /* StaticDataService.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF49FC21B2A4B4E00316476 /* StaticDataService.h */; };
+		6CF49FC51B2A4B4E00316476 /* StaticDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF49FC31B2A4B4E00316476 /* StaticDataService.m */; };
 		A965FCD373FD63F8A7612CAC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BED92E4193D2983285A8E6 /* libPods.a */; };
 		F4F5C43E3781944B1E1E1949 /* libPods-RiotAPITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A56D6A63B0EE4411FE97643D /* libPods-RiotAPITests.a */; };
 /* End PBXBuildFile section */
@@ -531,6 +533,8 @@
 		6CE5A4671B068D8C004A4928 /* BaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseService.m; sourceTree = "<group>"; };
 		6CE5A46A1B06966D004A4928 /* NSArray+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utilities.h"; sourceTree = "<group>"; };
 		6CE5A46B1B06966D004A4928 /* NSArray+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Utilities.m"; sourceTree = "<group>"; };
+		6CF49FC21B2A4B4E00316476 /* StaticDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticDataService.h; sourceTree = "<group>"; };
+		6CF49FC31B2A4B4E00316476 /* StaticDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticDataService.m; sourceTree = "<group>"; };
 		86E9011B6B9D35D279871123 /* Pods-RiotAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiotAPITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RiotAPITests/Pods-RiotAPITests.release.xcconfig"; sourceTree = "<group>"; };
 		A56D6A63B0EE4411FE97643D /* libPods-RiotAPITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RiotAPITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3901F004469939F3D98870 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -988,6 +992,8 @@
 				6C5B48211B2939FC00E138A8 /* GameService.m */,
 				6C5B48241B293BA000E138A8 /* LeagueService.h */,
 				6C5B48251B293BA000E138A8 /* LeagueService.m */,
+				6CF49FC21B2A4B4E00316476 /* StaticDataService.h */,
+				6CF49FC31B2A4B4E00316476 /* StaticDataService.m */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -1087,6 +1093,7 @@
 				6CD49FA21B06F4A1007CFDA6 /* RecentGames.h in Headers */,
 				6C8A15C51B02BB3D00961C36 /* CurrentGameInfo.h in Headers */,
 				6C8A15A71B02B8F500961C36 /* PlayerStatsSummary.h in Headers */,
+				6CF49FC41B2A4B4E00316476 /* StaticDataService.h in Headers */,
 				6C8A15591B027A5600961C36 /* ParticipantTeam.h in Headers */,
 				6C08426F1B0425BC0099EFC2 /* StaticMapDetails.h in Headers */,
 				6C4919221B07AA4A00C70C3A /* StaticMasteryList.h in Headers */,
@@ -1363,6 +1370,7 @@
 				6CD49F9E1B06F3A1007CFDA6 /* FeaturedGameInfo.m in Sources */,
 				6C0842641B0425210099EFC2 /* StaticMetaData.m in Sources */,
 				6C4919431B07B62600C70C3A /* StaticSummonerSpellList.m in Sources */,
+				6CF49FC51B2A4B4E00316476 /* StaticDataService.m in Sources */,
 				6C8A15B51B02B9FB00961C36 /* Service.m in Sources */,
 				6CD49FA71B06F500007CFDA6 /* RecentGame.m in Sources */,
 				6C0842301B041FED0099EFC2 /* StaticSkin.m in Sources */,

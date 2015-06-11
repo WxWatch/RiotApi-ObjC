@@ -20,5 +20,6 @@
 - (void)fireServiceWithRegion:(RGRegion *)region endpoint:(NSString*)endpoint paramArray:(NSArray *)params success:(void (^)(id))success failure:(void (^)(NSError *))failure;
 
 - (NSString*)sanitizeBoolean:(BOOL)boolean;
+- (NSString*)appendArray:(NSArray*)params toURLString:(NSString*)urlString;
 
 @end

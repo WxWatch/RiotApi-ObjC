@@ -37,41 +37,34 @@
 }
 
 - (void)getLeaguesForSummonerIDs:(NSArray*)summonerIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
+    [[LeagueService new] getLeaguesForSummonerIDs:summonerIDs withAPIKey:key region:region success:success failure:failure];
+}
+
+- (void)getLeagueEntriesForSummonerIDs:(NSArray*)summonerIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
+    [[LeagueService new] getLeagueEntriesForSummonerIDs:summonerIDs withAPIKey:key region:region success:success failure:failure];
+}
+
+- (void)getLeaguesForTeamIDs:(NSArray*)teamIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
+    [[LeagueService new] getLeaguesForTeamIDs:teamIDs withAPIKey:key region:region success:success failure:failure];
+}
+
+- (void)getLeagueEntriesForTeamIDs:(NSArray*)teamIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
+    [[LeagueService new] getLeagueEntriesForTeamIDs:teamIDs withAPIKey:key region:region success:success failure:failure];
+}
+
+- (void)getChallengerLeagueWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(League *))success failure:(void (^)(NSError *))failure {
+    [[LeagueService new] getChallengerLeagueWithAPIKey:key region:region success:success failure:failure];
+}
+
+- (void)getMasterLeagueWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(League *))success failure:(void (^)(NSError *))failure {
+    [[LeagueService new] getMasterLeagueWithAPIKey:key region:region success:success failure:failure];
+}
+
+- (void)getStaticChampionsWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticChampionList *))success failure:(void (^)(NSError *))failure {
 	
 }
 
-- (void)getLeagueEntriesForSummonerIDs:(NSArray*)summonerIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure
-{
-	
-}
-
-- (void)getLeaguesForTeamIDs:(NSArray*)teamIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure
-{
-	
-}
-
-- (void)getLeagueEntriesForTeamIDs:(NSArray*)teamIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure
-{
-	
-}
-
-- (void)getChallengerLeagueWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(League *))success failure:(void (^)(NSError *))failure
-{
-	
-}
-
-- (void)getMasterLeagueWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(League *))success failure:(void (^)(NSError *))failure
-{
-	
-}
-
-- (void)getStaticChampionsWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticChampionList *))success failure:(void (^)(NSError *))failure
-{
-	
-}
-
-- (void)getStaticChampionsWithLocale:(NSString*)locale version:(NSString*)version dataById:(BOOL)dataById champData:(NSString*)champData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticChampionList *))success failure:(void (^)(NSError *))failure
-{
+- (void)getStaticChampionsWithLocale:(NSString*)locale version:(NSString*)version dataById:(BOOL)dataById champData:(NSString*)champData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticChampionList *))success failure:(void (^)(NSError *))failure {
 	
 }
 
