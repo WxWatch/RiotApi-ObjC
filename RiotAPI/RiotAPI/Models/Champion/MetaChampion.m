@@ -10,4 +10,8 @@
 
 @implementation MetaChampion
 
+- (NSString *)description {
+    return [NSString stringWithFormat:@"<MetaChampion: %ld>", self.id];
+}
+
 @end

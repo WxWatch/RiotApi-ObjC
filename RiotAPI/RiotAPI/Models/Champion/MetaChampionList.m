@@ -15,4 +15,8 @@
     _champions = [champions arrayOfObjectsWithClass:[MetaChampion class]];
 }
 
+- (NSString *)description {
+    return [NSString stringWithFormat:@"<MetaChampionList: %lu Champions>", (unsigned long)self.champions.count];
+}
+
 @end

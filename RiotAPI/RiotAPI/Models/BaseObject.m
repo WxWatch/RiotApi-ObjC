@@ -10,6 +10,13 @@
 
 @implementation BaseObject
 
++ (instancetype)objectWithDictionary:(NSDictionary *)dictionary {
+    id object = [self new];
+    [object setValuesForKeysWithDictionary:dictionary];
+    
+    return object;
+}
+
 - (void)setValuesForKeysWithDictionary:(NSDictionary *)keyedValues {
     if ([keyedValues objectForKey:@"description"]) {
         NSMutableDictionary *dict = [keyedValues mutableCopy];

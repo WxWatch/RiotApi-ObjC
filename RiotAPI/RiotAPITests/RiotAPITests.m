@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import "SummonerMastery.h"
-#import "BaseService.h"
+#import "ChampionService.h"
 #import "Summoner.h"
+#import "RGRegion.h"
 
 @interface RiotAPITests : XCTestCase
 
@@ -51,7 +52,11 @@
 
 - (void)testNetwork {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [[BaseService new] fireServiceWithCompletion:^(void) {
+    [[ChampionService new] getChampionByID:111 withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(MetaChampion *list) {
+        NSLog(@"%@", list);
+        [expectation fulfill];
+    } failure:^(NSError *error) {
+        NSLog(@"Error: %@", error);
         [expectation fulfill];
     }];
     [self waitForExpectationsWithTimeout:10.0 handler:nil];

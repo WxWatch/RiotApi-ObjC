@@ -10,4 +10,6 @@
 
 @interface BaseObject : NSObject
 
++ (instancetype)objectWithDictionary:(NSDictionary*)dictionary;
+
 @end
