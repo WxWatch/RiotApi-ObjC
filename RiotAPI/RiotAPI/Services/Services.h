@@ -12,3 +12,5 @@
 #import "GameService.h"
 #import "LeagueService.h"
 #import "StaticDataService.h"
+#import "StatusService.h"
+#import "MatchService.h"

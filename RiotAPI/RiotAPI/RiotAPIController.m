@@ -61,156 +61,127 @@
 }
 
 - (void)getStaticChampionsWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticChampionList *))success failure:(void (^)(NSError *))failure {
-	
+    [[StaticDataService new] getStaticChampionsWithAPIKey:key region:region success:success failure:failure];
 }
 
 - (void)getStaticChampionsWithLocale:(NSString*)locale version:(NSString*)version dataById:(BOOL)dataById champData:(NSString*)champData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticChampionList *))success failure:(void (^)(NSError *))failure {
-	
+    [[StaticDataService new] getStaticChampionsWithLocale:locale version:version dataById:dataById champData:champData withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticChampionByID:(NSInteger)championID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticChampion *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticChampionByID:(NSInteger)championID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticChampion *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticChampionByID:championID withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticChampionByID:(NSInteger)championID withLocale:(NSString*)locale version:(NSString*)version dataById:(BOOL)dataById champData:(NSString*)champData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticChampion *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticChampionByID:(NSInteger)championID withLocale:(NSString*)locale version:(NSString*)version dataById:(BOOL)dataById champData:(NSString*)champData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticChampion *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticChampionByID:championID withLocale:locale version:version dataById:dataById champData:champData withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticItemsWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticItemList *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticItemsWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticItemList *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticItemsWithAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticItemsWithLocale:(NSString*)locale version:(NSString*)version itemListData:(NSString*)itemListData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticItemList *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticItemsWithLocale:(NSString*)locale version:(NSString*)version itemListData:(NSString*)itemListData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticItemList *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticItemsWithLocale:locale version:version itemListData:itemListData withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticItemByID:(NSInteger)itemID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticItem *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticItemByID:(NSInteger)itemID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticItem *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticItemByID:itemID withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticItemByID:(NSInteger)itemID withLocale:(NSString*)locale version:(NSString*)version itemListData:(NSString*)itemListData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticItem *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticItemByID:(NSInteger)itemID withLocale:(NSString*)locale version:(NSString*)version itemListData:(NSString*)itemListData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticItem *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticItemByID:itemID withLocale:locale version:version itemListData:itemListData withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getLanguageStringsWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticLanguageStrings *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getLanguageStringsWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticLanguageStrings *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getLanguageStringsWithAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getLanguageStringsWithLocale:(NSString*)locale version:(NSString*)version withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticLanguageStrings *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getLanguageStringsWithLocale:(NSString*)locale version:(NSString*)version withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticLanguageStrings *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getLanguageStringsWithLocale:locale version:version withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getLanguagesWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSArray *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getLanguagesWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSArray *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getLanguagesWithAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getMapWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticMapData *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getMapWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticMapData *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getMapWithAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getMapWithLocale:(NSString*)locale version:(NSString*)version withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticMapData *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getMapWithLocale:(NSString*)locale version:(NSString*)version withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticMapData *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getMapWithLocale:locale version:version withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticMasteriesWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticMasteryList *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticMasteriesWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticMasteryList *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticMasteriesWithAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticMasteriesWithLocale:(NSString*)locale version:(NSString*)version masteryListData:(NSString*)masteryListData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticMasteryList *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticMasteriesWithLocale:(NSString*)locale version:(NSString*)version masteryListData:(NSString*)masteryListData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticMasteryList *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticMasteriesWithLocale:locale version:version masteryListData:masteryListData withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticMasteryByID:(NSInteger)masteryID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticMastery *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticMasteryByID:(NSInteger)masteryID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticMastery *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticMasteryByID:masteryID withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticMasteryByID:(NSInteger)masteryID withLocale:(NSString*)locale version:(NSString*)version masteryListData:(NSString*)masteryListData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticMastery *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticMasteryByID:(NSInteger)masteryID withLocale:(NSString*)locale version:(NSString*)version masteryListData:(NSString*)masteryListData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticMastery *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticMasteryByID:masteryID withLocale:locale version:version masteryListData:masteryListData withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticRealmWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticRealm *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticRealmWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticRealm *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticRealmWithAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticRunesWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticRuneList *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticRunesWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticRuneList *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticRunesWithAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticRunesWithLocale:(NSString*)locale version:(NSString*)version runeListData:(NSString*)runeListData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticRuneList *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticRunesWithLocale:(NSString*)locale version:(NSString*)version runeListData:(NSString*)runeListData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticRuneList *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticRunesWithLocale:locale version:version runeListData:runeListData withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticRuneByID:(NSInteger)runeID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticRune *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticRuneByID:(NSInteger)runeID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticRune *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticRuneByID:runeID withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticRuneByID:(NSInteger)runeID withLocale:(NSString*)locale version:(NSString*)version runeListData:(NSString*)runeListData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticRune *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticRuneByID:(NSInteger)runeID withLocale:(NSString*)locale version:(NSString*)version runeListData:(NSString*)runeListData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticRune *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticRuneByID:runeID withLocale:locale version:version runeListData:runeListData withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticSummonerSpellsWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticSummonerSpellList *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticSummonerSpellsWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticSummonerSpellList *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticSummonerSpellsWithAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticSummonerSpellsWithLocale:(NSString*)locale version:(NSString*)version dataById:(BOOL)dataById spellData:(NSString*)spellData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticSummonerSpellList *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticSummonerSpellsWithLocale:(NSString*)locale version:(NSString*)version dataById:(BOOL)dataById spellData:(NSString*)spellData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticSummonerSpellList *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticSummonerSpellsWithLocale:locale version:version dataById:dataById spellData:spellData withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticSummonerSpellByID:(NSInteger)summonerSpellID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticSummonerSpell *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticSummonerSpellByID:(NSInteger)summonerSpellID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticSummonerSpell *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticSummonerSpellByID:summonerSpellID withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getStaticSummonerSpellByID:(NSInteger)summonerSpellID withLocale:(NSString*)locale version:(NSString*)version dataById:(BOOL)dataById spellData:(NSString*)spellData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticSummonerSpell *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getStaticSummonerSpellByID:(NSInteger)summonerSpellID withLocale:(NSString*)locale version:(NSString*)version dataById:(BOOL)dataById spellData:(NSString*)spellData withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(StaticSummonerSpell *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticSummonerSpellByID:summonerSpellID withLocale:locale version:version dataById:dataById spellData:spellData withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getVersionWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSArray *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getVersionWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSArray *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getVersionWithAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getShardsWithSuccess:(void (^)(NSArray *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getShardsWithSuccess:(void (^)(NSArray *))success failure:(void (^)(NSError *))failure {
+    [[StatusService new] getShardsWithSuccess:success failure:failure];
 }
 
-- (void)getShardsForRegion:(RGRegion*)region success:(void (^)(ShardStatus *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getShardsForRegion:(RGRegion*)region success:(void (^)(ShardStatus *))success failure:(void (^)(NSError *))failure {
+    [[StatusService new] getShardsForRegion:region success:success failure:failure];
 }
 
-- (void)getMatchForMatchID:(long)matchID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(MatchDetail *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getMatchForMatchID:(long)matchID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(MatchDetail *))success failure:(void (^)(NSError *))failure {
+    [[MatchService new] getMatchForMatchID:matchID includeTimeline:NO withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getMatchForMatchID:(long)matchID includeTimeline:(BOOL)includeTimeine withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(MatchDetail *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getMatchForMatchID:(long)matchID includeTimeline:(BOOL)includeTimeine withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(MatchDetail *))success failure:(void (^)(NSError *))failure {
+    [[MatchService new] getMatchForMatchID:matchID includeTimeline:includeTimeine withAPIKey:key region:region success:success failure:failure];
 }
 
 - (void)getMatchHistoryForSummonerID:(long)summonerID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(PlayerHistory *))success failure:(void (^)(NSError *))failure

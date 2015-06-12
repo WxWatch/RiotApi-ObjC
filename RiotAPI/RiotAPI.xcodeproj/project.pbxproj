@@ -55,6 +55,10 @@
 		6C08426C1B0425980099EFC2 /* StaticMapData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C08426A1B0425980099EFC2 /* StaticMapData.m */; };
 		6C08426F1B0425BC0099EFC2 /* StaticMapDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C08426D1B0425BC0099EFC2 /* StaticMapDetails.h */; };
 		6C0842701B0425BC0099EFC2 /* StaticMapDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C08426E1B0425BC0099EFC2 /* StaticMapDetails.m */; };
+		6C15D5461B2B4DC30080584C /* StatusService.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C15D5441B2B4DC30080584C /* StatusService.h */; };
+		6C15D5471B2B4DC30080584C /* StatusService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15D5451B2B4DC30080584C /* StatusService.m */; };
+		6C15D54A1B2B4F4F0080584C /* MatchService.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C15D5481B2B4F4F0080584C /* MatchService.h */; };
+		6C15D54B1B2B4F4F0080584C /* MatchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15D5491B2B4F4F0080584C /* MatchService.m */; };
 		6C1BB1421B27D2230091D1A4 /* ChampionService.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C1BB1401B27D2230091D1A4 /* ChampionService.h */; };
 		6C1BB1431B27D2230091D1A4 /* ChampionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1BB1411B27D2230091D1A4 /* ChampionService.m */; };
 		6C2D04841B025E6800A2042D /* RiotAPI.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6C2D59FD1B014AB600F2F02A /* RiotAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -332,6 +336,10 @@
 		6C08426A1B0425980099EFC2 /* StaticMapData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticMapData.m; sourceTree = "<group>"; };
 		6C08426D1B0425BC0099EFC2 /* StaticMapDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticMapDetails.h; sourceTree = "<group>"; };
 		6C08426E1B0425BC0099EFC2 /* StaticMapDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticMapDetails.m; sourceTree = "<group>"; };
+		6C15D5441B2B4DC30080584C /* StatusService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusService.h; sourceTree = "<group>"; };
+		6C15D5451B2B4DC30080584C /* StatusService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusService.m; sourceTree = "<group>"; };
+		6C15D5481B2B4F4F0080584C /* MatchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchService.h; sourceTree = "<group>"; };
+		6C15D5491B2B4F4F0080584C /* MatchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchService.m; sourceTree = "<group>"; };
 		6C1BB1401B27D2230091D1A4 /* ChampionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChampionService.h; sourceTree = "<group>"; };
 		6C1BB1411B27D2230091D1A4 /* ChampionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChampionService.m; sourceTree = "<group>"; };
 		6C2D59FD1B014AB600F2F02A /* RiotAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RiotAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -994,6 +1002,10 @@
 				6C5B48251B293BA000E138A8 /* LeagueService.m */,
 				6CF49FC21B2A4B4E00316476 /* StaticDataService.h */,
 				6CF49FC31B2A4B4E00316476 /* StaticDataService.m */,
+				6C15D5441B2B4DC30080584C /* StatusService.h */,
+				6C15D5451B2B4DC30080584C /* StatusService.m */,
+				6C15D5481B2B4F4F0080584C /* MatchService.h */,
+				6C15D5491B2B4F4F0080584C /* MatchService.m */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -1107,6 +1119,7 @@
 				6C0842671B04255B0099EFC2 /* StaticLanguageStrings.h in Headers */,
 				6C0842271B041F770099EFC2 /* StaticPassive.h in Headers */,
 				6C8A157D1B02805E00961C36 /* ParticipantTimelineData.h in Headers */,
+				6C15D54A1B2B4F4F0080584C /* MatchService.h in Headers */,
 				6C5729681B0BF59600916066 /* RiotAPIController.h in Headers */,
 				6C4D6EF71B0312B80051833F /* RunePage.h in Headers */,
 				6C2D5A261B015B5700F2F02A /* NSDate+Utilities.h in Headers */,
@@ -1129,6 +1142,7 @@
 				6C2D5A031B014AB600F2F02A /* RiotAPI.h in Headers */,
 				6C4D6EF31B03129D0051833F /* RunePages.h in Headers */,
 				6C8A154D1B02778E00961C36 /* MatchDetail.h in Headers */,
+				6C15D5461B2B4DC30080584C /* StatusService.h in Headers */,
 				6C8A15511B02790B00961C36 /* Participant.h in Headers */,
 				6CE5A4681B068D8C004A4928 /* BaseService.h in Headers */,
 			);
@@ -1389,6 +1403,7 @@
 				6C2D5A2F1B01615500F2F02A /* Roster.m in Sources */,
 				6C4919271B07AAFA00C70C3A /* StaticMastery.m in Sources */,
 				6C0842541B0422BD0099EFC2 /* StaticItem.m in Sources */,
+				6C15D5471B2B4DC30080584C /* StatusService.m in Sources */,
 				6C8A156A1B027D0300961C36 /* ParticipantTimeline.m in Sources */,
 				6CD49F951B06F19F007CFDA6 /* NSDictionary+Utilities.m in Sources */,
 				6C5B48271B293BA000E138A8 /* LeagueService.m in Sources */,
@@ -1418,6 +1433,7 @@
 				6C0842381B0420A10099EFC2 /* StaticLevelTip.m in Sources */,
 				6C49193B1B07B21D00C70C3A /* StaticRuneList.m in Sources */,
 				6C8A155E1B027B1F00961C36 /* Timeline.m in Sources */,
+				6C15D54B1B2B4F4F0080584C /* MatchService.m in Sources */,
 				6C8A15A01B02B7D300961C36 /* AggregatedStats.m in Sources */,
 				6C4D6EE41B03112A0051833F /* Summoner.m in Sources */,
 				6C0842701B0425BC0099EFC2 /* StaticMapDetails.m in Sources */,

@@ -31,11 +31,17 @@
 }
 
 - (void)getChallengerLeagueWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(League *))success failure:(void (^)(NSError *))failure {
-    [self fireServiceWithRegion:region endpoint:@"challenger" params:nil success:success failure:failure];
+    [self fireServiceWithRegion:region endpoint:@"challenger" params:nil success:^(id response) {
+        League *league = [League objectWithDictionary:response];
+        success(league);
+    } failure:failure];
 }
 
 - (void)getMasterLeagueWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(League *))success failure:(void (^)(NSError *))failure {
-    [self fireServiceWithRegion:region endpoint:@"master" params:nil success:success failure:failure];
+    [self fireServiceWithRegion:region endpoint:@"master" params:nil success:^(id response) {
+        League *league = [League objectWithDictionary:response];
+        success(league);
+    } failure:failure];
 }
 
 - (NSString *)versionURL {

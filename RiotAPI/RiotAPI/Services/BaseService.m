@@ -18,7 +18,7 @@
 // /champion - EndpointURL
 // ?freetoplay=true - Parameters
 
-- (void)fireServiceWithRegion:(RGRegion *)region endpoint:(NSString*)endpoint params:(NSDictionary *)params success:(void (^)(id))success failure:(void (^)(NSError *))failure {
+- (void)fireServiceWithRegion:(RGRegion *)region endpoint:(NSString*)endpoint params:(NSDictionary *)params success:(void (^)(id response))success failure:(void (^)(NSError *error))failure {
     NSString *urlString = [self buildURLStringWithRegion:region endpoint:endpoint];
     
     NSMutableDictionary *paramDict = [NSMutableDictionary dictionary];
@@ -40,7 +40,7 @@
     }];
 }
 
-- (void)fireServiceWithRegion:(RGRegion *)region endpoint:(NSString*)endpoint paramArray:(NSArray *)params success:(void (^)(id))success failure:(void (^)(NSError *))failure {
+- (void)fireServiceWithRegion:(RGRegion *)region endpoint:(NSString*)endpoint paramArray:(NSArray *)params success:(void (^)(id response))success failure:(void (^)(NSError *error))failure {
     NSString *urlString = [self buildURLStringWithRegion:region endpoint:endpoint];
     urlString = [self appendArray:params toURLString:urlString];
     

@@ -16,8 +16,8 @@
 - (BOOL)isGlobal;
 - (NSString*)baseURL;
 
-- (void)fireServiceWithRegion:(RGRegion *)region endpoint:(NSString*)endpoint params:(NSDictionary *)params success:(void (^)(id))success failure:(void (^)(NSError *))failure;
-- (void)fireServiceWithRegion:(RGRegion *)region endpoint:(NSString*)endpoint paramArray:(NSArray *)params success:(void (^)(id))success failure:(void (^)(NSError *))failure;
+- (void)fireServiceWithRegion:(RGRegion *)region endpoint:(NSString*)endpoint params:(NSDictionary *)params success:(void (^)(id response))success failure:(void (^)(NSError *error))failure;
+- (void)fireServiceWithRegion:(RGRegion *)region endpoint:(NSString*)endpoint paramArray:(NSArray *)params success:(void (^)(id response))success failure:(void (^)(NSError *error))failure;
 
 - (NSString*)sanitizeBoolean:(BOOL)boolean;
 - (NSString*)appendArray:(NSArray*)params toURLString:(NSString*)urlString;
