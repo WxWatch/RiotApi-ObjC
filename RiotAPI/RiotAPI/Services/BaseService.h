@@ -21,5 +21,6 @@
 
 - (NSString*)sanitizeBoolean:(BOOL)boolean;
 - (NSString*)appendArray:(NSArray*)params toURLString:(NSString*)urlString;
+- (NSString*)commaSeperatedStringForArray:(NSArray*)array;
 
 @end

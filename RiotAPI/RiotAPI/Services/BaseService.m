@@ -80,6 +80,19 @@
     return [NSString stringWithFormat:@"%@%@", urlString, string];
 }
 
+- (NSString*)commaSeperatedStringForArray:(NSArray*)array {
+    NSMutableString *string = [NSMutableString string];
+    for (NSString *param in array) {
+        if (array.lastObject == param) {
+            [string appendString:param];
+        } else {
+            [string appendFormat:@"%@,", param];
+        }
+    }
+    
+    return [NSString stringWithString:string];
+}
+
 - (NSString *)sanitizeBoolean:(BOOL)boolean {
     if (boolean) {
         return @"true";

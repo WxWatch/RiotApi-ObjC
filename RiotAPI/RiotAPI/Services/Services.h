@@ -14,3 +14,7 @@
 #import "StaticDataService.h"
 #import "StatusService.h"
 #import "MatchService.h"
+#import "MatchHistoryService.h"
+#import "StatsService.h"
+#import "SummonerService.h"
+#import "TeamService.h"

@@ -11,7 +11,7 @@
 @implementation MatchService
 
 - (void)getMatchForMatchID:(long)matchID includeTimeline:(BOOL)includeTimeine withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(MatchDetail *))success failure:(void (^)(NSError *))failure {
-    NSString *endpoint = [NSString stringWithFormat:@"match/%ld", matchID];
+    NSString *endpoint = [NSString stringWithFormat:@"%ld", matchID];
     
     NSDictionary *params = @{ @"includeTimeline": [self sanitizeBoolean:includeTimeine] };
     
@@ -22,7 +22,7 @@
 }
 
 - (NSString *)versionURL {
-    return @"/api/lol/%@/v2.2/";
+    return @"/api/lol/%@/v2.2/match/";
 }
 
 - (BOOL)isGlobal {

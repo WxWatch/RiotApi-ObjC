@@ -184,69 +184,56 @@
     [[MatchService new] getMatchForMatchID:matchID includeTimeline:includeTimeine withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getMatchHistoryForSummonerID:(long)summonerID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(PlayerHistory *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getMatchHistoryForSummonerID:(long)summonerID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(PlayerHistory *))success failure:(void (^)(NSError *))failure {
+    [[MatchHistoryService new] getMatchHistoryForSummonerID:summonerID championIDs:nil rankedQueues:nil beginIndex:NSIntegerMax endIndex:NSIntegerMax withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getMatchHistoryForSummonerID:(long)summonerID championIDs:(NSArray*)championIDs rankedQueues:(NSArray*)rankedQueues beginIndex:(NSInteger)beginIndex endIndex:(NSInteger)endIndex withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(PlayerHistory *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getMatchHistoryForSummonerID:(long)summonerID championIDs:(NSArray*)championIDs rankedQueues:(NSArray*)rankedQueues beginIndex:(NSInteger)beginIndex endIndex:(NSInteger)endIndex withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(PlayerHistory *))success failure:(void (^)(NSError *))failure {
+    [[MatchHistoryService new] getMatchHistoryForSummonerID:summonerID championIDs:championIDs rankedQueues:rankedQueues beginIndex:beginIndex endIndex:endIndex withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getRankedStatsForSummonerID:(long)summonerID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(RankedStats *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getRankedStatsForSummonerID:(long)summonerID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(RankedStats *))success failure:(void (^)(NSError *))failure {
+    [[StatsService new] getRankedStatsForSummonerID:summonerID season:nil withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getRankedStatsForSummonerID:(long)summonerID season:(NSString*)season withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(RankedStats *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getRankedStatsForSummonerID:(long)summonerID season:(NSString*)season withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(RankedStats *))success failure:(void (^)(NSError *))failure {
+    [[StatsService new] getRankedStatsForSummonerID:summonerID season:season withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getSummaryStatsForSummonerID:(long)summonerID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(PlayerStatsSummaryList *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getSummaryStatsForSummonerID:(long)summonerID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(PlayerStatsSummaryList *))success failure:(void (^)(NSError *))failure {
+    [[StatsService new] getSummaryStatsForSummonerID:summonerID season:nil withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getSummaryStatsForSummonerID:(long)summonerID season:(NSString*)season withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(PlayerStatsSummaryList *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getSummaryStatsForSummonerID:(long)summonerID season:(NSString*)season withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(PlayerStatsSummaryList *))success failure:(void (^)(NSError *))failure {
+    [[StatsService new] getSummaryStatsForSummonerID:summonerID season:season withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getSummonersForSummonerNames:(NSArray*)summonerNames withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getSummonersForSummonerNames:(NSArray*)summonerNames withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
+    [[SummonerService new] getSummonersForSummonerNames:summonerNames withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getSummonersForSummonerIDs:(NSArray*)summonerIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getSummonersForSummonerIDs:(NSArray*)summonerIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
+    [[SummonerService new] getSummonersForSummonerIDs:summonerIDs withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getSummonerMasteriesForSummonerIDs:(NSArray*)summonerIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getSummonerMasteriesForSummonerIDs:(NSArray*)summonerIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
+    [[SummonerService new] getSummonerMasteriesForSummonerIDs:summonerIDs withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getSummonerNamesForSummonerIDs:(NSArray*)summonerIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getSummonerNamesForSummonerIDs:(NSArray*)summonerIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
+    [[SummonerService new] getSummonerNamesForSummonerIDs:summonerIDs withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getSummonerRunesForSummonerIDs:(NSArray*)summonerIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getSummonerRunesForSummonerIDs:(NSArray*)summonerIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
+    [[SummonerService new] getSummonerRunesForSummonerIDs:summonerIDs withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getTeamsForSummonerIDs:(NSArray*)summonerIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getTeamsForSummonerIDs:(NSArray*)summonerIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
+    [[TeamService new] getTeamsForSummonerIDs:summonerIDs withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getTeamsForTeamIDs:(NSArray*)teamIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure
-{
-	
+- (void)getTeamsForTeamIDs:(NSArray*)teamIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
+    [[TeamService new] getTeamsForTeamIDs:teamIDs withAPIKey:key region:region success:success failure:failure];
 }
 
 
