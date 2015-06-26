@@ -15,4 +15,8 @@
     _gameList = [gameList arrayOfObjectsWithClass:[FeaturedGameInfo class]];
 }
 
+- (NSString *)description {
+    return [NSString stringWithFormat:@"<FeaturedGames: %lu Games>", (unsigned long)self.gameList.count];
+}
+
 @end

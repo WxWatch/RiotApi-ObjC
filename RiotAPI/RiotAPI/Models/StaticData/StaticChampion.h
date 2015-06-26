@@ -17,9 +17,9 @@
 
 @interface StaticChampion : BaseObject
 
-@property (nonatomic, strong) NSArray *allyTips;
+@property (nonatomic, strong) NSArray *allytips;
 @property (nonatomic, strong) NSString *blurb;
-@property (nonatomic, strong) NSArray *enemyTips;
+@property (nonatomic, strong) NSArray *enemytips;
 @property (nonatomic, assign) NSInteger id;
 @property (nonatomic, strong) StaticImage *image;
 @property (nonatomic, strong) StaticInfo *info;

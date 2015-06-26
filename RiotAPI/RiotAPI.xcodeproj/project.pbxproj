@@ -67,6 +67,7 @@
 		6C15D5571B2B90200080584C /* SummonerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15D5551B2B90200080584C /* SummonerService.m */; };
 		6C15D55A1B2B92420080584C /* TeamService.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C15D5581B2B92420080584C /* TeamService.h */; };
 		6C15D55B1B2B92420080584C /* TeamService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15D5591B2B92420080584C /* TeamService.m */; };
+		6C15D55E1B2B93600080584C /* ChampionServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15D55D1B2B93600080584C /* ChampionServiceTests.m */; };
 		6C1BB1421B27D2230091D1A4 /* ChampionService.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C1BB1401B27D2230091D1A4 /* ChampionService.h */; };
 		6C1BB1431B27D2230091D1A4 /* ChampionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1BB1411B27D2230091D1A4 /* ChampionService.m */; };
 		6C2D04841B025E6800A2042D /* RiotAPI.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6C2D59FD1B014AB600F2F02A /* RiotAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -93,6 +94,8 @@
 		6C2D5A401B01675900F2F02A /* LeagueEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2D5A3E1B01675900F2F02A /* LeagueEntry.m */; };
 		6C2D5A431B01680100F2F02A /* MiniSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2D5A411B01680000F2F02A /* MiniSeries.h */; };
 		6C2D5A441B01680100F2F02A /* MiniSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2D5A421B01680100F2F02A /* MiniSeries.m */; };
+		6C30BCFA1B35F2D2002235BF /* StaticDataServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C30BCF91B35F2D2002235BF /* StaticDataServiceTests.m */; };
+		6C3A8EA11B2F5D7C00658DBF /* LeagueServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3A8EA01B2F5D7C00658DBF /* LeagueServiceTests.m */; };
 		6C4919221B07AA4A00C70C3A /* StaticMasteryList.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4919201B07AA4A00C70C3A /* StaticMasteryList.h */; };
 		6C4919231B07AA4A00C70C3A /* StaticMasteryList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4919211B07AA4A00C70C3A /* StaticMasteryList.m */; };
 		6C4919261B07AAFA00C70C3A /* StaticMastery.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4919241B07AAFA00C70C3A /* StaticMastery.h */; };
@@ -171,6 +174,11 @@
 		6C5B48231B2939FC00E138A8 /* GameService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B48211B2939FC00E138A8 /* GameService.m */; };
 		6C5B48261B293BA000E138A8 /* LeagueService.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C5B48241B293BA000E138A8 /* LeagueService.h */; };
 		6C5B48271B293BA000E138A8 /* LeagueService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B48251B293BA000E138A8 /* LeagueService.m */; };
+		6C6B1E071B330F1400E606AD /* StatusServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6B1E061B330F1400E606AD /* StatusServiceTests.m */; };
+		6C6B1E091B330FE600E606AD /* MatchHistoryServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6B1E081B330FE600E606AD /* MatchHistoryServiceTests.m */; };
+		6C6B1E0B1B33112500E606AD /* MatchServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6B1E0A1B33112500E606AD /* MatchServiceTests.m */; };
+		6C6B1E0F1B33550600E606AD /* StatsServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6B1E0E1B33550600E606AD /* StatsServiceTests.m */; };
+		6C6B1E111B3356EA00E606AD /* SummonerServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6B1E101B3356EA00E606AD /* SummonerServiceTests.m */; };
 		6C75CB0F1B0BC26700954E40 /* RGRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C75CB0D1B0BC26700954E40 /* RGRegion.h */; };
 		6C75CB101B0BC26700954E40 /* RGRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C75CB0E1B0BC26700954E40 /* RGRegion.m */; };
 		6C8A154D1B02778E00961C36 /* MatchDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A154B1B02778E00961C36 /* MatchDetail.h */; };
@@ -247,6 +255,11 @@
 		6C8A15DF1B03104F00961C36 /* MetaChampionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15DD1B03104F00961C36 /* MetaChampionList.m */; };
 		6C8A15E21B03107E00961C36 /* MetaChampion.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8A15E01B03107D00961C36 /* MetaChampion.h */; };
 		6C8A15E31B03107E00961C36 /* MetaChampion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A15E11B03107D00961C36 /* MetaChampion.m */; };
+		6C8C019B1B34C17F00C0C730 /* TeamServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8C019A1B34C17F00C0C730 /* TeamServiceTests.m */; };
+		6CAF5A4F1B2F59CF00DCBF2D /* CurrentGameServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF5A4E1B2F59CF00DCBF2D /* CurrentGameServiceTests.m */; };
+		6CAF5A511B2F5AED00DCBF2D /* FeaturedGamesServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF5A501B2F5AED00DCBF2D /* FeaturedGamesServiceTests.m */; };
+		6CAF5A531B2F5B9300DCBF2D /* BaseServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF5A521B2F5B9300DCBF2D /* BaseServiceTests.m */; };
+		6CAF5A551B2F5BFF00DCBF2D /* GameServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF5A541B2F5BFF00DCBF2D /* GameServiceTests.m */; };
 		6CD49F941B06F19F007CFDA6 /* NSDictionary+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CD49F921B06F19F007CFDA6 /* NSDictionary+Utilities.h */; };
 		6CD49F951B06F19F007CFDA6 /* NSDictionary+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD49F931B06F19F007CFDA6 /* NSDictionary+Utilities.m */; };
 		6CD49F991B06F360007CFDA6 /* FeaturedGames.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CD49F971B06F35F007CFDA6 /* FeaturedGames.h */; };
@@ -356,6 +369,7 @@
 		6C15D5551B2B90200080584C /* SummonerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummonerService.m; sourceTree = "<group>"; };
 		6C15D5581B2B92420080584C /* TeamService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamService.h; sourceTree = "<group>"; };
 		6C15D5591B2B92420080584C /* TeamService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamService.m; sourceTree = "<group>"; };
+		6C15D55D1B2B93600080584C /* ChampionServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChampionServiceTests.m; sourceTree = "<group>"; };
 		6C1BB1401B27D2230091D1A4 /* ChampionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChampionService.h; sourceTree = "<group>"; };
 		6C1BB1411B27D2230091D1A4 /* ChampionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChampionService.m; sourceTree = "<group>"; };
 		6C2D59FD1B014AB600F2F02A /* RiotAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RiotAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -384,6 +398,8 @@
 		6C2D5A3E1B01675900F2F02A /* LeagueEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeagueEntry.m; sourceTree = "<group>"; };
 		6C2D5A411B01680000F2F02A /* MiniSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniSeries.h; sourceTree = "<group>"; };
 		6C2D5A421B01680100F2F02A /* MiniSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniSeries.m; sourceTree = "<group>"; };
+		6C30BCF91B35F2D2002235BF /* StaticDataServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticDataServiceTests.m; sourceTree = "<group>"; };
+		6C3A8EA01B2F5D7C00658DBF /* LeagueServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeagueServiceTests.m; sourceTree = "<group>"; };
 		6C4919201B07AA4A00C70C3A /* StaticMasteryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticMasteryList.h; sourceTree = "<group>"; };
 		6C4919211B07AA4A00C70C3A /* StaticMasteryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticMasteryList.m; sourceTree = "<group>"; };
 		6C4919241B07AAFA00C70C3A /* StaticMastery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticMastery.h; sourceTree = "<group>"; };
@@ -463,6 +479,11 @@
 		6C5B48211B2939FC00E138A8 /* GameService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameService.m; sourceTree = "<group>"; };
 		6C5B48241B293BA000E138A8 /* LeagueService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeagueService.h; sourceTree = "<group>"; };
 		6C5B48251B293BA000E138A8 /* LeagueService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeagueService.m; sourceTree = "<group>"; };
+		6C6B1E061B330F1400E606AD /* StatusServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusServiceTests.m; sourceTree = "<group>"; };
+		6C6B1E081B330FE600E606AD /* MatchHistoryServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchHistoryServiceTests.m; sourceTree = "<group>"; };
+		6C6B1E0A1B33112500E606AD /* MatchServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchServiceTests.m; sourceTree = "<group>"; };
+		6C6B1E0E1B33550600E606AD /* StatsServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsServiceTests.m; sourceTree = "<group>"; };
+		6C6B1E101B3356EA00E606AD /* SummonerServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummonerServiceTests.m; sourceTree = "<group>"; };
 		6C75CB0D1B0BC26700954E40 /* RGRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGRegion.h; sourceTree = "<group>"; };
 		6C75CB0E1B0BC26700954E40 /* RGRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGRegion.m; sourceTree = "<group>"; };
 		6C8A154B1B02778E00961C36 /* MatchDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchDetail.h; sourceTree = "<group>"; };
@@ -539,6 +560,12 @@
 		6C8A15DD1B03104F00961C36 /* MetaChampionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetaChampionList.m; sourceTree = "<group>"; };
 		6C8A15E01B03107D00961C36 /* MetaChampion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaChampion.h; sourceTree = "<group>"; };
 		6C8A15E11B03107D00961C36 /* MetaChampion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetaChampion.m; sourceTree = "<group>"; };
+		6C8C019A1B34C17F00C0C730 /* TeamServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamServiceTests.m; sourceTree = "<group>"; };
+		6CAF5A4E1B2F59CF00DCBF2D /* CurrentGameServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentGameServiceTests.m; sourceTree = "<group>"; };
+		6CAF5A501B2F5AED00DCBF2D /* FeaturedGamesServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeaturedGamesServiceTests.m; sourceTree = "<group>"; };
+		6CAF5A521B2F5B9300DCBF2D /* BaseServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseServiceTests.m; sourceTree = "<group>"; };
+		6CAF5A541B2F5BFF00DCBF2D /* GameServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameServiceTests.m; sourceTree = "<group>"; };
+		6CAF5A561B2F5CCA00DCBF2D /* BaseServiceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseServiceTests.h; sourceTree = "<group>"; };
 		6CD49F921B06F19F007CFDA6 /* NSDictionary+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Utilities.h"; sourceTree = "<group>"; };
 		6CD49F931B06F19F007CFDA6 /* NSDictionary+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Utilities.m"; sourceTree = "<group>"; };
 		6CD49F971B06F35F007CFDA6 /* FeaturedGames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeaturedGames.h; sourceTree = "<group>"; };
@@ -662,6 +689,27 @@
 			path = StaticData;
 			sourceTree = "<group>";
 		};
+		6C15D55C1B2B934E0080584C /* ServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CAF5A561B2F5CCA00DCBF2D /* BaseServiceTests.h */,
+				6CAF5A521B2F5B9300DCBF2D /* BaseServiceTests.m */,
+				6C15D55D1B2B93600080584C /* ChampionServiceTests.m */,
+				6CAF5A4E1B2F59CF00DCBF2D /* CurrentGameServiceTests.m */,
+				6CAF5A501B2F5AED00DCBF2D /* FeaturedGamesServiceTests.m */,
+				6CAF5A541B2F5BFF00DCBF2D /* GameServiceTests.m */,
+				6C3A8EA01B2F5D7C00658DBF /* LeagueServiceTests.m */,
+				6C30BCF91B35F2D2002235BF /* StaticDataServiceTests.m */,
+				6C6B1E061B330F1400E606AD /* StatusServiceTests.m */,
+				6C6B1E0A1B33112500E606AD /* MatchServiceTests.m */,
+				6C6B1E081B330FE600E606AD /* MatchHistoryServiceTests.m */,
+				6C6B1E0E1B33550600E606AD /* StatsServiceTests.m */,
+				6C6B1E101B3356EA00E606AD /* SummonerServiceTests.m */,
+				6C8C019A1B34C17F00C0C730 /* TeamServiceTests.m */,
+			);
+			path = ServiceTests;
+			sourceTree = "<group>";
+		};
 		6C2D59F31B014AB600F2F02A = {
 			isa = PBXGroup;
 			children = (
@@ -708,6 +756,7 @@
 			isa = PBXGroup;
 			children = (
 				6C2D5A0F1B014AB600F2F02A /* RiotAPITests.m */,
+				6C15D55C1B2B934E0080584C /* ServiceTests */,
 				6C4919481B07BA7100C70C3A /* ModelTests */,
 				6C2D5A0D1B014AB600F2F02A /* Supporting Files */,
 			);
@@ -1481,18 +1530,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C49197F1B07C26800C70C3A /* LeagueTests.m in Sources */,
+				6C3A8EA11B2F5D7C00658DBF /* LeagueServiceTests.m in Sources */,
 				6C4919851B07C77F00C70C3A /* MatchTests.m in Sources */,
+				6C6B1E111B3356EA00E606AD /* SummonerServiceTests.m in Sources */,
+				6C6B1E071B330F1400E606AD /* StatusServiceTests.m in Sources */,
+				6CAF5A4F1B2F59CF00DCBF2D /* CurrentGameServiceTests.m in Sources */,
+				6C6B1E0F1B33550600E606AD /* StatsServiceTests.m in Sources */,
 				6C4919751B07BF9200C70C3A /* ChampionTests.m in Sources */,
+				6CAF5A531B2F5B9300DCBF2D /* BaseServiceTests.m in Sources */,
 				6C49197D1B07C20000C70C3A /* GameTests.m in Sources */,
 				6C2D5A101B014AB600F2F02A /* RiotAPITests.m in Sources */,
+				6CAF5A551B2F5BFF00DCBF2D /* GameServiceTests.m in Sources */,
 				6C49198D1B07C98900C70C3A /* TeamTests.m in Sources */,
+				6CAF5A511B2F5AED00DCBF2D /* FeaturedGamesServiceTests.m in Sources */,
+				6C15D55E1B2B93600080584C /* ChampionServiceTests.m in Sources */,
 				6C4919891B07C84200C70C3A /* StatsTests.m in Sources */,
 				6C4919811B07C41300C70C3A /* StaticDataTests.m in Sources */,
 				6C49198B1B07C8BD00C70C3A /* SummonerTests.m in Sources */,
 				6C4919871B07C7F800C70C3A /* MatchHistoryTests.m in Sources */,
+				6C8C019B1B34C17F00C0C730 /* TeamServiceTests.m in Sources */,
 				6C4919791B07C11A00C70C3A /* CurrentGameTests.m in Sources */,
 				6C49197B1B07C1A300C70C3A /* FeaturedGameTests.m in Sources */,
+				6C6B1E0B1B33112500E606AD /* MatchServiceTests.m in Sources */,
+				6C30BCFA1B35F2D2002235BF /* StaticDataServiceTests.m in Sources */,
 				6C4919831B07C68500C70C3A /* StatusTests.m in Sources */,
+				6C6B1E091B330FE600E606AD /* MatchHistoryServiceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -50,16 +50,5 @@
     }];
 }
 
-- (void)testNetwork {
-    XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [[ChampionService new] getChampionByID:111 withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(MetaChampion *list) {
-        NSLog(@"%@", list);
-        [expectation fulfill];
-    } failure:^(NSError *error) {
-        NSLog(@"Error: %@", error);
-        [expectation fulfill];
-    }];
-    [self waitForExpectationsWithTimeout:10.0 handler:nil];
-}
 
 @end

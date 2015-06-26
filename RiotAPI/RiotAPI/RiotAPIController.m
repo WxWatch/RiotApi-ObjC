@@ -52,12 +52,12 @@
     [[LeagueService new] getLeagueEntriesForTeamIDs:teamIDs withAPIKey:key region:region success:success failure:failure];
 }
 
-- (void)getChallengerLeagueWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(League *))success failure:(void (^)(NSError *))failure {
-    [[LeagueService new] getChallengerLeagueWithAPIKey:key region:region success:success failure:failure];
+- (void)getChallengerLeagueWithQueueType:(NSString*)queueType region:(RGRegion*)region success:(void (^)(League *))success failure:(void (^)(NSError *))failure {
+    [[LeagueService new] getChallengerLeagueWithQueueType:queueType region:region success:success failure:failure];
 }
 
-- (void)getMasterLeagueWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(League *))success failure:(void (^)(NSError *))failure {
-    [[LeagueService new] getMasterLeagueWithAPIKey:key region:region success:success failure:failure];
+- (void)getMasterLeagueWithQueueType:(NSString*)queueType region:(RGRegion*)region success:(void (^)(League *))success failure:(void (^)(NSError *))failure {
+    [[LeagueService new] getMasterLeagueWithQueueType:queueType region:region success:success failure:failure];
 }
 
 - (void)getStaticChampionsWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(StaticChampionList *))success failure:(void (^)(NSError *))failure {

@@ -69,11 +69,11 @@
 
 - (NSString*)appendArray:(NSArray*)params toURLString:(NSString*)urlString {
     NSMutableString *string = [NSMutableString string];
-    for (NSString *param in params) {
+    for (NSNumber *param in params) {
         if (params.lastObject == param) {
-            [string appendString:param];
+            [string appendString:[param stringValue]];
         } else {
-            [string appendFormat:@"%@,", param];
+            [string appendFormat:@"%@,", [param stringValue]];
         }
     }
     
@@ -82,11 +82,18 @@
 
 - (NSString*)commaSeperatedStringForArray:(NSArray*)array {
     NSMutableString *string = [NSMutableString string];
-    for (NSString *param in array) {
-        if (array.lastObject == param) {
-            [string appendString:param];
+    for (id param in array) {
+        NSString *paramString;
+        if ([param isKindOfClass:[NSNumber class]]) {
+            paramString = [param stringValue];
         } else {
-            [string appendFormat:@"%@,", param];
+            paramString = param;
+        }
+
+        if (array.lastObject == param) {
+            [string appendString:paramString];
+        } else {
+            [string appendFormat:@"%@,", paramString];
         }
     }
     

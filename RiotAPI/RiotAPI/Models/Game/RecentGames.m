@@ -15,4 +15,8 @@
     _games = [games arrayOfObjectsWithClass:[RecentGame class]];
 }
 
+- (NSString *)description {
+    return [NSString stringWithFormat:@"<RecentGames: %lu Games>", (unsigned long)self.games.count];
+}
+
 @end
