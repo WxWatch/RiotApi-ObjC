@@ -29,7 +29,10 @@
 
 @interface RiotAPIController : NSObject
 
-///Instance Methods
+///Initialization Methods
++ (instancetype)initializeWithAPIKey:(NSString*)apiKey;
++ (instancetype)initializeWithBaseURLString:(NSString*)baseURLString;
+
 ///Champion
 - (void)getChampionsWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(MetaChampionList *))success failure:(void (^)(NSError *))failure;
 - (void)getChampionsFreeToPlay:(BOOL)freeToPlay withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(MetaChampionList *))success failure:(void (^)(NSError *))failure;

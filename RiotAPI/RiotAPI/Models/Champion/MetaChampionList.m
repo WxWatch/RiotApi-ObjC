@@ -7,7 +7,6 @@
 //
 
 #import "MetaChampionList.h"
-#import "NSArray+Utilities.h"
 
 @implementation MetaChampionList
 

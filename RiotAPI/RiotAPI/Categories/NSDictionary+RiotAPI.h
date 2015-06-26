@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (Utilities)
+@interface NSDictionary (RiotAPI)
 
 - (NSDictionary *)dictionaryOfObjectsWithClass:(Class)objectClass;
 

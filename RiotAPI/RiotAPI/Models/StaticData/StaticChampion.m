@@ -7,7 +7,6 @@
 //
 
 #import "StaticChampion.h"
-#import "NSArray+Utilities.h"
 
 @implementation StaticChampion
 

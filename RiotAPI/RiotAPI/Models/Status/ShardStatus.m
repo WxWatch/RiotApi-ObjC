@@ -7,7 +7,6 @@
 //
 
 #import "ShardStatus.h"
-#import "NSArray+Utilities.h"
 
 @implementation ShardStatus
 

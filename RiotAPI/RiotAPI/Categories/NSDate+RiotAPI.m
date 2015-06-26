@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 James Glenn. All rights reserved.
 //
 
-#import "NSDate+Utilities.h"
+#import "NSDate+RiotAPI.h"
 
-@implementation NSDate (Utilities)
+@implementation NSDate (RiotAPI)
 
 + (instancetype)dateWithMillisecondsSince1970:(long)milliseconds {
     long seconds = milliseconds/1000;

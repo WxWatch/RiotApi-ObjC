@@ -7,7 +7,6 @@
 //
 
 #import "CurrentGameParticipant.h"
-#import "NSArray+Utilities.h"
 
 @implementation CurrentGameParticipant
 

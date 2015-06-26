@@ -7,7 +7,6 @@
 //
 
 #import "StaticChampionSpell.h"
-#import "NSArray+Utilities.h"
 
 @implementation StaticChampionSpell
 

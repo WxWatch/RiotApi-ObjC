@@ -7,8 +7,6 @@
 //
 
 #import "Frame.h"
-#import "NSArray+Utilities.h"
-#import "NSDictionary+Utilities.h"
 
 @implementation Frame
 

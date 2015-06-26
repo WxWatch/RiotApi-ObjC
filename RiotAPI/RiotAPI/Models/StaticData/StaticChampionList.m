@@ -7,7 +7,6 @@
 //
 
 #import "StaticChampionList.h"
-#import "NSDictionary+Utilities.h"
 
 @implementation StaticChampionList
 

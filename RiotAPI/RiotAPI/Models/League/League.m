@@ -7,7 +7,6 @@
 //
 
 #import "League.h"
-#import "NSArray+Utilities.h"
 
 @implementation League
 

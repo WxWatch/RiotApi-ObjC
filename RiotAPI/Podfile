@@ -1,8 +1,10 @@
 platform :ios, "8.0"
 
 pod "AFNetworking"
+pod "Lockbox"
 
 target :RiotAPITests, :exclusive => true do
   # pod 'Kiwi'
   pod "AFNetworking"
+  pod "Lockbox"
 end

@@ -7,7 +7,6 @@
 //
 
 #import "PlayerStatsSummaryList.h"
-#import "NSArray+Utilities.h"
 
 @implementation PlayerStatsSummaryList
 

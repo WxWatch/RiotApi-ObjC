@@ -7,7 +7,6 @@
 //
 
 #import "ParticipantTeam.h"
-#import "NSArray+Utilities.h"
 
 @implementation ParticipantTeam
 

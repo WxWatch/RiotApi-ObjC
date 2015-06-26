@@ -7,8 +7,8 @@
 //
 
 #import "MatchDetail.h"
-#import "NSDate+Utilities.h"
-#import "NSArray+Utilities.h"
+#import "NSDate+RiotAPI.h"
+#import "NSArray+RiotAPI.h"
 
 @implementation MatchDetail
 

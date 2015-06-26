@@ -7,8 +7,6 @@
 //
 
 #import "StaticItemList.h"
-#import "NSDictionary+Utilities.h"
-#import "NSArray+Utilities.h"
 
 @implementation StaticItemList
 

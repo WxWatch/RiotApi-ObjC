@@ -7,7 +7,6 @@
 //
 
 #import "Roster.h"
-#import "NSArray+Utilities.h"
 
 @implementation Roster
 

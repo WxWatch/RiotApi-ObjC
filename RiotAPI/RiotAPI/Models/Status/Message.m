@@ -7,7 +7,6 @@
 //
 
 #import "Message.h"
-#import "NSArray+Utilities.h"
 
 @implementation Message
 

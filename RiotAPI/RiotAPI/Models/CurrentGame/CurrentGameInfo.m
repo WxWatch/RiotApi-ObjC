@@ -7,7 +7,6 @@
 //
 
 #import "CurrentGameInfo.h"
-#import "NSArray+Utilities.h"
 
 @implementation CurrentGameInfo
 

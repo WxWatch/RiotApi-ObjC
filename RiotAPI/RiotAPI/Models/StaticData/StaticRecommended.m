@@ -7,7 +7,6 @@
 //
 
 #import "StaticRecommended.h"
-#import "NSArray+Utilities.h"
 
 @implementation StaticRecommended
 

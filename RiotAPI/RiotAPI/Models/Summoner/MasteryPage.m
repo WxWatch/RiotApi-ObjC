@@ -7,7 +7,6 @@
 //
 
 #import "MasteryPage.h"
-#import "NSArray+Utilities.h"
 
 @implementation MasteryPage
 

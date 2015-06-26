@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 James Glenn. All rights reserved.
 //
 
-#import "NSDictionary+Utilities.h"
+#import "NSDictionary+RiotAPI.h"
 
-@implementation NSDictionary (Utilities)
+@implementation NSDictionary (RiotAPI)
 
 - (NSDictionary *)dictionaryOfObjectsWithClass:(Class)objectClass {
     NSMutableDictionary *mutableDict = [NSMutableDictionary new];

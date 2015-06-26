@@ -7,7 +7,6 @@
 //
 
 #import "Timeline.h"
-#import "NSArray+Utilities.h"
 
 @implementation Timeline
 

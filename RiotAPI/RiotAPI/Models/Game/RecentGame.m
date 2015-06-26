@@ -7,7 +7,6 @@
 //
 
 #import "RecentGame.h"
-#import "NSArray+Utilities.h"
 
 @implementation RecentGame
 

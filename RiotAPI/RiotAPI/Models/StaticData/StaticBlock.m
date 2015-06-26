@@ -7,7 +7,6 @@
 //
 
 #import "StaticBlock.h"
-#import "NSArray+Utilities.h"
 
 @implementation StaticBlock
 

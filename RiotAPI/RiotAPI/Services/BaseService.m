@@ -8,6 +8,8 @@
 
 #import "BaseService.h"
 #import "MasteryPages.h"
+#import "NSUserDefaults+RiotAPI.h"
+#import <Lockbox/Lockbox.h>
 
 @implementation BaseService
 
@@ -26,9 +28,10 @@
         paramDict = [params mutableCopy];
     }
 
-    [paramDict setObject:@"" forKey:@"api_key"];
-    
-    NSLog(@"%@", paramDict);
+    BOOL usesCustomURL = [NSUserDefaults usesCustomURL];
+    if (!usesCustomURL) {
+        [paramDict setObject:[Lockbox stringForKey:@"com.wxwatch.riotapi.apikey"] forKey:@"api_key"];
+    }
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     [manager GET:urlString parameters:paramDict success:^(AFHTTPRequestOperation *operation, id responseObject) {
@@ -44,8 +47,12 @@
     NSString *urlString = [self buildURLStringWithRegion:region endpoint:endpoint];
     urlString = [self appendArray:params toURLString:urlString];
     
-    NSDictionary *paramDict = @{ @"api_key": @"" };
-        
+    NSDictionary *paramDict = nil;
+    BOOL usesCustomURL = [NSUserDefaults usesCustomURL];
+    if (!usesCustomURL) {
+        paramDict = @{ @"api_key": [Lockbox stringForKey:@"com.wxwatch.riotapi.apikey"] };
+    }
+    
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     [manager GET:urlString parameters:paramDict success:^(AFHTTPRequestOperation *operation, id responseObject) {
         success(responseObject);
@@ -55,16 +62,28 @@
 }
 
 - (NSString*)buildURLStringWithRegion:(RGRegion*)region endpoint:(NSString*)endpoint {
-    NSString *baseurl = [self isGlobal] ? @"https://global.api.pvp.net" : [region regionBaseURLString];
-    if ([self baseURL]) {
-        baseurl = [self baseURL];
-    }
+    NSString *baseurl = [self buildBaseURLFromRegion:region];
     
     NSString *versionURL = [NSString stringWithFormat:self.versionURL, region.apiParam];
     
     NSString *requestString = [NSString stringWithFormat:@"%@%@%@", baseurl, versionURL, endpoint];
     
     return requestString;
+}
+
+- (NSString*)buildBaseURLFromRegion:(RGRegion*)region {
+    NSString *baseURL = nil;
+    
+    BOOL usesCustomURL = [NSUserDefaults usesCustomURL];
+    if (usesCustomURL) {
+        baseURL = [NSUserDefaults customURLString];
+    } else if ([self baseURL]) {
+        baseURL = [self baseURL];
+    } else {
+        baseURL = [self isGlobal] ? @"https://global.api.pvp.net" : [region regionBaseURLString];
+    }
+    
+    return baseURL;
 }
 
 - (NSString*)appendArray:(NSArray*)params toURLString:(NSString*)urlString {

@@ -7,7 +7,6 @@
 //
 
 #import "RankedStats.h"
-#import "NSArray+Utilities.h"
 
 @implementation RankedStats
 

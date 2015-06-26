@@ -48,3 +48,9 @@
 #define COCOAPODS_VERSION_MINOR_AFNetworking_UIKit 5
 #define COCOAPODS_VERSION_PATCH_AFNetworking_UIKit 3
 
+// Lockbox
+#define COCOAPODS_POD_AVAILABLE_Lockbox
+#define COCOAPODS_VERSION_MAJOR_Lockbox 2
+#define COCOAPODS_VERSION_MINOR_Lockbox 1
+#define COCOAPODS_VERSION_PATCH_Lockbox 0
+

@@ -7,7 +7,6 @@
 //
 
 #import "Incident.h"
-#import "NSArray+Utilities.h"
 
 @implementation Incident
 

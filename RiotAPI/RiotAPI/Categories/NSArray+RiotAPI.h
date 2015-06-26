@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (Utilities)
+@interface NSArray (RiotAPI)
 
 - (NSArray*)arrayOfObjectsWithClass:(Class)objectClass;
 

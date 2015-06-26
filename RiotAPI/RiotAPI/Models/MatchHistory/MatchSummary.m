@@ -7,7 +7,6 @@
 //
 
 #import "MatchSummary.h"
-#import "NSArray+Utilities.h"
 
 @implementation MatchSummary
 

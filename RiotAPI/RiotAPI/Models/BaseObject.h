@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSDictionary+RiotAPI.h"
+#import "NSArray+RiotAPI.h"
+#import "NSDate+RiotAPI.h"
 
 @interface BaseObject : NSObject
 

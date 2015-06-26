@@ -7,7 +7,6 @@
 //
 
 #import "Participant.h"
-#import "NSArray+Utilities.h"
 
 @implementation Participant
 

@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 James Glenn. All rights reserved.
 //
 
-#import "NSArray+Utilities.h"
+#import "NSArray+RiotAPI.h"
 
-@implementation NSArray (Utilities)
+@implementation NSArray (RiotAPI)
 
 - (NSArray *)arrayOfObjectsWithClass:(Class)objectClass {
     NSMutableArray *mutableArray = [NSMutableArray new];

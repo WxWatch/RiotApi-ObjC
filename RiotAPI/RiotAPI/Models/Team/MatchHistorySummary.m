@@ -7,7 +7,6 @@
 //
 
 #import "MatchHistorySummary.h"
-#import "NSDate+Utilities.h"
 
 @implementation MatchHistorySummary
 

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDate (Utilities)
+@interface NSDate (RiotAPI)
 
 + (instancetype)dateWithMillisecondsSince1970:(long)milliseconds;
 

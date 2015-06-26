@@ -7,7 +7,6 @@
 //
 
 #import "StaticMapData.h"
-#import "NSDictionary+Utilities.h"
 
 @implementation StaticMapData
 

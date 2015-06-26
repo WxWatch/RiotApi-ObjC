@@ -7,7 +7,6 @@
 //
 
 #import "FeaturedGameInfo.h"
-#import "NSArray+Utilities.h"
 
 @implementation FeaturedGameInfo
 

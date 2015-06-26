@@ -7,10 +7,32 @@
 //
 
 #import "RiotAPIController.h"
-
 #import "Services.h"
+#import <Lockbox/Lockbox.h>
+#import "NSUserDefaults+RiotAPI.h"
 
 @implementation RiotAPIController
+
++ (instancetype)initializeWithAPIKey:(NSString*)apiKey {
+    RiotAPIController *controller = [RiotAPIController new];
+    [controller setupDefaults];
+    [Lockbox setString:apiKey forKey:@"com.wxwatch.riotapi.apikey"];
+    
+    return controller;
+}
+
++ (instancetype)initializeWithBaseURLString:(NSString*)baseURLString {
+    RiotAPIController *controller = [RiotAPIController new];
+    [controller setupDefaults];
+    [NSUserDefaults setUsesCustomURL:YES];
+    [NSUserDefaults setCustomURLString:baseURLString];
+    return controller;
+}
+
+- (void)setupDefaults {
+    [NSUserDefaults setUsesCustomURL:NO];
+    [NSUserDefaults setCustomURLString:@""];
+}
 
 - (void)getChampionsWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(MetaChampionList *))success failure:(void (^)(NSError *))failure {
     [[ChampionService new] getChampionsWithAPIKey:key region:region success:success failure:failure];

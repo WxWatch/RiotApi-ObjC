@@ -7,7 +7,6 @@
 //
 
 #import "Service.h"
-#import "NSArray+Utilities.h"
 
 @implementation Service
 

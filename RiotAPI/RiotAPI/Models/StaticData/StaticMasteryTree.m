@@ -7,7 +7,6 @@
 //
 
 #import "StaticMasteryTree.h"
-#import "NSArray+Utilities.h"
 
 @implementation StaticMasteryTree
 
