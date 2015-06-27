@@ -26,7 +26,7 @@
 
 - (void)testSummonerNames {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getSummonersForSummonerNames:@[ @"Dyrus", @"Bjergsen", @"WxWatch" ] withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *summoners) {
+    [self.controller getSummonersForSummonerNames:@[ @"Dyrus", @"Bjergsen", @"WxWatch" ] region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *summoners) {
         NSLog(@"Summoners: %@", summoners);
         [expectation fulfill];
     } failure:^(NSError *error) {
@@ -37,7 +37,7 @@
 
 - (void)testSummonerIDs {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getSummonersForSummonerIDs:@[ @22511038, @5908, @51575588 ] withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *summoners) {
+    [self.controller getSummonersForSummonerIDs:@[ @22511038, @5908, @51575588 ] region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *summoners) {
         NSLog(@"Summoners: %@", summoners);
         [expectation fulfill];
     } failure:^(NSError *error) {
@@ -48,7 +48,7 @@
 
 - (void)testMasteries {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getSummonerMasteriesForSummonerIDs:@[ @22511038, @5908, @51575588 ] withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *masteries) {
+    [self.controller getSummonerMasteriesForSummonerIDs:@[ @22511038, @5908, @51575588 ] region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *masteries) {
         NSLog(@"Masteries: %@", masteries);
         [expectation fulfill];
     } failure:^(NSError *error) {
@@ -59,7 +59,7 @@
 
 - (void)testNames {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getSummonerNamesForSummonerIDs:@[ @22511038, @5908, @51575588 ] withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *names) {
+    [self.controller getSummonerNamesForSummonerIDs:@[ @22511038, @5908, @51575588 ] region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *names) {
         NSLog(@"Names: %@", names);
         [expectation fulfill];
     } failure:^(NSError *error) {

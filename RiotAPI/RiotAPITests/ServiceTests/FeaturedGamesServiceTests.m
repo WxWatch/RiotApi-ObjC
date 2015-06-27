@@ -26,7 +26,7 @@
 
 - (void)testFeaturedGames {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getFeaturedGamesWithAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(FeaturedGames *games) {
+    [self.controller getFeaturedGamesregion:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(FeaturedGames *games) {
         NSLog(@"Featured: %@", games);
         [expectation fulfill];
     } failure:^(NSError *error) {

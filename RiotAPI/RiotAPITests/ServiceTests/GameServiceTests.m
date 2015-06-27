@@ -27,7 +27,7 @@
 
 - (void)testRecent {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getRecentGamesForSummonerID:5908 withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(RecentGames *recent) {
+    [self.controller getRecentGamesForSummonerID:5908 region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(RecentGames *recent) {
         NSLog(@"Recent: %@", recent);
         [expectation fulfill];
     } failure:^(NSError *error) {

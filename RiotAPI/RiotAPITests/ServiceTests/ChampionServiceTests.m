@@ -26,7 +26,7 @@
 
 - (void)testGetChampions {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getChampionsWithAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(MetaChampionList *list) {
+    [self.controller getChampionsregion:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(MetaChampionList *list) {
         NSLog(@"List: %@", list);
         [expectation fulfill];
     } failure:^(NSError *error) {
@@ -37,7 +37,7 @@
 
 - (void)testGetChampionByID {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getChampionByID:103 withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(MetaChampion *champion) {
+    [self.controller getChampionByID:103 region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(MetaChampion *champion) {
         NSLog(@"Champion: %@", champion);
         [expectation fulfill];
     } failure:^(NSError *error) {
@@ -48,7 +48,7 @@
 
 - (void)testGetChampionFTP {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getChampionsFreeToPlay:YES withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(MetaChampionList *list) {
+    [self.controller getChampionsFreeToPlay:YES region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(MetaChampionList *list) {
         NSLog(@"List: %@", list);
         [expectation fulfill];
     } failure:^(NSError *error) {

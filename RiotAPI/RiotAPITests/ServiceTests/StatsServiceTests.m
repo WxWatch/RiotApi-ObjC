@@ -26,7 +26,7 @@
 
 - (void)testRanked {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getRankedStatsForSummonerID:5908 withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(RankedStats *stats) {
+    [self.controller getRankedStatsForSummonerID:5908 region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(RankedStats *stats) {
         NSLog(@"Stats: %@", stats);
         [expectation fulfill];
     } failure:^(NSError *error) {
@@ -37,7 +37,7 @@
 
 - (void)testRanked2 {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getRankedStatsForSummonerID:5908 season:@"SEASON2015" withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(RankedStats *stats) {
+    [self.controller getRankedStatsForSummonerID:5908 season:@"SEASON2015" region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(RankedStats *stats) {
         NSLog(@"Stats: %@", stats);
         [expectation fulfill];
     } failure:^(NSError *error) {
@@ -48,7 +48,7 @@
 
 - (void)testSummary {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getSummaryStatsForSummonerID:5908 season:@"SEASON2015" withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(PlayerStatsSummaryList *stats) {
+    [self.controller getSummaryStatsForSummonerID:5908 season:@"SEASON2015" region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(PlayerStatsSummaryList *stats) {
         NSLog(@"Stats: %@", stats);
         [expectation fulfill];
     } failure:^(NSError *error) {
@@ -59,7 +59,7 @@
 
 - (void)testSummary2 {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getSummaryStatsForSummonerID:5908 withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(PlayerStatsSummaryList *stats) {
+    [self.controller getSummaryStatsForSummonerID:5908 region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(PlayerStatsSummaryList *stats) {
         NSLog(@"Stats: %@", stats);
         [expectation fulfill];
     } failure:^(NSError *error) {

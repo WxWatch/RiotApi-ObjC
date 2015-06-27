@@ -10,7 +10,7 @@
 
 @implementation CurrentGameService
 
-- (void)getCurrentGameForSummonerID:(NSInteger)summonerID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(CurrentGameInfo *))success failure:(void (^)(NSError *))failure {
+- (void)getCurrentGameForSummonerID:(NSInteger)summonerID region:(RGRegion*)region success:(void (^)(CurrentGameInfo *))success failure:(void (^)(NSError *))failure {
     NSString *endpoint = [NSString stringWithFormat:@"%@/%ld", region.platformID, (long)summonerID];
     [self fireServiceWithRegion:region endpoint:endpoint params:nil success:^(id currentGame) {
         CurrentGameInfo *info = [CurrentGameInfo objectWithDictionary:currentGame];

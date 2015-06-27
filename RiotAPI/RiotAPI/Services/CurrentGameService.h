@@ -11,6 +11,6 @@
 
 @interface CurrentGameService : BaseService
 
-- (void)getCurrentGameForSummonerID:(NSInteger)summonerID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(CurrentGameInfo *))success failure:(void (^)(NSError *))failure;
+- (void)getCurrentGameForSummonerID:(NSInteger)summonerID region:(RGRegion*)region success:(void (^)(CurrentGameInfo *))success failure:(void (^)(NSError *))failure;
 
 @end

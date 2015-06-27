@@ -26,7 +26,7 @@
 
 - (void)testMatch {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getMatchForMatchID:1858198944 withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(MatchDetail *detail) {
+    [self.controller getMatchForMatchID:1858198944 region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(MatchDetail *detail) {
         NSLog(@"Match: %@", detail);
         [expectation fulfill];
     } failure:^(NSError *error) {
@@ -37,7 +37,7 @@
 
 - (void)testMatchTimeline {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getMatchForMatchID:1858198944 includeTimeline:YES withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(MatchDetail *detail) {
+    [self.controller getMatchForMatchID:1858198944 includeTimeline:YES region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(MatchDetail *detail) {
         NSLog(@"Match: %@", detail);
         [expectation fulfill];
     } failure:^(NSError *error) {

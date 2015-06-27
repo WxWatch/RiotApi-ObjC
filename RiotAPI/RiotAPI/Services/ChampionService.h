@@ -11,8 +11,8 @@
 
 @interface ChampionService : BaseService
 
-- (void)getChampionsWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(MetaChampionList *))success failure:(void (^)(NSError *))failure;
-- (void)getChampionsFreeToPlay:(BOOL)freeToPlay withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(MetaChampionList *))success failure:(void (^)(NSError *))failure;
-- (void)getChampionByID:(NSInteger)championID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(MetaChampion *))success failure:(void (^)(NSError *))failure;
+- (void)getChampionsregion:(RGRegion*)region success:(void (^)(MetaChampionList *))success failure:(void (^)(NSError *))failure;
+- (void)getChampionsFreeToPlay:(BOOL)freeToPlay region:(RGRegion*)region success:(void (^)(MetaChampionList *))success failure:(void (^)(NSError *))failure;
+- (void)getChampionByID:(NSInteger)championID region:(RGRegion*)region success:(void (^)(MetaChampion *))success failure:(void (^)(NSError *))failure;
 
 @end

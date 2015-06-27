@@ -11,6 +11,6 @@
 
 @interface GameService : BaseService
 
-- (void)getRecentGamesForSummonerID:(NSInteger)summonerID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(RecentGames *))success failure:(void (^)(NSError *))failure;
+- (void)getRecentGamesForSummonerID:(NSInteger)summonerID region:(RGRegion*)region success:(void (^)(RecentGames *))success failure:(void (^)(NSError *))failure;
 
 @end

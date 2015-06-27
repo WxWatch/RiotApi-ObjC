@@ -26,7 +26,7 @@
 
 - (void)testTeamsFromSummoners {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getTeamsForSummonerIDs:@[ @5908 ] withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *teams) {
+    [self.controller getTeamsForSummonerIDs:@[ @5908 ] region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *teams) {
         NSLog(@"Teams: %@", teams);
         [expectation fulfill];
     } failure:^(NSError *error) {
@@ -37,7 +37,7 @@
 
 - (void)testTeamsFromTeam {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getTeamsForTeamIDs:@[ @"TEAM-8fc55200-89cd-11e1-b3f5-782bcb4d0bb2" ] withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *teams) {
+    [self.controller getTeamsForTeamIDs:@[ @"TEAM-8fc55200-89cd-11e1-b3f5-782bcb4d0bb2" ] region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *teams) {
         NSLog(@"Teams: %@", teams);
         [expectation fulfill];
     } failure:^(NSError *error) {

@@ -26,7 +26,7 @@
 
 - (void)testMatchHistory {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getMatchHistoryForSummonerID:5908 withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(PlayerHistory *history) {
+    [self.controller getMatchHistoryForSummonerID:5908 region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(PlayerHistory *history) {
         NSLog(@"History: %@", history);
         [expectation fulfill];
     } failure:^(NSError *error) {
@@ -37,7 +37,7 @@
 
 - (void)testExtendedMatchHistory {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getMatchHistoryForSummonerID:5908 championIDs:nil rankedQueues:nil beginIndex:0 endIndex:15 withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(PlayerHistory *history) {
+    [self.controller getMatchHistoryForSummonerID:5908 championIDs:nil rankedQueues:nil beginIndex:0 endIndex:15 region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(PlayerHistory *history) {
         NSLog(@"History: %@", history);
         [expectation fulfill];
     } failure:^(NSError *error) {

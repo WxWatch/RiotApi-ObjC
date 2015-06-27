@@ -10,7 +10,7 @@
 
 @implementation MatchService
 
-- (void)getMatchForMatchID:(long)matchID includeTimeline:(BOOL)includeTimeine withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(MatchDetail *))success failure:(void (^)(NSError *))failure {
+- (void)getMatchForMatchID:(long)matchID includeTimeline:(BOOL)includeTimeine region:(RGRegion *)region success:(void (^)(MatchDetail *))success failure:(void (^)(NSError *))failure {
     NSString *endpoint = [NSString stringWithFormat:@"%ld", matchID];
     
     NSDictionary *params = @{ @"includeTimeline": [self sanitizeBoolean:includeTimeine] };

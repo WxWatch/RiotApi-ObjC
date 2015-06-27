@@ -26,7 +26,7 @@
 
 - (void)testLeagueBySummoner {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getLeaguesForSummonerIDs:@[ @(5908) ] withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *leagues) {
+    [self.controller getLeaguesForSummonerIDs:@[ @(5908) ] region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *leagues) {
         NSLog(@"Leagues: %@", leagues);
         [expectation fulfill];
     } failure:^(NSError *error) {
@@ -37,7 +37,7 @@
 
 - (void)testLeagueEntriesBySummoner {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getLeagueEntriesForSummonerIDs:@[ @(5908) ] withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *entries) {
+    [self.controller getLeagueEntriesForSummonerIDs:@[ @(5908) ] region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *entries) {
         NSLog(@"Entries: %@", entries);
         [expectation fulfill];
     } failure:^(NSError *error) {
@@ -48,7 +48,7 @@
 
 - (void)testLeagueByTeam {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getLeaguesForTeamIDs:@[ @0 ] withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *leagues) {
+    [self.controller getLeaguesForTeamIDs:@[ @0 ] region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *leagues) {
         NSLog(@"Leagues: %@", leagues);
         [expectation fulfill];
     } failure:^(NSError *error) {
@@ -59,7 +59,7 @@
 
 - (void)testLeagueEntriesByTeam {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getLeagueEntriesForTeamIDs:@[ @0 ] withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *entries) {
+    [self.controller getLeagueEntriesForTeamIDs:@[ @0 ] region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *entries) {
         NSLog(@"Entries: %@", entries);
         [expectation fulfill];
     } failure:^(NSError *error) {

@@ -26,7 +26,7 @@
 
 - (void)testCurrentGame {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getCurrentGameForSummonerID:8010 withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(CurrentGameInfo *game) {
+    [self.controller getCurrentGameForSummonerID:8010 region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(CurrentGameInfo *game) {
         NSLog(@"Current Game: %@", game);
         [expectation fulfill];
     } failure:^(NSError *error) {

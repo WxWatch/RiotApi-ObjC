@@ -10,7 +10,7 @@
 
 @implementation GameService
 
-- (void)getRecentGamesForSummonerID:(NSInteger)summonerID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(RecentGames *))success failure:(void (^)(NSError *))failure {
+- (void)getRecentGamesForSummonerID:(NSInteger)summonerID region:(RGRegion*)region success:(void (^)(RecentGames *))success failure:(void (^)(NSError *))failure {
     NSString *endpoint = [NSString stringWithFormat:@"by-summoner/%ld/recent", (long)summonerID];
     [self fireServiceWithRegion:region endpoint:endpoint params:nil success:^(id games) {
         RecentGames *recent = [RecentGames objectWithDictionary:games];

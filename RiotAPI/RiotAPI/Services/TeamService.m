@@ -10,12 +10,12 @@
 
 @implementation TeamService
 
-- (void)getTeamsForSummonerIDs:(NSArray*)summonerIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
+- (void)getTeamsForSummonerIDs:(NSArray*)summonerIDs region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
     NSString *endpoint = [NSString stringWithFormat:@"by-summoner/%@", [self commaSeperatedStringForArray:summonerIDs]];
     [self fireServiceWithRegion:region endpoint:endpoint params:nil success:success failure:failure];
 }
 
-- (void)getTeamsForTeamIDs:(NSArray*)teamIDs withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
+- (void)getTeamsForTeamIDs:(NSArray*)teamIDs region:(RGRegion*)region success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
     NSString *endpoint = [self commaSeperatedStringForArray:teamIDs];
     [self fireServiceWithRegion:region endpoint:endpoint params:nil success:success failure:failure];
 }

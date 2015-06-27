@@ -11,6 +11,6 @@
 
 @interface FeaturedGamesService : BaseService
 
-- (void)getFeaturedGamesWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(FeaturedGames *))success failure:(void (^)(NSError *))failure;
+- (void)getFeaturedGamesregion:(RGRegion*)region success:(void (^)(FeaturedGames *))success failure:(void (^)(NSError *))failure;
 
 @end

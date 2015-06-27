@@ -10,7 +10,7 @@
 
 @implementation StatsService
 
-- (void)getRankedStatsForSummonerID:(long)summonerID season:(NSString*)season withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(RankedStats *))success failure:(void (^)(NSError *))failure {
+- (void)getRankedStatsForSummonerID:(long)summonerID season:(NSString*)season region:(RGRegion *)region success:(void (^)(RankedStats *))success failure:(void (^)(NSError *))failure {
     NSString *endpoint = [NSString stringWithFormat:@"by-summoner/%ld/ranked", summonerID];
     
     NSMutableDictionary *params = [NSMutableDictionary new];
@@ -22,7 +22,7 @@
     } failure:failure];
 }
 
-- (void)getSummaryStatsForSummonerID:(long)summonerID season:(NSString*)season withAPIKey:(NSString *)key region:(RGRegion *)region success:(void (^)(PlayerStatsSummaryList *))success failure:(void (^)(NSError *))failure {
+- (void)getSummaryStatsForSummonerID:(long)summonerID season:(NSString*)season region:(RGRegion *)region success:(void (^)(PlayerStatsSummaryList *))success failure:(void (^)(NSError *))failure {
     NSString *endpoint = [NSString stringWithFormat:@"by-summoner/%ld/summary", summonerID];
     
     NSMutableDictionary *params = [NSMutableDictionary new];

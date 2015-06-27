@@ -26,7 +26,7 @@
 
 - (void)testChampions {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getStaticChampionsWithAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(StaticChampionList *list) {
+    [self.controller getStaticChampionsregion:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(StaticChampionList *list) {
         NSLog(@"Champions: %@", list);
         [expectation fulfill];
     } failure:^(NSError *error) {
@@ -37,7 +37,7 @@
 
 - (void)testChampions2 {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getStaticChampionsWithLocale:nil version:nil dataById:NO champData:@"all" withAPIKey:nil region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(StaticChampionList *list) {
+    [self.controller getStaticChampionsWithLocale:nil version:nil dataById:NO champData:@"all" region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(StaticChampionList *list) {
         NSLog(@"Champions: %@", list);
         [expectation fulfill];
     } failure:^(NSError *error) {

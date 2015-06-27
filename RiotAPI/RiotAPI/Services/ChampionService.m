@@ -11,21 +11,21 @@
 @implementation ChampionService
 
 #pragma mark - 
-- (void)getChampionsWithAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(MetaChampionList *))success failure:(void (^)(NSError *))failure {
+- (void)getChampionsregion:(RGRegion*)region success:(void (^)(MetaChampionList *))success failure:(void (^)(NSError *))failure {
     [self fireServiceWithRegion:region endpoint:@"champion" params:nil success:^(id champions) {
         MetaChampionList *list = [MetaChampionList objectWithDictionary:champions];
         success(list);
     } failure:failure];
 }
 
-- (void)getChampionsFreeToPlay:(BOOL)freeToPlay withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(MetaChampionList *))success failure:(void (^)(NSError *))failure {
+- (void)getChampionsFreeToPlay:(BOOL)freeToPlay region:(RGRegion*)region success:(void (^)(MetaChampionList *))success failure:(void (^)(NSError *))failure {
     [self fireServiceWithRegion:region endpoint:@"champion" params:@{ @"freeToPlay": [self sanitizeBoolean:freeToPlay] } success:^(id champions) {
         MetaChampionList *list = [MetaChampionList objectWithDictionary:champions];
         success(list);
     } failure:failure];
 }
 
-- (void)getChampionByID:(NSInteger)championID withAPIKey:(NSString*)key region:(RGRegion*)region success:(void (^)(MetaChampion *))success failure:(void (^)(NSError *))failure {
+- (void)getChampionByID:(NSInteger)championID region:(RGRegion*)region success:(void (^)(MetaChampion *))success failure:(void (^)(NSError *))failure {
     NSString *endpoint = [NSString stringWithFormat:@"champion/%ld", (long)championID];
     [self fireServiceWithRegion:region endpoint:endpoint params:nil success:^(id champ) {
         MetaChampion *champion = [MetaChampion objectWithDictionary:champ];
