@@ -10,8 +10,8 @@
 #import "NSDictionary+RiotAPI.h"
 #import "NSArray+RiotAPI.h"
 #import "NSDate+RiotAPI.h"
-#import "NSObject+RMArchivable.h"
-#import "NSObject+RMCopyable.h"
+#import <RMMapper/NSObject+RMArchivable.h>
+#import <RMMapper/NSObject+RMCopyable.h>
 
 @interface BaseObject : NSObject
 
