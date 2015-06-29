@@ -26,7 +26,7 @@
 
 - (void)testSummonerNames {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getSummonersForSummonerNames:@[ @"Dyrus", @"Bjergsen", @"WxWatch" ] region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *summoners) {
+    [self.controller getSummonersForSummonerNames:@[ @"Dyrus", @"Bjergsen", @"WxWatch", @"Wild Turtle" ] region:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(NSDictionary *summoners) {
         NSLog(@"Summoners: %@", summoners);
         [expectation fulfill];
     } failure:^(NSError *error) {

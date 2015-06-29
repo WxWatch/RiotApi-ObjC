@@ -109,6 +109,8 @@
             paramString = param;
         }
 
+        paramString = [paramString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+        
         if (array.lastObject == param) {
             [string appendString:paramString];
         } else {
