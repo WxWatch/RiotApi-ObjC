@@ -1,19 +1,19 @@
 {
   "name": "RiotApi",
   "version": "0.1.0",
-  "summary": "A short description of RiotApi.",
-  "description": "                       An optional longer description of RiotApi\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/RiotApi",
+  "summary": "An Objective-C Library for utilizing the Riot Games API (https://developer.riotgames.com)",
+  "description": "                       RiotApi-ObjC isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.\n",
+  "homepage": "https://github.com/WxWatch/RiotApi-ObjC",
   "license": "MIT",
   "authors": {
     "James Glenn": "jglenn1@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/RiotApi.git",
+    "git": "https://github.com/WxWatch/RiotApi-ObjC.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
@@ -27,6 +27,9 @@
       "~> 2.3"
     ],
     "Lockbox": [
+
+    ],
+    "RMMapper": [
 
     ]
   }

@@ -13,7 +13,7 @@
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
-    [[RiotAPIController sharedController] initializeWithAPIKey:@"81decb1a-dbcd-44d0-8e82-f6eee7d917a8"];
+    [[RiotAPIController sharedController] initializeWithAPIKey:@"96581055-0087-454d-b530-e515b64f259d"];
     self.controller = [RiotAPIController sharedController];
 }
 

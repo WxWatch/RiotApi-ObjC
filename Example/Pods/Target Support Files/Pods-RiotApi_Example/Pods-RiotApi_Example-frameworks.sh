@@ -54,10 +54,12 @@ code_sign_if_enabled() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-RiotApi_Example/AFNetworking.framework'
   install_framework 'Pods-RiotApi_Example/Lockbox.framework'
+  install_framework 'Pods-RiotApi_Example/RMMapper.framework'
   install_framework 'Pods-RiotApi_Example/RiotApi.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-RiotApi_Example/AFNetworking.framework'
   install_framework 'Pods-RiotApi_Example/Lockbox.framework'
+  install_framework 'Pods-RiotApi_Example/RMMapper.framework'
   install_framework 'Pods-RiotApi_Example/RiotApi.framework'
 fi

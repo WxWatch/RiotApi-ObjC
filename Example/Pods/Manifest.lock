@@ -24,6 +24,8 @@ PODS:
   - RiotApi (0.1.0):
     - AFNetworking (~> 2.3)
     - Lockbox
+    - RMMapper
+  - RMMapper (1.1.5)
 
 DEPENDENCIES:
   - RiotApi (from `../`)
@@ -35,6 +37,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   Lockbox: 16442da35d9d4286966936763be728a931d589c3
-  RiotApi: 87e83ba478914df286e3c6e3c805028dafa545c0
+  RiotApi: 11d9f74d48a5886852adf14fc23df31ddb0785b9
+  RMMapper: 21122d753c736d975f6c61e674afce8db73579af
 
 COCOAPODS: 0.38.0.beta.1
