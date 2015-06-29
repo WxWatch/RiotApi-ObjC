@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Models/Summoner/Summoner.h

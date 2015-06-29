@@ -1,0 +1,6 @@
+framework module Pods_RiotApi_Tests {
+  umbrella header "Pods-RiotApi_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

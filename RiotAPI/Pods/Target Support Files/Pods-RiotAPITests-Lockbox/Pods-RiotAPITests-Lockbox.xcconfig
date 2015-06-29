@@ -1,1 +1,0 @@
-PODS_RIOTAPITESTS_LOCKBOX_OTHER_LDFLAGS = -framework "Security"

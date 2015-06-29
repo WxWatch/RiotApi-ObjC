@@ -1,0 +1,6 @@
+framework module RiotApi {
+  umbrella header "RiotApi-umbrella.h"
+
+  export *
+  module * { export * }
+}

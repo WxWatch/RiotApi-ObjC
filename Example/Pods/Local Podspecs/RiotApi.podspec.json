@@ -1,0 +1,33 @@
+{
+  "name": "RiotApi",
+  "version": "0.1.0",
+  "summary": "A short description of RiotApi.",
+  "description": "                       An optional longer description of RiotApi\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/RiotApi",
+  "license": "MIT",
+  "authors": {
+    "James Glenn": "jglenn1@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/RiotApi.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "RiotApi": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "Lockbox": [
+
+    ]
+  }
+}
