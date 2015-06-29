@@ -26,6 +26,7 @@ typedef NS_ENUM(NSUInteger, RiotRegion) {
 @interface RGRegion : NSObject
 
 + (instancetype)regionWithRiotRegion:(RiotRegion)region;
++ (NSArray*)allRegionsAlphabetical;
 
 @property (nonatomic, strong) NSString *platformID;
 @property (nonatomic, strong) NSString *regionBaseURLString;

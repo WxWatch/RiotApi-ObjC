@@ -22,6 +22,20 @@
     return endpoint;
 }
 
++ (NSArray *)allRegionsAlphabetical {
+    return @[ [RGRegion regionWithRiotRegion:RiotRegionBR],
+              [RGRegion regionWithRiotRegion:RiotRegionEUNE],
+              [RGRegion regionWithRiotRegion:RiotRegionEUW],
+              [RGRegion regionWithRiotRegion:RiotRegionKR],
+              [RGRegion regionWithRiotRegion:RiotRegionLAN],
+              [RGRegion regionWithRiotRegion:RiotRegionLAS],
+              [RGRegion regionWithRiotRegion:RiotRegionNA],
+              [RGRegion regionWithRiotRegion:RiotRegionOCE],
+              [RGRegion regionWithRiotRegion:RiotRegionRU],
+              [RGRegion regionWithRiotRegion:RiotRegionTR]
+              ];
+}
+
 - (NSString *)platformID {
     NSString *ret = nil;
     switch (self.region) {
