@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04D6728361B2DD8676D9539F"
+               BlueprintIdentifier = "798E76E54033847C90A242FE"
                BuildableName = "RiotApi.framework"
                BlueprintName = "RiotApi"
                ReferencedContainer = "container:Pods.xcodeproj">

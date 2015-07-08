@@ -35,7 +35,7 @@
 - (void)getStaticMasteriesWithLocale:(NSString*)locale version:(NSString*)version masteryListData:(NSString*)masteryListData region:(RGRegion *)region success:(void (^)(StaticMasteryList *))success failure:(void (^)(NSError *))failure;
 - (void)getStaticMasteryByID:(NSInteger)masteryID region:(RGRegion*)region success:(void (^)(StaticMastery *))success failure:(void (^)(NSError *))failure;
 - (void)getStaticMasteryByID:(NSInteger)masteryID withLocale:(NSString*)locale version:(NSString*)version masteryListData:(NSString*)masteryListData region:(RGRegion *)region success:(void (^)(StaticMastery *))success failure:(void (^)(NSError *))failure;
-- (void)getStaticRealmregion:(RGRegion*)region success:(void (^)(StaticRealm *))success failure:(void (^)(NSError *))failure;
+- (void)getStaticRealmForRegion:(RGRegion*)region success:(void (^)(StaticRealm *))success failure:(void (^)(NSError *))failure;
 - (void)getStaticRunesregion:(RGRegion*)region success:(void (^)(StaticRuneList *))success failure:(void (^)(NSError *))failure;
 - (void)getStaticRunesWithLocale:(NSString*)locale version:(NSString*)version runeListData:(NSString*)runeListData region:(RGRegion *)region success:(void (^)(StaticRuneList *))success failure:(void (^)(NSError *))failure;
 - (void)getStaticRuneByID:(NSInteger)runeID region:(RGRegion*)region success:(void (^)(StaticRune *))success failure:(void (^)(NSError *))failure;

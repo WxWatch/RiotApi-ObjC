@@ -183,7 +183,7 @@
     } failure:failure];
 }
 
-- (void)getStaticRealmregion:(RGRegion*)region success:(void (^)(StaticRealm *))success failure:(void (^)(NSError *))failure
+- (void)getStaticRealmForRegion:(RGRegion*)region success:(void (^)(StaticRealm *))success failure:(void (^)(NSError *))failure
 {
 	[self fireServiceWithRegion:region endpoint:@"realm" params:nil success:^(id response) {
         StaticRealm *realm = [StaticRealm objectWithDictionary:response];

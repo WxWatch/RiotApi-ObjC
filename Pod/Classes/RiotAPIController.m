@@ -157,8 +157,8 @@
     [[StaticDataService new] getStaticMasteryByID:masteryID withLocale:locale version:version masteryListData:masteryListData region:region success:success failure:failure];
 }
 
-- (void)getStaticRealmregion:(RGRegion*)region success:(void (^)(StaticRealm *))success failure:(void (^)(NSError *))failure {
-    [[StaticDataService new] getStaticRealmregion:region success:success failure:failure];
+- (void)getStaticRealmForRegion:(RGRegion*)region success:(void (^)(StaticRealm *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticRealmForRegion:region success:success failure:failure];
 }
 
 - (void)getStaticRunesregion:(RGRegion*)region success:(void (^)(StaticRuneList *))success failure:(void (^)(NSError *))failure {
