@@ -29,4 +29,12 @@
 
 }
 
+- (id)valueForUndefinedKey:(NSString *)key {
+    return @"";
+}
+
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key {
+
+}
+
 @end
