@@ -26,7 +26,7 @@
 
 - (void)testChampions {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Network Request"];
-    [self.controller getStaticChampionsregion:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(StaticChampionList *list) {
+    [self.controller getStaticChampionsForRegion:[RGRegion regionWithRiotRegion:RiotRegionNA] success:^(StaticChampionList *list) {
         NSLog(@"Champions: %@", list);
         [expectation fulfill];
     } failure:^(NSError *error) {

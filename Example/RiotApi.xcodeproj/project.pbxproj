@@ -142,14 +142,14 @@
 		6C7CBCF91B40F63400960DE1 /* RiotAPITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiotAPITests.m; sourceTree = "<group>"; };
 		6C7CBCFB1B40F63400960DE1 /* BaseServiceTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseServiceTests.h; sourceTree = "<group>"; };
 		6C7CBCFC1B40F63400960DE1 /* BaseServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseServiceTests.m; sourceTree = "<group>"; };
-		6C7CBCFD1B40F63400960DE1 /* ChampionServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChampionServiceTests.m; sourceTree = "<group>"; };
+		6C7CBCFD1B40F63400960DE1 /* ChampionServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ChampionServiceTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		6C7CBCFE1B40F63400960DE1 /* CurrentGameServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentGameServiceTests.m; sourceTree = "<group>"; };
-		6C7CBCFF1B40F63400960DE1 /* FeaturedGamesServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeaturedGamesServiceTests.m; sourceTree = "<group>"; };
+		6C7CBCFF1B40F63400960DE1 /* FeaturedGamesServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FeaturedGamesServiceTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		6C7CBD001B40F63400960DE1 /* GameServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameServiceTests.m; sourceTree = "<group>"; };
 		6C7CBD011B40F63400960DE1 /* LeagueServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeagueServiceTests.m; sourceTree = "<group>"; };
 		6C7CBD021B40F63400960DE1 /* MatchHistoryServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchHistoryServiceTests.m; sourceTree = "<group>"; };
 		6C7CBD031B40F63400960DE1 /* MatchServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchServiceTests.m; sourceTree = "<group>"; };
-		6C7CBD041B40F63400960DE1 /* StaticDataServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticDataServiceTests.m; sourceTree = "<group>"; };
+		6C7CBD041B40F63400960DE1 /* StaticDataServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = StaticDataServiceTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		6C7CBD051B40F63400960DE1 /* StatsServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsServiceTests.m; sourceTree = "<group>"; };
 		6C7CBD061B40F63400960DE1 /* StatusServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusServiceTests.m; sourceTree = "<group>"; };
 		6C7CBD071B40F63400960DE1 /* SummonerServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummonerServiceTests.m; sourceTree = "<group>"; };

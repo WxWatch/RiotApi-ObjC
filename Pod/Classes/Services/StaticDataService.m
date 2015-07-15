@@ -52,7 +52,7 @@
     } failure:failure];
 }
 
-- (void)getStaticItemsregion:(RGRegion*)region success:(void (^)(StaticItemList *))success failure:(void (^)(NSError *))failure {
+- (void)getStaticItemsForRegion:(RGRegion*)region success:(void (^)(StaticItemList *))success failure:(void (^)(NSError *))failure {
     [self fireServiceWithRegion:region endpoint:@"item" params:nil success:^(id response) {
         StaticItemList *list = [StaticItemList objectWithDictionary:response];
         success(list);
@@ -94,7 +94,7 @@
     }  failure:failure];
 }
 
-- (void)getLanguageStringsregion:(RGRegion*)region success:(void (^)(StaticLanguageStrings *))success failure:(void (^)(NSError *))failure
+- (void)getLanguageStringsForRegion:(RGRegion*)region success:(void (^)(StaticLanguageStrings *))success failure:(void (^)(NSError *))failure
 {
     [self fireServiceWithRegion:region endpoint:@"language-strings" params:nil success:^(id response) {
         StaticLanguageStrings *strings = [StaticLanguageStrings objectWithDictionary:response];
@@ -114,7 +114,7 @@
     }  failure:failure];
 }
 
-- (void)getLanguagesregion:(RGRegion*)region success:(void (^)(NSArray *))success failure:(void (^)(NSError *))failure
+- (void)getLanguagesForRegion:(RGRegion*)region success:(void (^)(NSArray *))success failure:(void (^)(NSError *))failure
 {
     [self fireServiceWithRegion:region endpoint:@"languages" params:nil success:success failure:failure];
 }
@@ -139,7 +139,7 @@
     } failure:failure];
 }
 
-- (void)getStaticMasteriesregion:(RGRegion*)region success:(void (^)(StaticMasteryList *))success failure:(void (^)(NSError *))failure
+- (void)getStaticMasteriesForRegion:(RGRegion*)region success:(void (^)(StaticMasteryList *))success failure:(void (^)(NSError *))failure
 {
 	[self fireServiceWithRegion:region endpoint:@"mastery" params:nil success:^(id response) {
         StaticMasteryList *list = [StaticMasteryList objectWithDictionary:response];
@@ -191,7 +191,7 @@
     } failure:failure];
 }
 
-- (void)getStaticRunesregion:(RGRegion*)region success:(void (^)(StaticRuneList *))success failure:(void (^)(NSError *))failure
+- (void)getStaticRunesForRegion:(RGRegion*)region success:(void (^)(StaticRuneList *))success failure:(void (^)(NSError *))failure
 {
     [self fireServiceWithRegion:region endpoint:@"rune" params:nil success:^(id response) {
         StaticRuneList *list = [StaticRuneList objectWithDictionary:response];
@@ -236,7 +236,7 @@
     } failure:failure];
 }
 
-- (void)getStaticSummonerSpellsregion:(RGRegion*)region success:(void (^)(StaticSummonerSpellList *))success failure:(void (^)(NSError *))failure
+- (void)getStaticSummonerSpellsForRegion:(RGRegion*)region success:(void (^)(StaticSummonerSpellList *))success failure:(void (^)(NSError *))failure
 {
 	[self fireServiceWithRegion:region endpoint:@"summoner-spell" params:nil success:^(id response) {
         StaticSummonerSpellList *list = [StaticSummonerSpellList objectWithDictionary:response];

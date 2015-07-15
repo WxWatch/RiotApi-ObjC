@@ -11,6 +11,6 @@
 
 @interface FeaturedGamesService : BaseService
 
-- (void)getFeaturedGamesregion:(RGRegion*)region success:(void (^)(FeaturedGames *))success failure:(void (^)(NSError *))failure;
+- (void)getFeaturedGamesForRegion:(RGRegion*)region success:(void (^)(FeaturedGames *))success failure:(void (^)(NSError *))failure;
 
 @end

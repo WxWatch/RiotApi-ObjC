@@ -10,7 +10,7 @@
 
 @implementation FeaturedGamesService
 
-- (void)getFeaturedGamesregion:(RGRegion*)region success:(void (^)(FeaturedGames *))success failure:(void (^)(NSError *))failure {
+- (void)getFeaturedGamesForRegion:(RGRegion*)region success:(void (^)(FeaturedGames *))success failure:(void (^)(NSError *))failure {
     [self fireServiceWithRegion:region endpoint:@"featured" params:nil success:^(id gamesInfo) {
         FeaturedGames *games = [FeaturedGames objectWithDictionary:gamesInfo];
         success(games);

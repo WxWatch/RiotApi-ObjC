@@ -11,7 +11,7 @@
 @implementation ChampionService
 
 #pragma mark - 
-- (void)getChampionsregion:(RGRegion*)region success:(void (^)(MetaChampionList *))success failure:(void (^)(NSError *))failure {
+- (void)getChampionsForRegion:(RGRegion*)region success:(void (^)(MetaChampionList *))success failure:(void (^)(NSError *))failure {
     [self fireServiceWithRegion:region endpoint:@"champion" params:nil success:^(id champions) {
         MetaChampionList *list = [MetaChampionList objectWithDictionary:champions];
         success(list);

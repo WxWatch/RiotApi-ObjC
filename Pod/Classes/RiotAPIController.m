@@ -41,8 +41,8 @@
     [NSUserDefaults setCustomURLString:@""];
 }
 
-- (void)getChampionsregion:(RGRegion*)region success:(void (^)(MetaChampionList *))success failure:(void (^)(NSError *))failure {
-    [[ChampionService new] getChampionsregion:region success:success failure:failure];
+- (void)getChampionsForRegion:(RGRegion*)region success:(void (^)(MetaChampionList *))success failure:(void (^)(NSError *))failure {
+    [[ChampionService new] getChampionsForRegion:region success:success failure:failure];
 }
 
 - (void)getChampionsFreeToPlay:(BOOL)freeToPlay region:(RGRegion*)region success:(void (^)(MetaChampionList *))success failure:(void (^)(NSError *))failure {
@@ -57,8 +57,8 @@
     [[CurrentGameService new] getCurrentGameForSummonerID:summonerID region:region success:success failure:failure];
 }
 
-- (void)getFeaturedGamesregion:(RGRegion*)region success:(void (^)(FeaturedGames *))success failure:(void (^)(NSError *))failure {
-    [[FeaturedGamesService new] getFeaturedGamesregion:region success:success failure:failure];
+- (void)getFeaturedGamesForRegion:(RGRegion*)region success:(void (^)(FeaturedGames *))success failure:(void (^)(NSError *))failure {
+    [[FeaturedGamesService new] getFeaturedGamesForRegion:region success:success failure:failure];
 }
 
 - (void)getRecentGamesForSummonerID:(NSInteger)summonerID region:(RGRegion*)region success:(void (^)(RecentGames *))success failure:(void (^)(NSError *))failure {
@@ -89,7 +89,7 @@
     [[LeagueService new] getMasterLeagueWithQueueType:queueType region:region success:success failure:failure];
 }
 
-- (void)getStaticChampionsregion:(RGRegion*)region success:(void (^)(StaticChampionList *))success failure:(void (^)(NSError *))failure {
+- (void)getStaticChampionsForRegion:(RGRegion*)region success:(void (^)(StaticChampionList *))success failure:(void (^)(NSError *))failure {
     [[StaticDataService new] getStaticChampionsWithRegion:region success:success failure:failure];
 }
 
@@ -105,8 +105,8 @@
     [[StaticDataService new] getStaticChampionByID:championID withLocale:locale version:version dataById:dataById champData:champData region:region success:success failure:failure];
 }
 
-- (void)getStaticItemsregion:(RGRegion*)region success:(void (^)(StaticItemList *))success failure:(void (^)(NSError *))failure {
-    [[StaticDataService new] getStaticItemsregion:region success:success failure:failure];
+- (void)getStaticItemsForRegion:(RGRegion*)region success:(void (^)(StaticItemList *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticItemsForRegion:region success:success failure:failure];
 }
 
 - (void)getStaticItemsWithLocale:(NSString*)locale version:(NSString*)version itemListData:(NSString*)itemListData region:(RGRegion *)region success:(void (^)(StaticItemList *))success failure:(void (^)(NSError *))failure {
@@ -121,16 +121,16 @@
     [[StaticDataService new] getStaticItemByID:itemID withLocale:locale version:version itemListData:itemListData region:region success:success failure:failure];
 }
 
-- (void)getLanguageStringsregion:(RGRegion*)region success:(void (^)(StaticLanguageStrings *))success failure:(void (^)(NSError *))failure {
-    [[StaticDataService new] getLanguageStringsregion:region success:success failure:failure];
+- (void)getLanguageStringsForRegion:(RGRegion*)region success:(void (^)(StaticLanguageStrings *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getLanguageStringsForRegion:region success:success failure:failure];
 }
 
 - (void)getLanguageStringsWithLocale:(NSString*)locale version:(NSString*)version region:(RGRegion *)region success:(void (^)(StaticLanguageStrings *))success failure:(void (^)(NSError *))failure {
     [[StaticDataService new] getLanguageStringsWithLocale:locale version:version region:region success:success failure:failure];
 }
 
-- (void)getLanguagesregion:(RGRegion*)region success:(void (^)(NSArray *))success failure:(void (^)(NSError *))failure {
-    [[StaticDataService new] getLanguagesregion:region success:success failure:failure];
+- (void)getLanguagesForRegion:(RGRegion*)region success:(void (^)(NSArray *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getLanguagesForRegion:region success:success failure:failure];
 }
 
 - (void)getMapregion:(RGRegion*)region success:(void (^)(StaticMapData *))success failure:(void (^)(NSError *))failure {
@@ -141,8 +141,8 @@
     [[StaticDataService new] getMapWithLocale:locale version:version region:region success:success failure:failure];
 }
 
-- (void)getStaticMasteriesregion:(RGRegion*)region success:(void (^)(StaticMasteryList *))success failure:(void (^)(NSError *))failure {
-    [[StaticDataService new] getStaticMasteriesregion:region success:success failure:failure];
+- (void)getStaticMasteriesForRegion:(RGRegion*)region success:(void (^)(StaticMasteryList *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticMasteriesForRegion:region success:success failure:failure];
 }
 
 - (void)getStaticMasteriesWithLocale:(NSString*)locale version:(NSString*)version masteryListData:(NSString*)masteryListData region:(RGRegion *)region success:(void (^)(StaticMasteryList *))success failure:(void (^)(NSError *))failure {
@@ -161,8 +161,8 @@
     [[StaticDataService new] getStaticRealmForRegion:region success:success failure:failure];
 }
 
-- (void)getStaticRunesregion:(RGRegion*)region success:(void (^)(StaticRuneList *))success failure:(void (^)(NSError *))failure {
-    [[StaticDataService new] getStaticRunesregion:region success:success failure:failure];
+- (void)getStaticRunesForRegion:(RGRegion*)region success:(void (^)(StaticRuneList *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticRunesForRegion:region success:success failure:failure];
 }
 
 - (void)getStaticRunesWithLocale:(NSString*)locale version:(NSString*)version runeListData:(NSString*)runeListData region:(RGRegion *)region success:(void (^)(StaticRuneList *))success failure:(void (^)(NSError *))failure {
@@ -177,8 +177,8 @@
     [[StaticDataService new] getStaticRuneByID:runeID withLocale:locale version:version runeListData:runeListData region:region success:success failure:failure];
 }
 
-- (void)getStaticSummonerSpellsregion:(RGRegion*)region success:(void (^)(StaticSummonerSpellList *))success failure:(void (^)(NSError *))failure {
-    [[StaticDataService new] getStaticSummonerSpellsregion:region success:success failure:failure];
+- (void)getStaticSummonerSpellsForRegion:(RGRegion*)region success:(void (^)(StaticSummonerSpellList *))success failure:(void (^)(NSError *))failure {
+    [[StaticDataService new] getStaticSummonerSpellsForRegion:region success:success failure:failure];
 }
 
 - (void)getStaticSummonerSpellsWithLocale:(NSString*)locale version:(NSString*)version dataById:(BOOL)dataById spellData:(NSString*)spellData region:(RGRegion *)region success:(void (^)(StaticSummonerSpellList *))success failure:(void (^)(NSError *))failure {
