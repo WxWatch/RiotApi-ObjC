@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/Models/NSString+PropertyKVC.h
+../../../../../Pod/Classes/Categories/NSString+PropertyKVC.h

@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/Models/NSObject+Properties.h
+../../../../../Pod/Classes/Categories/NSObject+Properties.h
