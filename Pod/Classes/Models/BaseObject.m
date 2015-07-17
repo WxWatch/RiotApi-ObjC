@@ -7,6 +7,7 @@
 //
 
 #import "BaseObject.h"
+#import "NSObject+Properties.h"
 
 @implementation BaseObject
 
@@ -35,6 +36,17 @@
 
 - (void)setValue:(id)value forUndefinedKey:(NSString *)key {
 
+}
+
+- (void)setValue:(id)value forKey:(NSString *)key {
+    // Check if Property is a Dictionary when it should be an Object
+    if ([value isKindOfClass:[NSDictionary class]] && ![@([self typeOfPropertyNamed:key]) isEqualToString:@"T@\"NSDictionary\""]) {
+        NSString *className = [@([self typeOfPropertyNamed:key]) componentsSeparatedByString:@"\""][1];
+        Class objClass = NSClassFromString(className);
+        value = [objClass objectWithDictionary:value];
+    }
+    
+    [super setValue:value forKey:key];
 }
 
 @end

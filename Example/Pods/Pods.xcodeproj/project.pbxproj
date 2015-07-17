@@ -137,6 +137,10 @@
 		6C2A45FF276E0F8727489947E367A544 /* StaticChampionList.h in Headers */ = {isa = PBXBuildFile; fileRef = 854B336C8540B879AA4CB6969F0F7CB9 /* StaticChampionList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C4FBF39AD1C405D29D3401A5F80A773 /* StaticMastery.h in Headers */ = {isa = PBXBuildFile; fileRef = A55B9EB709DAD9E1FAC12273AFC7E8AF /* StaticMastery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C857578D5E44BF1A3146C3FAA293CC9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB8678EB935FE4FD9F31427007D8C4A /* SystemConfiguration.framework */; };
+		6CACD0A21B59554D00A92B8C /* NSObject+Properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CACD0A01B59554D00A92B8C /* NSObject+Properties.h */; };
+		6CACD0A31B59554D00A92B8C /* NSObject+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CACD0A11B59554D00A92B8C /* NSObject+Properties.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6CACD0A61B5955AF00A92B8C /* NSString+PropertyKVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CACD0A41B5955AF00A92B8C /* NSString+PropertyKVC.h */; };
+		6CACD0A71B5955AF00A92B8C /* NSString+PropertyKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CACD0A51B5955AF00A92B8C /* NSString+PropertyKVC.m */; };
 		6D0D711BE7BBDE9C17EEEC84FD926611 /* CurrentGameParticipant.h in Headers */ = {isa = PBXBuildFile; fileRef = 977BD307146521B587AB511BCAA03E67 /* CurrentGameParticipant.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D34018533ED0610C19155CEE340C77E /* MatchHistoryService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF337627D4BC16B67A4D9C8334DE2A0 /* MatchHistoryService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DF234BC3227A67C4D55EF363B6FA54A /* MatchHistorySummary.h in Headers */ = {isa = PBXBuildFile; fileRef = 42ACDC727847DD02029A04DF0DD9962A /* MatchHistorySummary.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -552,6 +556,10 @@
 		6B2CB41A0D8BAEB4BA100CF9C30988CC /* BannedChampion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BannedChampion.m; sourceTree = "<group>"; };
 		6BB258A7C477C5D6F065DE7D6E0AC981 /* Pods-RiotApi_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RiotApi_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6C5650D8B2F1E432709CAC7F2F8005FC /* Position.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Position.m; sourceTree = "<group>"; };
+		6CACD0A01B59554D00A92B8C /* NSObject+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Properties.h"; sourceTree = "<group>"; };
+		6CACD0A11B59554D00A92B8C /* NSObject+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Properties.m"; sourceTree = "<group>"; };
+		6CACD0A41B5955AF00A92B8C /* NSString+PropertyKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PropertyKVC.h"; sourceTree = "<group>"; };
+		6CACD0A51B5955AF00A92B8C /* NSString+PropertyKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PropertyKVC.m"; sourceTree = "<group>"; };
 		6E322CC2A76461EFA1A6FD62A84B5F2E /* ParticipantMastery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ParticipantMastery.h; sourceTree = "<group>"; };
 		6F09859317C29F1969057C5BC3F95C40 /* TeamMemberInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TeamMemberInfo.m; sourceTree = "<group>"; };
 		72FC2EC29421D9977DBA5F00E5E2E2CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1382,6 +1390,10 @@
 		D9EF8221BD2C214BC1D3AF75A3E9BCE1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6CACD0A01B59554D00A92B8C /* NSObject+Properties.h */,
+				6CACD0A11B59554D00A92B8C /* NSObject+Properties.m */,
+				6CACD0A41B5955AF00A92B8C /* NSString+PropertyKVC.h */,
+				6CACD0A51B5955AF00A92B8C /* NSString+PropertyKVC.m */,
 				B82063B1B350D44B7E3ED62E2088E928 /* BaseObject.h */,
 				068C60B23150091C6075AE808F29749F /* BaseObject.m */,
 				098FB9C2415826D13BF942B12D13EFE0 /* RGRegion.h */,
@@ -1573,6 +1585,7 @@
 				3FF807A38E96ADD540CEF1CD885F52DD /* StaticLanguageStrings.h in Headers */,
 				12B7289E7BAF2B1DB74C59C92CC32039 /* StaticLevelTip.h in Headers */,
 				06609A64696EE2046CF913594287272B /* StaticMapData.h in Headers */,
+				6CACD0A21B59554D00A92B8C /* NSObject+Properties.h in Headers */,
 				FFBEB401164A34D53CB7275D30B1F684 /* StaticMapDetails.h in Headers */,
 				6C4FBF39AD1C405D29D3401A5F80A773 /* StaticMastery.h in Headers */,
 				C3F90FD57D7F50BA2B8E5EBB8F136136 /* StaticMasteryList.h in Headers */,
@@ -1582,6 +1595,7 @@
 				22600286FAE0EEEFCDA7611F2D84F824 /* StaticMetaData.h in Headers */,
 				45E28A71213F1F0FDD626788B7E04F39 /* StaticPassive.h in Headers */,
 				4B71C9BCA6D867120A6BD38B57BF3A14 /* StaticRealm.h in Headers */,
+				6CACD0A61B5955AF00A92B8C /* NSString+PropertyKVC.h in Headers */,
 				01A997C010EB159AABE8F212261F1D9E /* StaticRecommended.h in Headers */,
 				5F6B8B2EAC6F2D93AD6CDEB07872D5F2 /* StaticRune.h in Headers */,
 				C719CFE18F01D73CC51880B0DA00F14E /* StaticRuneList.h in Headers */,
@@ -1913,6 +1927,7 @@
 				B24C19481DBEFFAD0F7328299011F394 /* GameService.m in Sources */,
 				2375C6C45250145DF865E05C7520D3B1 /* Incident.m in Sources */,
 				3EE05046BA3B120C51E312E8F544BB60 /* League.m in Sources */,
+				6CACD0A31B59554D00A92B8C /* NSObject+Properties.m in Sources */,
 				DC7D5BC210C3CA6C5D9BCB78FCB55049 /* LeagueEntry.m in Sources */,
 				88D85D50148113286B3FB0B2DC20AD72 /* LeagueService.m in Sources */,
 				C4F7F210A8CA2F51F41BFA862F03E254 /* MasteryPage.m in Sources */,
@@ -1982,6 +1997,7 @@
 				1684EE9ADD0C8F0FF4B5A477F7D817F0 /* StaticMastery.m in Sources */,
 				33E977AE49F6D335F2BEFE44F06CC8C9 /* StaticMasteryList.m in Sources */,
 				B80A71061EC3ED9769FB2C2435B0AB8F /* StaticMasteryTree.m in Sources */,
+				6CACD0A71B5955AF00A92B8C /* NSString+PropertyKVC.m in Sources */,
 				EB7FF59C3591FB5D517CF0EC8958268B /* StaticMasteryTreeItem.m in Sources */,
 				CDA81D8E015F68DDCE9593AFBF4E5313 /* StaticMasteryTreeList.m in Sources */,
 				63F9AA8EDA33778747F6991A76BFB0F3 /* StaticMetaData.m in Sources */,
