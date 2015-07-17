@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = FileList['Pod/Classes/**/*'].exclude('Pod/Classes/Models/NSObject+Properties.m')
   s.resource_bundles = {
     'RiotApi' => ['Pod/Assets/*.png']
   }
@@ -34,4 +34,10 @@ Pod::Spec.new do |s|
     s.dependency 'AFNetworking', '~> 2.3'
     s.dependency 'Lockbox'
     s.dependency 'RMMapper'
+
+    s.subspec 'no-arc' do |sp|
+        sp.source_files = 'Pod/Classes/Models/NSObject+Properties.m'
+        sp.requires_arc = false
+    end
 end
+
