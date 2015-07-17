@@ -32,5 +32,12 @@
     "RMMapper": [
 
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "no-arc",
+      "source_files": "Pod/Classes/NSObject+Properties",
+      "requires_arc": false
+    }
+  ]
 }

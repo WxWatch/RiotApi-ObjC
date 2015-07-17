@@ -40,6 +40,8 @@
 #import "Timeline.h"
 #import "MatchSummary.h"
 #import "PlayerHistory.h"
+#import "NSObject+Properties.h"
+#import "NSString+PropertyKVC.h"
 #import "RGRegion.h"
 #import "StaticBasicData.h"
 #import "StaticBasicDataStats.h"

@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     s.dependency 'RMMapper'
 
     s.subspec 'no-arc' do |sp|
-        sp.source_files = 'Pod/Classes/Models/NSObject+Properties.m'
+        sp.source_files = 'Pod/Classes/Categories/NSObject+Properties.m'
         sp.requires_arc = false
     end
 end
