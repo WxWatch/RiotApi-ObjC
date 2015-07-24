@@ -12,10 +12,15 @@
 
 - (NSArray *)arrayOfObjectsWithClass:(Class)objectClass {
     NSMutableArray *mutableArray = [NSMutableArray new];
-    for (NSDictionary *dict in self) {
-        id object = [objectClass new];
-        [object setValuesForKeysWithDictionary:dict];
-        [mutableArray addObject:object];
+    for (id dict in self) {
+        
+        if ([dict isKindOfClass:objectClass]) {
+            [mutableArray addObject:dict];
+        } else {
+            id object = [objectClass new];
+            [object setValuesForKeysWithDictionary:dict];
+            [mutableArray addObject:object];
+        }
     }
     
     return [NSArray arrayWithArray:mutableArray];
