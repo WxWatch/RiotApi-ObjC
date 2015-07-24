@@ -13,10 +13,15 @@
 - (NSDictionary *)dictionaryOfObjectsWithClass:(Class)objectClass {
     NSMutableDictionary *mutableDict = [NSMutableDictionary new];
     for (NSString *key in self) {
-        NSDictionary *dict = self[key];
-        id object = [objectClass new];
-        [object setValuesForKeysWithDictionary:dict];
-        [mutableDict setObject:object forKey:key];
+        id dict = self[key];
+        
+        if ([dict isKindOfClass:objectClass]) {
+            [mutableDict setObject:dict forKey:key];
+        } else {
+            id object = [objectClass new];
+            [object setValuesForKeysWithDictionary:dict];
+            [mutableDict setObject:object forKey:key];
+        }
     }
     
     return [NSDictionary dictionaryWithDictionary:mutableDict];
