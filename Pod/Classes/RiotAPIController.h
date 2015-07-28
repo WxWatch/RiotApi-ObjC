@@ -14,6 +14,7 @@
 #import "RecentGames.h"
 #import "League.h"
 #import "MatchDetail.h"
+#import "MatchList.h"
 #import "PlayerHistory.h"
 #import "RankedStats.h"
 #import "PlayerStatsSummaryList.h"
@@ -105,6 +106,12 @@
 ///Match History
 - (void)getMatchHistoryForSummonerID:(long)summonerID region:(RGRegion*)region success:(void (^)(PlayerHistory *))success failure:(void (^)(NSError *))failure;
 - (void)getMatchHistoryForSummonerID:(long)summonerID championIDs:(NSArray*)championIDs rankedQueues:(NSArray*)rankedQueues beginIndex:(NSInteger)beginIndex endIndex:(NSInteger)endIndex region:(RGRegion *)region success:(void (^)(PlayerHistory *))success failure:(void (^)(NSError *))failure;
+
+///Match List
+- (void)getMatchListForSummonerID:(long)summonerID region:(RGRegion*)region success:(void (^)(MatchList *matchList))success failure:(void (^)(NSError *error))failure;
+- (void)getMatchListForSummonerID:(long)summonerID region:(RGRegion*)region beginTime:(long)beginTime endTime:(long)endTime success:(void (^)(MatchList *matchList))success failure:(void (^)(NSError *error))failure;
+- (void)getMatchListForSummonerID:(long)summonerID region:(RGRegion*)region beginIndex:(NSInteger)beginIndex endIndex:(NSInteger)endIndex success:(void (^)(MatchList *matchList))success failure:(void (^)(NSError *error))failure;
+- (void)getMatchListForSummonerID:(long)summonerID region:(RGRegion*)region championIDs:(NSArray*)championIDs rankedQueues:(NSArray*)rankedQueues seasons:(NSArray*)seasons beginTime:(long)beginTime endTime:(long)endTime beginIndex:(NSInteger)beginIndex endIndex:(NSInteger)endIndex success:(void (^)(MatchList *matchList))success failure:(void (^)(NSError *error))failure;
 
 ///Stats
 - (void)getRankedStatsForSummonerID:(long)summonerID region:(RGRegion*)region success:(void (^)(RankedStats *))success failure:(void (^)(NSError *))failure;

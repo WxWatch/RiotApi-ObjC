@@ -15,6 +15,7 @@
 #import "StatusService.h"
 #import "MatchService.h"
 #import "MatchHistoryService.h"
+#import "MatchListService.h"
 #import "StatsService.h"
 #import "SummonerService.h"
 #import "TeamService.h"

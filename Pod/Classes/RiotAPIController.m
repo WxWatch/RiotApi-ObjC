@@ -221,6 +221,22 @@
     [[MatchHistoryService new] getMatchHistoryForSummonerID:summonerID championIDs:championIDs rankedQueues:rankedQueues beginIndex:beginIndex endIndex:endIndex region:region success:success failure:failure];
 }
 
+- (void)getMatchListForSummonerID:(long)summonerID region:(RGRegion*)region success:(void (^)(MatchList *matchList))success failure:(void (^)(NSError *error))failure {
+    [[MatchListService new] getMatchListForSummonerID:summonerID region:region success:success failure:failure];
+}
+
+- (void)getMatchListForSummonerID:(long)summonerID region:(RGRegion*)region beginTime:(long)beginTime endTime:(long)endTime success:(void (^)(MatchList *matchList))success failure:(void (^)(NSError *error))failure {
+    [[MatchListService new] getMatchListForSummonerID:summonerID region:region beginTime:beginTime endTime:endTime success:success failure:failure];
+}
+
+- (void)getMatchListForSummonerID:(long)summonerID region:(RGRegion*)region beginIndex:(NSInteger)beginIndex endIndex:(NSInteger)endIndex success:(void (^)(MatchList *matchList))success failure:(void (^)(NSError *error))failure {
+    [[MatchListService new] getMatchListForSummonerID:summonerID region:region beginIndex:beginIndex endIndex:endIndex success:success failure:failure];
+}
+
+- (void)getMatchListForSummonerID:(long)summonerID region:(RGRegion*)region championIDs:(NSArray*)championIDs rankedQueues:(NSArray*)rankedQueues seasons:(NSArray*)seasons beginTime:(long)beginTime endTime:(long)endTime beginIndex:(NSInteger)beginIndex endIndex:(NSInteger)endIndex success:(void (^)(MatchList *matchList))success failure:(void (^)(NSError *error))failure {
+    [[MatchListService new] getMatchListForSummonerID:summonerID region:region championIDs:championIDs rankedQueues:rankedQueues seasons:seasons beginTime:beginTime endTime:endTime beginIndex:beginIndex endIndex:endIndex success:success failure:failure];
+}
+
 - (void)getRankedStatsForSummonerID:(long)summonerID region:(RGRegion*)region success:(void (^)(RankedStats *))success failure:(void (^)(NSError *))failure {
     [[StatsService new] getRankedStatsForSummonerID:summonerID season:nil region:region success:success failure:failure];
 }

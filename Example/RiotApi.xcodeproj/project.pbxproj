@@ -20,6 +20,7 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6C7727671B67F4FC00916FAC /* MatchListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7727661B67F4FC00916FAC /* MatchListTests.m */; };
 		6C7CBD091B40F63400960DE1 /* Champion.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C7CBCD61B40F63400960DE1 /* Champion.json */; };
 		6C7CBD0A1B40F63400960DE1 /* CurrentGame.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C7CBCD71B40F63400960DE1 /* CurrentGame.json */; };
 		6C7CBD0B1B40F63400960DE1 /* Featured.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C7CBCD81B40F63400960DE1 /* Featured.json */; };
@@ -105,6 +106,7 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6C7727661B67F4FC00916FAC /* MatchListTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchListTests.m; sourceTree = "<group>"; };
 		6C7CBCD61B40F63400960DE1 /* Champion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Champion.json; sourceTree = "<group>"; };
 		6C7CBCD71B40F63400960DE1 /* CurrentGame.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CurrentGame.json; sourceTree = "<group>"; };
 		6C7CBCD81B40F63400960DE1 /* Featured.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Featured.json; sourceTree = "<group>"; };
@@ -340,6 +342,7 @@
 				6C7CBD011B40F63400960DE1 /* LeagueServiceTests.m */,
 				6C7CBD021B40F63400960DE1 /* MatchHistoryServiceTests.m */,
 				6C7CBD031B40F63400960DE1 /* MatchServiceTests.m */,
+				6C7727661B67F4FC00916FAC /* MatchListTests.m */,
 				6C7CBD041B40F63400960DE1 /* StaticDataServiceTests.m */,
 				6C7CBD051B40F63400960DE1 /* StatsServiceTests.m */,
 				6C7CBD061B40F63400960DE1 /* StatusServiceTests.m */,
@@ -614,6 +617,7 @@
 				6C7CBD1F1B40F63400960DE1 /* ChampionTests.m in Sources */,
 				6C7CBD201B40F63400960DE1 /* CurrentGameTests.m in Sources */,
 				6C7CBD241B40F63400960DE1 /* MatchHistoryTests.m in Sources */,
+				6C7727671B67F4FC00916FAC /* MatchListTests.m in Sources */,
 				6C7CBD221B40F63400960DE1 /* GameTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
