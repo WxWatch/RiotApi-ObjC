@@ -1,6 +1,7 @@
+# This library is outdated and no longer maintained. See [Riot Games API Libraries](https://discussion.developer.riotgames.com/articles/61/public-libraries-for-the-riot-games-api.html) for up-to-date libraries.
+
 # RiotApi
 
-[![CI Status](http://img.shields.io/travis/James Glenn/RiotApi.svg?style=flat)](https://travis-ci.org/James Glenn/RiotApi)
 [![Version](https://img.shields.io/cocoapods/v/RiotApi.svg?style=flat)](http://cocoapods.org/pods/RiotApi)
 [![License](https://img.shields.io/cocoapods/l/RiotApi.svg?style=flat)](http://cocoapods.org/pods/RiotApi)
 [![Platform](https://img.shields.io/cocoapods/p/RiotApi.svg?style=flat)](http://cocoapods.org/pods/RiotApi)
